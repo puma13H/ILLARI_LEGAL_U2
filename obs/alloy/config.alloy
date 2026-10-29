@@ -1,0 +1,28 @@
+logging { level = "warn" }
+local.file_match "illari" {
+  path_targets = [
+    {"__path__" = "/var/log/illari/legal-gateway/*.json", "service" = "legal-gateway", "job" = "illari-observations"},
+    {"__path__" = "/var/log/illari/cliente-ms/*.json", "service" = "cliente-ms", "job" = "illari-observations"},
+    {"__path__" = "/var/log/illari/servicio-legal-ms/*.json", "service" = "servicio-legal-ms", "job" = "illari-observations"},
+    {"__path__" = "/var/log/illari/orden-legal-ms/*.json", "service" = "orden-legal-ms", "job" = "illari-observations"},
+    {"__path__" = "/var/log/illari/pago-ms/*.json", "service" = "pago-ms", "job" = "illari-observations"},
+    {"__path__" = "/var/log/illari/backend-legacy/*.json", "service" = "backend-legacy", "job" = "illari-observations"},
+  ]
+  sync_period = "2s"
+}
+loki.source.file "illari" {
+  targets    = local.file_match.illari.targets
+  forward_to = [loki.process.illari.receiver]
+}
+loki.process "illari" {
+  stage.json {
+    expressions = {level = "level", timestamp = "timestamp"}
+  }
+  stage.labels { values = {level = ""} }
+  stage.timestamp { source = "timestamp"
+    format = "RFC3339Nano" }
+  forward_to = [loki.write.local.receiver]
+}
+loki.write "local" {
+  endpoint { url = "http://loki:3100/loki/api/v1/push" }
+}

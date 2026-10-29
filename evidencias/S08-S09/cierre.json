@@ -1,0 +1,226 @@
+{
+  "project": "illari-fase3-audit",
+  "run": "ae3baa8737",
+  "passed": 34,
+  "failed": 0,
+  "results": [
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206753.5961418
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206753.5973094
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206753.7265546
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206753.7276309
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206753.875294
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206753.876374
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206754.055018
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206754.05609
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206754.1825304
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206754.1836278
+    },
+    {
+      "name": "No duplicate payment per order",
+      "passed": true,
+      "actual": {
+        "violating_ids": []
+      },
+      "at": 1793206754.707466
+    },
+    {
+      "name": "No CANCELADA order has VALIDADO payment",
+      "passed": true,
+      "actual": {
+        "violating_ids": []
+      },
+      "at": 1793206754.708614
+    },
+    {
+      "name": "Every PAGADA order has exactly one VALIDADO payment",
+      "passed": true,
+      "actual": {
+        "violating_ids": []
+      },
+      "at": 1793206754.7097182
+    },
+    {
+      "name": "Payments reference existing orders with matching owner and amount",
+      "passed": true,
+      "actual": {
+        "violating_ids": []
+      },
+      "at": 1793206754.7110486
+    },
+    {
+      "name": "All order totals requiring payment are positive",
+      "passed": true,
+      "actual": {
+        "violating_ids": []
+      },
+      "at": 1793206754.7124457
+    },
+    {
+      "name": "All order payment IDs agree with payment service",
+      "passed": true,
+      "actual": {
+        "violating_ids": []
+      },
+      "at": 1793206754.7140813
+    },
+    {
+      "name": "No cancellation intent remains unconfirmed at closure",
+      "passed": true,
+      "actual": {
+        "violating_ids": []
+      },
+      "at": 1793206754.7151735
+    },
+    {
+      "name": "Every relational detail matches quantity times historical price and order total",
+      "passed": true,
+      "actual": null,
+      "at": 1793206754.973061
+    },
+    {
+      "name": "Historical migration fixture retains JSON, total and two relational details",
+      "passed": true,
+      "actual": null,
+      "at": 1793206755.24585
+    },
+    {
+      "name": "Part A purchase 53 remains PAGADA and payment 53 VALIDADO at 310.00",
+      "passed": true,
+      "actual": null,
+      "at": 1793206755.7801018
+    },
+    {
+      "name": "orden outbox fully drained and DLT resolved",
+      "passed": true,
+      "actual": null,
+      "at": 1793206756.3080306
+    },
+    {
+      "name": "pago outbox fully drained and DLT resolved",
+      "passed": true,
+      "actual": null,
+      "at": 1793206756.8335094
+    },
+    {
+      "name": "illari-pago-ms final committed offsets equal log end",
+      "passed": true,
+      "actual": null,
+      "at": 1793206758.809149
+    },
+    {
+      "name": "illari-orden-legal-ms final committed offsets equal log end",
+      "passed": true,
+      "actual": null,
+      "at": 1793206761.1206808
+    },
+    {
+      "name": "illari-pago-dlt final committed offsets equal log end",
+      "passed": true,
+      "actual": null,
+      "at": 1793206763.2927337
+    },
+    {
+      "name": "illari-orden-dlt final committed offsets equal log end",
+      "passed": true,
+      "actual": null,
+      "at": 1793206765.4832559
+    },
+    {
+      "name": "All six scrape targets and readiness restored",
+      "passed": true,
+      "actual": null,
+      "at": 1793206765.576844
+    },
+    {
+      "name": "No active laboratory alerts at closure",
+      "passed": true,
+      "actual": null,
+      "at": 1793206765.6024969
+    },
+    {
+      "name": "Rebuilt Orders gateway anonymous",
+      "passed": true,
+      "actual": 401,
+      "at": 1793206765.8205643
+    },
+    {
+      "name": "Rebuilt Orders gateway owner",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206765.8748696
+    },
+    {
+      "name": "Rebuilt Orders gateway foreign client",
+      "passed": true,
+      "actual": 404,
+      "at": 1793206765.9112883
+    },
+    {
+      "name": "Rebuilt Orders direct anonymous",
+      "passed": true,
+      "actual": 401,
+      "at": 1793206765.9465137
+    },
+    {
+      "name": "Rebuilt Orders direct owner",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206765.974012
+    },
+    {
+      "name": "Rebuilt Orders direct foreign client",
+      "passed": true,
+      "actual": 404,
+      "at": 1793206766.0105972
+    }
+  ]
+}

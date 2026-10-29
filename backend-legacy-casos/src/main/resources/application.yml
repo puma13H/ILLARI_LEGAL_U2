@@ -1,0 +1,38 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: caso-ms
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:postgres}
+  config:
+    import: optional:configserver:${CONFIG_SERVER_URL:http://localhost:8888}
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${KEYCLOAK_ISSUER_URI:http://localhost:18180/realms/illari-legal}
+          jwk-set-uri: ${KEYCLOAK_JWK_SET_URI:http://localhost:18180/realms/illari-legal/protocol/openid-connect/certs}
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:}
+    expiration-ms: 86400000
+  upload-dir: ${UPLOAD_DIR:uploads}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: always
+
+illari:
+  keycloak-legacy-enabled: ${ILLARI_KEYCLOAK_LEGACY_ENABLED:false}

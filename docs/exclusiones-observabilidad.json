@@ -1,0 +1,30 @@
+[
+  {
+    "file": "obs/compose-dev.yml",
+    "reason": "Configuracion historica no usada por Compose S12; original conservado en desarrollo"
+  },
+  {
+    "file": "obs/prometheus/prometheus-dev.yml",
+    "reason": "Configuracion historica no usada por Compose S12; original conservado en desarrollo"
+  },
+  {
+    "file": "obs/grafana/provisioning/dashboards/dashboards.yml",
+    "reason": "Configuracion historica no usada por Compose S12; original conservado en desarrollo"
+  },
+  {
+    "file": "obs/grafana/provisioning/datasources/datasources-dev.yml",
+    "reason": "Configuracion historica no usada por Compose S12; original conservado en desarrollo"
+  },
+  {
+    "file": "obs/promtail/promtail-config.yml",
+    "reason": "Configuracion historica no usada por Compose S12; original conservado en desarrollo"
+  },
+  {
+    "file": "obs/promtail/promtail-config-dev.yml",
+    "reason": "Configuracion historica no usada por Compose S12; original conservado en desarrollo"
+  },
+  {
+    "file": "kafka/compose-dev.yml",
+    "reason": "Compose historico de Kafka sustituido por la composicion S12; original conservado"
+  }
+]

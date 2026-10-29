@@ -1,0 +1,443 @@
+{
+  "up": [
+    {
+      "metric": {
+        "__name__": "up",
+        "instance": "http://legal-gateway:18080/actuator/health/readiness",
+        "job": "illari-readiness"
+      },
+      "value": [
+        1793206528.959,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "up",
+        "instance": "pago-ms:8084",
+        "job": "pago-ms"
+      },
+      "value": [
+        1793206528.959,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "up",
+        "instance": "http://pago-ms:8084/actuator/health/readiness",
+        "job": "illari-readiness"
+      },
+      "value": [
+        1793206528.959,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "up",
+        "instance": "http://servicio-legal-ms:8082/actuator/health/readiness",
+        "job": "illari-readiness"
+      },
+      "value": [
+        1793206528.959,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "up",
+        "instance": "http://orden-legal-ms:8083/actuator/health/readiness",
+        "job": "illari-readiness"
+      },
+      "value": [
+        1793206528.959,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "up",
+        "instance": "backend-legacy:8080",
+        "job": "backend-legacy"
+      },
+      "value": [
+        1793206528.959,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "up",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms"
+      },
+      "value": [
+        1793206528.959,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "up",
+        "instance": "http://backend-legacy:8080/actuator/health/readiness",
+        "job": "illari-readiness"
+      },
+      "value": [
+        1793206528.959,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "up",
+        "instance": "legal-gateway:18080",
+        "job": "legal-gateway"
+      },
+      "value": [
+        1793206528.959,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "up",
+        "instance": "http://cliente-ms:8081/actuator/health/readiness",
+        "job": "illari-readiness"
+      },
+      "value": [
+        1793206528.959,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "up",
+        "instance": "cliente-ms:8081",
+        "job": "cliente-ms"
+      },
+      "value": [
+        1793206528.959,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "up",
+        "instance": "servicio-legal-ms:8082",
+        "job": "servicio-legal-ms"
+      },
+      "value": [
+        1793206528.959,
+        "1"
+      ]
+    }
+  ],
+  "probe_success": [
+    {
+      "metric": {
+        "__name__": "probe_success",
+        "instance": "http://legal-gateway:18080/actuator/health/readiness",
+        "job": "illari-readiness"
+      },
+      "value": [
+        1793206528.987,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "probe_success",
+        "instance": "http://pago-ms:8084/actuator/health/readiness",
+        "job": "illari-readiness"
+      },
+      "value": [
+        1793206528.987,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "probe_success",
+        "instance": "http://servicio-legal-ms:8082/actuator/health/readiness",
+        "job": "illari-readiness"
+      },
+      "value": [
+        1793206528.987,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "probe_success",
+        "instance": "http://orden-legal-ms:8083/actuator/health/readiness",
+        "job": "illari-readiness"
+      },
+      "value": [
+        1793206528.987,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "probe_success",
+        "instance": "http://backend-legacy:8080/actuator/health/readiness",
+        "job": "illari-readiness"
+      },
+      "value": [
+        1793206528.987,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "probe_success",
+        "instance": "http://cliente-ms:8081/actuator/health/readiness",
+        "job": "illari-readiness"
+      },
+      "value": [
+        1793206528.987,
+        "1"
+      ]
+    }
+  ],
+  "resilience4j_circuitbreaker_state": [
+    {
+      "metric": {
+        "__name__": "resilience4j_circuitbreaker_state",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms",
+        "name": "servicioLegal",
+        "state": "closed"
+      },
+      "value": [
+        1793206529.016,
+        "1"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "resilience4j_circuitbreaker_state",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms",
+        "name": "servicioLegal",
+        "state": "disabled"
+      },
+      "value": [
+        1793206529.016,
+        "0"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "resilience4j_circuitbreaker_state",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms",
+        "name": "servicioLegal",
+        "state": "forced_open"
+      },
+      "value": [
+        1793206529.016,
+        "0"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "resilience4j_circuitbreaker_state",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms",
+        "name": "servicioLegal",
+        "state": "half_open"
+      },
+      "value": [
+        1793206529.016,
+        "0"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "resilience4j_circuitbreaker_state",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms",
+        "name": "servicioLegal",
+        "state": "metrics_only"
+      },
+      "value": [
+        1793206529.016,
+        "0"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "resilience4j_circuitbreaker_state",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms",
+        "name": "servicioLegal",
+        "state": "open"
+      },
+      "value": [
+        1793206529.016,
+        "0"
+      ]
+    }
+  ],
+  "resilience4j_retry_calls_total": [
+    {
+      "metric": {
+        "__name__": "resilience4j_retry_calls_total",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms",
+        "kind": "failed_with_retry",
+        "name": "servicioLegal"
+      },
+      "value": [
+        1793206529.061,
+        "26"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "resilience4j_retry_calls_total",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms",
+        "kind": "failed_without_retry",
+        "name": "servicioLegal"
+      },
+      "value": [
+        1793206529.061,
+        "12"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "resilience4j_retry_calls_total",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms",
+        "kind": "successful_with_retry",
+        "name": "servicioLegal"
+      },
+      "value": [
+        1793206529.061,
+        "0"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "resilience4j_retry_calls_total",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms",
+        "kind": "successful_without_retry",
+        "name": "servicioLegal"
+      },
+      "value": [
+        1793206529.061,
+        "13"
+      ]
+    }
+  ],
+  "illari_outbox_pendientes": [
+    {
+      "metric": {
+        "__name__": "illari_outbox_pendientes",
+        "instance": "pago-ms:8084",
+        "job": "pago-ms",
+        "servicio": "pago"
+      },
+      "value": [
+        1793206529.091,
+        "0"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "illari_outbox_pendientes",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms",
+        "servicio": "orden"
+      },
+      "value": [
+        1793206529.091,
+        "0"
+      ]
+    }
+  ],
+  "illari_outbox_fallidos": [
+    {
+      "metric": {
+        "__name__": "illari_outbox_fallidos",
+        "instance": "pago-ms:8084",
+        "job": "pago-ms",
+        "servicio": "pago"
+      },
+      "value": [
+        1793206529.121,
+        "0"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "illari_outbox_fallidos",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms",
+        "servicio": "orden"
+      },
+      "value": [
+        1793206529.121,
+        "0"
+      ]
+    }
+  ],
+  "illari_outbox_edad_segundos": [
+    {
+      "metric": {
+        "__name__": "illari_outbox_edad_segundos",
+        "instance": "pago-ms:8084",
+        "job": "pago-ms",
+        "servicio": "pago"
+      },
+      "value": [
+        1793206529.15,
+        "0"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "illari_outbox_edad_segundos",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms",
+        "servicio": "orden"
+      },
+      "value": [
+        1793206529.15,
+        "0"
+      ]
+    }
+  ],
+  "illari_kafka_dlt_pendientes": [
+    {
+      "metric": {
+        "__name__": "illari_kafka_dlt_pendientes",
+        "instance": "pago-ms:8084",
+        "job": "pago-ms",
+        "servicio": "pago"
+      },
+      "value": [
+        1793206529.193,
+        "0"
+      ]
+    },
+    {
+      "metric": {
+        "__name__": "illari_kafka_dlt_pendientes",
+        "instance": "orden-legal-ms:8083",
+        "job": "orden-legal-ms",
+        "servicio": "orden"
+      },
+      "value": [
+        1793206529.193,
+        "0"
+      ]
+    }
+  ],
+  "ALERTS": []
+}

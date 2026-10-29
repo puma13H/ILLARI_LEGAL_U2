@@ -1,0 +1,19 @@
+<header class="header"><a routerLink="/" class="home-link"><svg aria-hidden="true"><use href="/assets/login/icons.svg#scales"/></svg><span>ILLARI <em>LEGAL</em><small>ESTUDIO JURÍDICO</small></span></a>
+<nav class="public-nav" aria-label="Navegación pública"><a routerLink="/" routerLinkActive="nav-active" [routerLinkActiveOptions]="{exact:true}">Inicio</a><a routerLink="/servicios">Asesorías</a><a routerLink="/tienda-juridica">Tienda Jurídica</a><a routerLink="/" fragment="nosotros">Nosotros</a><a routerLink="/" fragment="contacto">Contacto</a></nav>
+<form class="header-search" (ngSubmit)="buscar()" role="search"><input name="busquedaPublica" [(ngModel)]="search" placeholder="Buscar productos, servicios…" aria-label="Buscar productos y servicios" maxlength="120"/><button type="submit" aria-label="Buscar">⌕</button></form>
+<a class="cart-link" routerLink="/tienda-juridica" fragment="carrito" [attr.aria-label]="'Ver carrito, '+cart.cantidad()+' unidades'"><svg aria-hidden="true"><use href="/assets/login/icons.svg#cart"/></svg><span>{{cart.cantidad()}}</span></a>
+@if(!auth.autenticado()){<a class="login-link" routerLink="/login">Iniciar sesión</a><button type="button" (click)="registrarse()">Registrarse</button>}@else{<a class="login-link" routerLink="/dashboard">Mi panel</a><button (click)="auth.cerrarSesion()">Cerrar sesión</button>}</header>
+<div class="body" [class.public-body]="!auth.autenticado()">
+@if (auth.autenticado()) {<button class="mobile-menu" (click)="menuAbierto = !menuAbierto" [attr.aria-expanded]="menuAbierto">☰ Menú</button><nav class="sidebar" [class.open]="menuAbierto" aria-label="Menú principal" (click)="menuAbierto = false"><small>MI ESPACIO LEGAL</small>
+<a routerLink="/dashboard" routerLinkActive="active">▦ Dashboard</a>
+@if(auth.tieneRol('CLIENTE')){<a routerLink="/tienda-juridica" routerLinkActive="active">▤ Tienda y carrito</a>}
+<a routerLink="/panel/asesorias" routerLinkActive="active">⚖ Asesorías</a><a routerLink="/panel/pedidos" routerLinkActive="active">▥ Pedidos</a><a routerLink="/panel/citas" routerLinkActive="active">▦ Citas</a><a routerLink="/panel/expedientes" routerLinkActive="active">▣ Expedientes</a>
+@if(auth.tieneRol('ADMIN','ABOGADO')){<a routerLink="/panel/productos" routerLinkActive="active">▤ Productos</a><a routerLink="/panel/clientes" routerLinkActive="active">♙ Clientes</a><a routerLink="/panel/agenda" routerLinkActive="active">▦ Agenda</a><a routerLink="/panel/reportes" routerLinkActive="active">▥ Reportes</a>}
+@if(auth.tieneRol('ADMIN')){<a routerLink="/panel/usuarios" routerLinkActive="active">♙ Usuarios</a><a routerLink="/panel/abogados" routerLinkActive="active">⚖ Abogados</a><a routerLink="/panel/pagos" routerLinkActive="active">▥ Pagos</a>}
+<a routerLink="/configuracion" routerLinkActive="active">⚙ Mi perfil</a>
+<details class="connected-menu"><summary>Módulos conectados</summary><a routerLink="/resumen-real">Resumen de casos</a><a routerLink="/servicios">Catálogo de servicios</a><a routerLink="/tienda-juridica">Tienda jurídica</a><a routerLink="/casos">Casos</a><a routerLink="/mis-ordenes">Mis solicitudes y pagos</a>
+@if(auth.tieneRol('ADMIN','ABOGADO')){<a routerLink="/clientes">Clientes</a>}
+@if(auth.tieneRol('ADMIN')){<a routerLink="/usuarios">Identidades</a><a routerLink="/abogados">Abogados</a><a routerLink="/servicios/nuevo">Publicar servicio</a>}
+<a routerLink="/documentos">Documentos</a><a routerLink="/audiencias">Audiencias</a><a routerLink="/calendario">Calendario</a><a routerLink="/mensajes">Mensajes</a><a routerLink="/tareas">Tareas</a><a routerLink="/reportes">Reportes conectados</a></details>
+</nav>}
+<main class="content"><router-outlet /></main></div>

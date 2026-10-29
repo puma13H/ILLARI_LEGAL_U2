@@ -1,0 +1,14 @@
+[
+  {
+    "name": "nginx preserves API path and query string",
+    "passed": true
+  },
+  {
+    "name": "Replacement backend has a different IP",
+    "passed": true
+  },
+  {
+    "name": "nginx recovers new DNS without restarting proxy",
+    "passed": true
+  }
+]

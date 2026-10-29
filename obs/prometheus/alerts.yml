@@ -1,0 +1,33 @@
+groups:
+  - name: illari-laboratorio
+    rules:
+      - alert: IllariServicioNoDisponible
+        expr: up{job=~"legal-gateway|cliente-ms|servicio-legal-ms|orden-legal-ms|pago-ms|backend-legacy"} == 0 or probe_success{job="illari-readiness"} == 0
+        for: 15s
+        labels: {severity: critical, scope: laboratorio}
+        annotations: {summary: 'Target {{ $labels.job }} no disponible'}
+      - alert: IllariErroresHttp
+        expr: sum by (job) (rate(http_server_requests_seconds_count{status=~"5.."}[1m])) / clamp_min(sum by (job) (rate(http_server_requests_seconds_count[1m])), 0.01) > 0.1
+        for: 15s
+        labels: {severity: warning, scope: laboratorio}
+        annotations: {summary: 'Mas de 10 por ciento de respuestas 5xx en {{ $labels.job }}'}
+      - alert: IllariCircuitoAbierto
+        expr: resilience4j_circuitbreaker_state{state="open"} == 1
+        for: 5s
+        labels: {severity: warning, scope: laboratorio}
+        annotations: {summary: 'Circuito {{ $labels.name }} abierto'}
+      - alert: IllariOutboxAgotado
+        expr: illari_outbox_fallidos > 0
+        for: 5s
+        labels: {severity: critical, scope: laboratorio}
+        annotations: {summary: 'Outbox agotado en {{ $labels.job }}'}
+      - alert: IllariOutboxAntiguo
+        expr: illari_outbox_edad_segundos > 5
+        for: 5s
+        labels: {severity: warning, scope: laboratorio}
+        annotations: {summary: 'Evento outbox pendiente durante mas de 5 segundos'}
+      - alert: IllariDltPendiente
+        expr: illari_kafka_dlt_pendientes > 0
+        for: 5s
+        labels: {severity: warning, scope: laboratorio}
+        annotations: {summary: 'DLT sin resolver en {{ $labels.job }}'}

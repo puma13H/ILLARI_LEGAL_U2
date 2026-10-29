@@ -1,0 +1,136 @@
+{
+  "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+  "orderId": 56,
+  "events": [
+    {
+      "service": "orden-legal-ms",
+      "timestamp": "2026-10-28T16:44:12.443Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "eventId": "bda487d7-ded8-4d52-b35c-1ef07a262838",
+      "message": "outbox_published"
+    },
+    {
+      "service": "pago-ms",
+      "timestamp": "2026-10-28T16:44:12.481Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "eventId": "bda487d7-ded8-4d52-b35c-1ef07a262838",
+      "message": "kafka_processed"
+    },
+    {
+      "service": "orden-legal-ms",
+      "timestamp": "2026-10-28T16:44:13.378Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "eventId": "f22aeaf7-dec7-44bd-816a-2dce789d00e0",
+      "message": "kafka_processed"
+    },
+    {
+      "service": "pago-ms",
+      "timestamp": "2026-10-28T16:44:13.373Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "eventId": "f22aeaf7-dec7-44bd-816a-2dce789d00e0",
+      "message": "outbox_published"
+    },
+    {
+      "service": "legal-gateway",
+      "timestamp": "2026-10-28T16:44:11.541Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "message": "http_completed method=POST status=200 durationMs=45"
+    },
+    {
+      "service": "legal-gateway",
+      "timestamp": "2026-10-28T16:44:11.544Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "message": "http_completed method=POST status=200 durationMs=47"
+    },
+    {
+      "service": "legal-gateway",
+      "timestamp": "2026-10-28T16:44:11.555Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "message": "http_completed method=POST status=200 durationMs=58"
+    },
+    {
+      "service": "legal-gateway",
+      "timestamp": "2026-10-28T16:44:11.560Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "message": "http_completed method=POST status=200 durationMs=64"
+    },
+    {
+      "service": "orden-legal-ms",
+      "timestamp": "2026-10-28T16:44:11.537Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "message": "http_completed method=POST status=200 durationMs=35"
+    },
+    {
+      "service": "orden-legal-ms",
+      "timestamp": "2026-10-28T16:44:11.540Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "message": "http_completed method=POST status=200 durationMs=38"
+    },
+    {
+      "service": "orden-legal-ms",
+      "timestamp": "2026-10-28T16:44:11.543Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "message": "http_completed method=POST status=200 durationMs=40"
+    },
+    {
+      "service": "orden-legal-ms",
+      "timestamp": "2026-10-28T16:44:11.554Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "message": "http_completed method=POST status=200 durationMs=52"
+    },
+    {
+      "service": "orden-legal-ms",
+      "timestamp": "2026-10-28T16:44:11.559Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "message": "http_completed method=POST status=200 durationMs=56"
+    },
+    {
+      "service": "orden-legal-ms",
+      "timestamp": "2026-10-28T16:44:11.556Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "message": "http_completed method=POST status=200 durationMs=60"
+    },
+    {
+      "service": "orden-legal-ms",
+      "timestamp": "2026-10-28T16:44:11.562Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "message": "http_completed method=POST status=200 durationMs=66"
+    },
+    {
+      "service": "orden-legal-ms",
+      "timestamp": "2026-10-28T16:44:11.564Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "message": "http_completed method=POST status=200 durationMs=68"
+    },
+    {
+      "service": "servicio-legal-ms",
+      "timestamp": "2026-10-28T16:44:11.517Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "message": "http_completed method=GET status=200 durationMs=4"
+    },
+    {
+      "service": "servicio-legal-ms",
+      "timestamp": "2026-10-28T16:44:11.524Z",
+      "level": "INFO",
+      "traceId": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "message": "http_completed method=GET status=200 durationMs=4"
+    }
+  ]
+}

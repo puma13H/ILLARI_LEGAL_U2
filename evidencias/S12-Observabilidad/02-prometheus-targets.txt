@@ -1,0 +1,10 @@
+﻿
+Servicio              health lastError
+--------              ------ ---------
+illari-cliente        up              
+illari-gateway        up              
+illari-orden          up              
+illari-pago           up              
+illari-servicio-legal up              
+
+

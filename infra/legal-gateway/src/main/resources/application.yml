@@ -1,0 +1,76 @@
+server:
+  port: 18080
+spring:
+  application:
+    name: legal-gateway
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${KEYCLOAK_ISSUER_URI:http://localhost:8180/realms/illari-legal}
+          jwk-set-uri: ${KEYCLOAK_JWK_SET_URI:http://localhost:8180/realms/illari-legal/protocol/openid-connect/certs}
+  cloud:
+    gateway:
+      routes:
+        - id: cliente-openapi
+          uri: ${OPENAPI_CLIENTE_URI:lb://cliente-ms}
+          predicates: [Path=/api-docs/clientes]
+          filters:
+            - RewritePath=/api-docs/clientes,/v3/api-docs
+        - id: servicios-openapi
+          uri: ${OPENAPI_SERVICIOS_URI:lb://servicio-legal-ms}
+          predicates: [Path=/api-docs/servicios]
+          filters:
+            - RewritePath=/api-docs/servicios,/v3/api-docs
+        - id: ordenes-openapi
+          uri: ${OPENAPI_ORDENES_URI:lb://orden-legal-ms}
+          predicates: [Path=/api-docs/ordenes]
+          filters:
+            - RewritePath=/api-docs/ordenes,/v3/api-docs
+        - id: pagos-openapi
+          uri: ${OPENAPI_PAGOS_URI:lb://pago-ms}
+          predicates: [Path=/api-docs/pagos]
+          filters:
+            - RewritePath=/api-docs/pagos,/v3/api-docs
+        - id: cliente
+          uri: lb://cliente-ms
+          predicates: [Path=/api/v1/clientes/**]
+        - id: servicios
+          uri: lb://servicio-legal-ms
+          predicates: [Path=/api/v1/servicios/**]
+        - id: ordenes
+          uri: lb://orden-legal-ms
+          predicates: [Path=/api/v1/ordenes/**]
+        - id: pagos
+          uri: lb://pago-ms
+          predicates: [Path=/api/v1/pagos/**]
+        - id: juridico-legado
+          uri: lb://caso-ms
+          predicates: [Path=/api/**]
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URL:http://localhost:8761/eureka/}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus,metrics
+
+springdoc:
+  swagger-ui:
+    urls:
+      - name: Clientes
+        url: /api-docs/clientes
+      - name: Servicios
+        url: /api-docs/servicios
+      - name: Ordenes
+        url: /api-docs/ordenes
+      - name: Pagos
+        url: /api-docs/pagos
+    urls-primary-name: Ordenes
+    disable-swagger-default-url: true
+
+illari:
+  cors:
+    allowed-origins: http://localhost:4200

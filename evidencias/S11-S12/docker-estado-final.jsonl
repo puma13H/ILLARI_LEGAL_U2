@@ -1,0 +1,17 @@
+{"Name": "illari-fase3-audit-alloy-1", "Service": "alloy", "State": "running", "Health": "", "Publishers": []}
+{"Name": "illari-fase3-audit-backend-legacy-1", "Service": "backend-legacy", "State": "running", "Health": "healthy", "Publishers": [{"URL": "127.0.0.1", "TargetPort": 8080, "PublishedPort": 32775, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-blackbox-1", "Service": "blackbox", "State": "running", "Health": "", "Publishers": [{"URL": "", "TargetPort": 9115, "PublishedPort": 0, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-cliente-ms-1", "Service": "cliente-ms", "State": "running", "Health": "healthy", "Publishers": [{"URL": "127.0.0.1", "TargetPort": 8081, "PublishedPort": 32774, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-frontend-1", "Service": "frontend", "State": "running", "Health": "healthy", "Publishers": [{"URL": "127.0.0.1", "TargetPort": 80, "PublishedPort": 53045, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-grafana-1", "Service": "grafana", "State": "running", "Health": "healthy", "Publishers": [{"URL": "127.0.0.1", "TargetPort": 3000, "PublishedPort": 32771, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-kafka-1", "Service": "kafka", "State": "running", "Health": "healthy", "Publishers": [{"URL": "", "TargetPort": 9092, "PublishedPort": 0, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-keycloak-1", "Service": "keycloak", "State": "running", "Health": "healthy", "Publishers": [{"URL": "127.0.0.1", "TargetPort": 8080, "PublishedPort": 53044, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-legal-config-1", "Service": "legal-config", "State": "running", "Health": "healthy", "Publishers": [{"URL": "127.0.0.1", "TargetPort": 8888, "PublishedPort": 32768, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-legal-eureka-1", "Service": "legal-eureka", "State": "running", "Health": "healthy", "Publishers": [{"URL": "127.0.0.1", "TargetPort": 8761, "PublishedPort": 32770, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-legal-gateway-1", "Service": "legal-gateway", "State": "running", "Health": "healthy", "Publishers": [{"URL": "127.0.0.1", "TargetPort": 18080, "PublishedPort": 53043, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-loki-1", "Service": "loki", "State": "running", "Health": "healthy", "Publishers": [{"URL": "", "TargetPort": 3100, "PublishedPort": 0, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-orden-legal-ms-1", "Service": "orden-legal-ms", "State": "running", "Health": "healthy", "Publishers": [{"URL": "127.0.0.1", "TargetPort": 8083, "PublishedPort": 32776, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-pago-ms-1", "Service": "pago-ms", "State": "running", "Health": "healthy", "Publishers": [{"URL": "127.0.0.1", "TargetPort": 8084, "PublishedPort": 32772, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-postgres-1", "Service": "postgres", "State": "running", "Health": "healthy", "Publishers": [{"URL": "127.0.0.1", "TargetPort": 5432, "PublishedPort": 32769, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-prometheus-1", "Service": "prometheus", "State": "running", "Health": "healthy", "Publishers": [{"URL": "", "TargetPort": 9090, "PublishedPort": 0, "Protocol": "tcp"}]}
+{"Name": "illari-fase3-audit-servicio-legal-ms-1", "Service": "servicio-legal-ms", "State": "running", "Health": "healthy", "Publishers": [{"URL": "127.0.0.1", "TargetPort": 8082, "PublishedPort": 32773, "Protocol": "tcp"}]}

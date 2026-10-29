@@ -1,0 +1,3 @@
+# Compatibilidad: docker-compose.yml ya contiene el stack S12.
+# No combinar esta versión con una copia anterior del archivo base.
+services: {}

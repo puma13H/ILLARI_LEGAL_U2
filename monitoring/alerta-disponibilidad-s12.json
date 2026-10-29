@@ -1,0 +1,89 @@
+﻿{
+    "for":  "2m",
+    "isPaused":  false,
+    "ruleGroup":  "Disponibilidad",
+    "uid":  "illari-servicio-down",
+    "title":  "ILLARI LEGAL - Microservicio no disponible",
+    "noDataState":  "Alerting",
+    "execErrState":  "Error",
+    "orgID":  1,
+    "folderUID":  "illari-alertas-s12",
+    "data":  [
+                 {
+                     "datasourceUid":  "eg2q637yo4ttsc",
+                     "model":  {
+                                   "datasource":  {
+                                                      "type":  "prometheus",
+                                                      "uid":  "eg2q637yo4ttsc"
+                                                  },
+                                   "expr":  "1 - up{job=~\"illari-.*\"}",
+                                   "instant":  true,
+                                   "refId":  "A",
+                                   "range":  false
+                               },
+                     "relativeTimeRange":  {
+                                               "to":  0,
+                                               "from":  300
+                                           },
+                     "refId":  "A",
+                     "queryType":  ""
+                 },
+                 {
+                     "datasourceUid":  "__expr__",
+                     "model":  {
+                                   "datasource":  {
+                                                      "type":  "__expr__",
+                                                      "uid":  "__expr__"
+                                                  },
+                                   "refId":  "B",
+                                   "reducer":  "last",
+                                   "type":  "reduce",
+                                   "expression":  "A"
+                               },
+                     "relativeTimeRange":  {
+                                               "to":  0,
+                                               "from":  0
+                                           },
+                     "refId":  "B",
+                     "queryType":  ""
+                 },
+                 {
+                     "datasourceUid":  "__expr__",
+                     "model":  {
+                                   "conditions":  [
+                                                      {
+                                                          "evaluator":  {
+                                                                            "params":  [
+                                                                                           0.5
+                                                                                       ],
+                                                                            "type":  "gt"
+                                                                        }
+                                                      }
+                                                  ],
+                                   "datasource":  {
+                                                      "type":  "__expr__",
+                                                      "uid":  "__expr__"
+                                                  },
+                                   "refId":  "C",
+                                   "type":  "threshold",
+                                   "expression":  "B"
+                               },
+                     "relativeTimeRange":  {
+                                               "to":  0,
+                                               "from":  0
+                                           },
+                     "refId":  "C",
+                     "queryType":  ""
+                 }
+             ],
+    "condition":  "C",
+    "annotations":  {
+                        "summary":  "Microservicio no disponible: {{ $labels.job }}",
+                        "description":  "El servicio lleva al menos 2 minutos sin responder."
+                    },
+    "labels":  {
+                   "severidad":  "critical",
+                   "evaluacion":  "s12",
+                   "proyecto":  "illari-legal"
+               }
+}

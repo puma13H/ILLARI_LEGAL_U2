@@ -1,0 +1,11 @@
+**
+!frontend/
+!frontend/nginx.conf
+!frontend/dist/
+!frontend/dist/casos-legales-frontend/
+!frontend/dist/casos-legales-frontend/browser/
+!frontend/dist/casos-legales-frontend/browser/**
+!infra/
+!infra/docker/
+!infra/docker/40-runtime-config.sh
+

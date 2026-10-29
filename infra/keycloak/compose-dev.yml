@@ -1,0 +1,52 @@
+name: illari-keycloak-dev
+
+services:
+  keycloak-db:
+    image: postgres:17-alpine
+    container_name: illari-keycloak-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: illari_keycloak
+      POSTGRES_USER: illari_keycloak
+      POSTGRES_PASSWORD: ${KEYCLOAK_DB_PASSWORD:?Set KEYCLOAK_DB_PASSWORD in .env}
+    ports:
+      - "15436:5432"
+    volumes:
+      - illari_keycloak_db_dev_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U illari_keycloak -d illari_keycloak"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 15s
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.8.0
+    container_name: illari-keycloak
+    restart: unless-stopped
+    command: ["start-dev", "--import-realm"]
+    environment:
+      KC_BOOTSTRAP_ADMIN_USERNAME: ${KEYCLOAK_ADMIN:-admin}
+      KC_BOOTSTRAP_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:?Set KEYCLOAK_ADMIN_PASSWORD in .env}
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://keycloak-db:5432/illari_keycloak
+      KC_DB_USERNAME: illari_keycloak
+      KC_DB_PASSWORD: ${KEYCLOAK_DB_PASSWORD:?Set KEYCLOAK_DB_PASSWORD in .env}
+      KC_METRICS_ENABLED: "true"
+      KC_HEALTH_ENABLED: "true"
+      KC_HTTP_MANAGEMENT_PORT: 9000
+      KC_HOSTNAME: http://localhost:8180
+    ports:
+      - "8180:8080"
+      - "19000:9000"
+    volumes:
+      - illari_keycloak_dev_data:/opt/keycloak/data
+      - ./realm-illari-legal.json:/opt/keycloak/data/import/realm-illari-legal.json:ro
+      - ./logs:/opt/keycloak/data/log
+    depends_on:
+      keycloak-db:
+        condition: service_healthy
+
+volumes:
+  illari_keycloak_db_dev_data:
+  illari_keycloak_dev_data:

@@ -1,0 +1,101 @@
+{
+  "passed": 19,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Entradas, documentación y verificadores disponibles",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "Migraciones aditivas y bootstrap presentes",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "Enlaces locales de documentación válidos",
+      "passed": true,
+      "actual": []
+    },
+    {
+      "name": "Verificadores Python compilan sintácticamente",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "Plantilla sin valores de contraseñas",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "Realm de entrega sin usuarios preconfigurados",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "Paquete sin dependencias/generados/archivos privados",
+      "passed": true,
+      "actual": []
+    },
+    {
+      "name": "Sin JWT completo en documentos/configuración/evidencias",
+      "passed": true,
+      "actual": []
+    },
+    {
+      "name": "legal-gateway readiness real UP",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "cliente-ms readiness real UP",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "servicio-legal-ms readiness real UP",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "orden-legal-ms readiness real UP",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "pago-ms readiness real UP",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "backend-legacy readiness real UP",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "Ruta real de catálogo mediante Gateway",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "nginx entrega readiness del Gateway",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "Compra53 y dos detalles intactos",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "Pago53 VALIDADO por310.00 conservado",
+      "passed": true,
+      "actual": null
+    },
+    {
+      "name": "Compose del laboratorio se consulta desde entrega",
+      "passed": true,
+      "actual": null
+    }
+  ]
+}

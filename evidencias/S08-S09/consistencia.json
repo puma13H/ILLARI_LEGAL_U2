@@ -1,0 +1,214 @@
+{
+  "project": "illari-fase3-audit",
+  "run": "ae3baa8737",
+  "passed": 31,
+  "failed": 0,
+  "results": [
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205842.926255
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793205842.9278948
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205843.1794121
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793205843.180497
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205843.334818
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793205843.335977
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205843.4905658
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793205843.4916518
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205843.65748
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793205843.6589339
+    },
+    {
+      "name": "Purchase TARJETA_RECHAZADA HTTP 200",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205843.9812222
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793205843.9828186
+    },
+    {
+      "name": "Order converges CANCELADA",
+      "passed": true,
+      "actual": 55,
+      "at": 1793205845.0606928
+    },
+    {
+      "name": "Rejected payment is durably FALLIDO",
+      "passed": true,
+      "actual": null,
+      "at": 1793205845.3214664
+    },
+    {
+      "name": "Eight concurrent cancellations are idempotent",
+      "passed": true,
+      "actual": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "at": 1793205845.6878297
+    },
+    {
+      "name": "Order converges CANCELADA",
+      "passed": true,
+      "actual": 54,
+      "at": 1793205847.799129
+    },
+    {
+      "name": "Concurrent cancellation produces one compensation command",
+      "passed": true,
+      "actual": null,
+      "at": 1793205848.0690765
+    },
+    {
+      "name": "Approved payment becomes REEMBOLSADO",
+      "passed": true,
+      "actual": null,
+      "at": 1793205848.3359091
+    },
+    {
+      "name": "Late revision-one approval consumed after confirmed refund",
+      "passed": true,
+      "actual": null,
+      "at": 1793205851.1264331
+    },
+    {
+      "name": "Late approval cannot reverse confirmed compensation",
+      "passed": true,
+      "actual": null,
+      "at": 1793205851.3764613
+    },
+    {
+      "name": "Eight simultaneous purchases return 200",
+      "passed": true,
+      "actual": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "at": 1793205851.5657008
+    },
+    {
+      "name": "Gateway and direct concurrent purchase share one order",
+      "passed": true,
+      "actual": [
+        56
+      ],
+      "at": 1793205851.5667574
+    },
+    {
+      "name": "Order converges PAGADA",
+      "passed": true,
+      "actual": 56,
+      "at": 1793205853.675465
+    },
+    {
+      "name": "Concurrent purchase creates one payment and two relational details",
+      "passed": true,
+      "actual": null,
+      "at": 1793205854.2043054
+    },
+    {
+      "name": "HTTP replay preserves original response",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205854.244127
+    },
+    {
+      "name": "Replay response is identical to stored original",
+      "passed": true,
+      "actual": null,
+      "at": 1793205854.2457554
+    },
+    {
+      "name": "Same Idempotency-Key with different data returns 409",
+      "passed": true,
+      "actual": 409,
+      "at": 1793205854.2813847
+    },
+    {
+      "name": "Payment offsets commit past duplicate messages",
+      "passed": true,
+      "actual": null,
+      "at": 1793205859.132903
+    },
+    {
+      "name": "Duplicate event has one inbox row and one payment",
+      "passed": true,
+      "actual": null,
+      "at": 1793205859.6418395
+    },
+    {
+      "name": "Order offsets commit past duplicate results",
+      "passed": true,
+      "actual": null,
+      "at": 1793205864.42105
+    },
+    {
+      "name": "Duplicate results leave order PAGADA revision one",
+      "passed": true,
+      "actual": null,
+      "at": 1793205864.6714065
+    }
+  ]
+}

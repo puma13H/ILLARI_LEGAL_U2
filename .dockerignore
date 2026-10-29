@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.git/
+.idea/
+backend/target/
+backend/data/
+backend/.tools/
+backend/uploads/
+*.log
+
+backend-legacy-casos/uploads/
+frontend-respaldo/
+**/node_modules
+**/target
+**/dist
+**/.angular

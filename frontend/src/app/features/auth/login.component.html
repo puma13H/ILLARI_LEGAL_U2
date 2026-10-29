@@ -1,0 +1,30 @@
+<main class="illari-login">
+ <section class="presentation" aria-labelledby="legal-headline">
+  <div class="palace-scene" aria-hidden="true"></div><div class="blue-veil" aria-hidden="true"></div>
+  <div class="gold-ribbon ribbon-one" aria-hidden="true"></div><div class="gold-ribbon ribbon-two" aria-hidden="true"></div><div class="light-streak" aria-hidden="true"></div>
+  <a class="identity hero-identity" routerLink="/" aria-label="ILLARI LEGAL, volver al inicio"><svg class="icon logo-icon" aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#scales"/></svg><span class="wordmark">ILLARI <em>LEGAL</em><small>ESTUDIO JURÍDICO</small></span></a>
+  <div class="hero-copy"><p class="eyebrow"><span></span>TU ALIADO LEGAL EN PERÚ</p><h1 id="legal-headline">Soluciones jurídicas<br>para <em>personas<br>y empresas</em></h1><p class="hero-description">Asesoría legal, acompañamiento en tus casos<br class="desktop-break"> y recursos jurídicos en un solo lugar.</p></div>
+  <div class="characters"><img src="/assets/login/equipo-juridico-3d.png" width="1536" height="1024" fetchpriority="high" decoding="async" alt="Ilustración 3D de un abogado con el Código Civil, una abogada con documentos y un juez con medalla y martillo." /></div>
+  <div class="feature-cards" aria-label="Beneficios de ILLARI LEGAL">
+   <a class="feature feature-primary" routerLink="/servicios"><svg class="icon " aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#scales"/></svg><h2>Asesorías<br>especializadas</h2><p>Civil, penal, laboral<br>y empresarial</p></a>
+   <a class="feature" routerLink="/tienda-juridica"><svg class="icon " aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#book"/></svg><h2>Tienda jurídica</h2><p>Códigos, libros<br>y modelos de escritos</p></a>
+   <a class="feature" routerLink="/" fragment="contacto"><svg class="icon " aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#people"/></svg><h2>Atención<br>personalizada</h2><p>Casos, documentos<br>y agenda</p></a>
+   <a class="feature" routerLink="/login" fragment="acceso-seguro"><svg class="icon " aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#shield"/></svg><h2>Seguridad<br>y confianza</h2><p>Tus datos siempre<br>protegidos</p></a>
+  </div>
+  <footer class="hero-footer"><p>JUSTICIA <span>•</span> ÉTICA <span>•</span> COMPROMISO</p><blockquote>Defendemos tus derechos,<br>protegemos tu futuro.</blockquote></footer>
+ </section>
+ <section class="access" aria-labelledby="welcome-title"><div class="ambient-scales" aria-hidden="true"><svg class="icon " aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#scales"/></svg></div><div class="access-card">
+  <a class="identity card-identity" routerLink="/" aria-label="ILLARI LEGAL, volver al inicio"><svg class="icon logo-icon" aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#scales"/></svg><span class="wordmark">ILLARI <em>LEGAL</em><small>ESTUDIO JURÍDICO</small></span></a>
+  <header class="welcome"><h2 id="welcome-title">Bienvenido</h2><p>Accede a tu espacio jurídico</p></header>
+  <p class="access-description">Ingresa de forma segura con tu cuenta. Tus permisos<br class="wide-break"> se determinarán según los roles asignados en el sistema.</p>
+  @if(infoMsg){<p class="notice" role="status">{{infoMsg}}</p>}
+  @if(error){<p class="failure" role="alert">{{error}}</p>}
+  <button type="button" class="keycloak-button" (click)="submit()" [disabled]="loading" [attr.aria-busy]="loading"><svg class="icon " aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#lock"/></svg><span>{{loading ? 'Conectando…' : 'Continuar con Keycloak'}}</span><svg class="icon button-arrow" aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#arrow"/></svg></button>
+  <div class="secure-block" id="acceso-seguro"><svg class="icon secure-shield" aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#shield"/></svg><div><strong>Acceso seguro mediante Keycloak</strong><p>Autenticación con OpenID Connect (PKCE)</p></div></div>
+  <div class="divider"><span>O también puedes</span></div>
+  <nav class="return-links" aria-label="Continuar sin sesión"><a routerLink="/"><svg class="icon " aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#home"/></svg><span>Volver al inicio</span></a><a routerLink="/tienda-juridica"><svg class="icon " aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#cart"/></svg><span>Ver tienda jurídica</span></a></nav>
+  <div class="gold-divider" aria-hidden="true"><span>✧</span></div>
+  <div class="trust-benefits"><div><span class="benefit-icon"><svg class="icon " aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#people"/></svg></span><h3>Personas</h3><p>Consultas legales<br>a tu alcance</p></div><div><span class="benefit-icon"><svg class="icon " aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#building"/></svg></span><h3>Empresas</h3><p>Soluciones jurídicas<br>para tu negocio</p></div><div><span class="benefit-icon"><svg class="icon " aria-hidden="true" focusable="false"><use href="/assets/login/icons.svg#file"/></svg></span><h3>Confianza</h3><p>Servicio profesional<br>y transparente</p></div></div>
+  <p class="cart-note">Tu carrito se conserva al iniciar sesión en esta pestaña.</p>
+ </div><div class="desk-books" aria-hidden="true"><span class="book-spine">CÓDIGO CIVIL</span><span class="book-spine">CÓDIGO PENAL</span><i></i></div></section>
+</main>

@@ -1,0 +1,14 @@
+﻿NAMES                                      STATUS                    PORTS
+illari-prometheus                          Up 20 minutes             127.0.0.1:9090->9090/tcp
+illari-grafana                             Up 20 minutes             127.0.0.1:3000->3000/tcp
+illari-fase3-entrega-legal-gateway-1       Up 48 minutes (healthy)   127.0.0.1:18080->18080/tcp
+illari-fase3-entrega-orden-legal-ms-1      Up 49 minutes (healthy)   127.0.0.1:32775->8083/tcp
+illari-fase3-entrega-cliente-ms-1          Up 49 minutes (healthy)   127.0.0.1:32772->8081/tcp
+illari-fase3-entrega-backend-legacy-1      Up 49 minutes (healthy)   127.0.0.1:32774->8080/tcp
+illari-fase3-entrega-servicio-legal-ms-1   Up 49 minutes (healthy)   127.0.0.1:32771->8082/tcp
+illari-fase3-entrega-pago-ms-1             Up 49 minutes (healthy)   127.0.0.1:32773->8084/tcp
+illari-fase3-entrega-kafka-1               Up 50 minutes (healthy)   9092/tcp
+illari-fase3-entrega-keycloak-1            Up 50 minutes (healthy)   127.0.0.1:18180->8080/tcp
+illari-fase3-entrega-legal-eureka-1        Up 50 minutes (healthy)   127.0.0.1:32770->8761/tcp
+illari-fase3-entrega-postgres-1            Up 50 minutes (healthy)   127.0.0.1:32769->5432/tcp
+illari-fase3-entrega-legal-config-1        Up 50 minutes (healthy)   127.0.0.1:32768->8888/tcp

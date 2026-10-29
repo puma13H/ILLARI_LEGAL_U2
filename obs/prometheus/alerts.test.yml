@@ -1,0 +1,48 @@
+rule_files: [alerts.yml]
+evaluation_interval: 5s
+tests:
+  - interval: 5s
+    input_series:
+      - series: 'up{job="cliente-ms"}'
+        values: '0+0x12'
+      - series: 'resilience4j_circuitbreaker_state{job="orden-legal-ms",name="servicioLegal",state="open"}'
+        values: '1+0x12'
+      - series: 'illari_outbox_fallidos{job="orden-legal-ms",servicio="orden"}'
+        values: '1+0x12'
+      - series: 'illari_outbox_edad_segundos{job="orden-legal-ms",servicio="orden"}'
+        values: '20+0x12'
+      - series: 'illari_kafka_dlt_pendientes{job="pago-ms",servicio="pago"}'
+        values: '1+0x12'
+      - series: 'http_server_requests_seconds_count{job="legal-gateway",status="503"}'
+        values: '0+10x12'
+    alert_rule_test:
+      - eval_time: 30s
+        alertname: IllariServicioNoDisponible
+        exp_alerts:
+          - exp_labels: {job: cliente-ms, severity: critical, scope: laboratorio}
+            exp_annotations: {summary: 'Target cliente-ms no disponible'}
+      - eval_time: 30s
+        alertname: IllariCircuitoAbierto
+        exp_alerts:
+          - exp_labels: {job: orden-legal-ms, name: servicioLegal, state: open, severity: warning, scope: laboratorio}
+            exp_annotations: {summary: 'Circuito servicioLegal abierto'}
+      - eval_time: 30s
+        alertname: IllariOutboxAgotado
+        exp_alerts:
+          - exp_labels: {job: orden-legal-ms, servicio: orden, severity: critical, scope: laboratorio}
+            exp_annotations: {summary: 'Outbox agotado en orden-legal-ms'}
+      - eval_time: 30s
+        alertname: IllariOutboxAntiguo
+        exp_alerts:
+          - exp_labels: {job: orden-legal-ms, servicio: orden, severity: warning, scope: laboratorio}
+            exp_annotations: {summary: 'Evento outbox pendiente durante mas de 5 segundos'}
+      - eval_time: 30s
+        alertname: IllariDltPendiente
+        exp_alerts:
+          - exp_labels: {job: pago-ms, servicio: pago, severity: warning, scope: laboratorio}
+            exp_annotations: {summary: 'DLT sin resolver en pago-ms'}
+      - eval_time: 30s
+        alertname: IllariErroresHttp
+        exp_alerts:
+          - exp_labels: {job: legal-gateway, severity: warning, scope: laboratorio}
+            exp_annotations: {summary: 'Mas de 10 por ciento de respuestas 5xx en legal-gateway'}

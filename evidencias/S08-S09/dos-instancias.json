@@ -1,0 +1,152 @@
+{
+  "project": "illari-fase3-audit",
+  "run": "ae3baa8737",
+  "passed": 17,
+  "failed": 0,
+  "results": [
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206263.5290196
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206263.5306363
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206263.6783736
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206263.679445
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206263.8328035
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206263.8339424
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206263.985806
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206263.9872255
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206264.1487634
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206264.149896
+    },
+    {
+      "name": "Second isolated Orders JVM reaches readiness",
+      "passed": true,
+      "actual": null,
+      "at": 1793206285.0272489
+    },
+    {
+      "name": "Eight purchases across two JVMs return one order",
+      "passed": true,
+      "actual": [
+        [
+          200,
+          57
+        ],
+        [
+          200,
+          57
+        ],
+        [
+          200,
+          57
+        ],
+        [
+          200,
+          57
+        ],
+        [
+          200,
+          57
+        ],
+        [
+          200,
+          57
+        ],
+        [
+          200,
+          57
+        ],
+        [
+          200,
+          57
+        ]
+      ],
+      "at": 1793206286.0342932
+    },
+    {
+      "name": "Order converges PAGADA",
+      "passed": true,
+      "actual": 57,
+      "at": 1793206288.1908453
+    },
+    {
+      "name": "Two-JVM purchase has one payment and two details",
+      "passed": true,
+      "actual": null,
+      "at": 1793206288.724325
+    },
+    {
+      "name": "Concurrent cancellations across two JVMs are accepted",
+      "passed": true,
+      "actual": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "at": 1793206289.018255
+    },
+    {
+      "name": "Order converges CANCELADA",
+      "passed": true,
+      "actual": 57,
+      "at": 1793206290.1070447
+    },
+    {
+      "name": "Two-JVM cancellation emits one command and confirms refund",
+      "passed": true,
+      "actual": null,
+      "at": 1793206290.6288092
+    }
+  ]
+}

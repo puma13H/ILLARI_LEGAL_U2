@@ -1,0 +1,2299 @@
+{
+  "schema": 1,
+  "root": "ILLARI_LEGAL_U2_ENTREGA",
+  "file_count": 459,
+  "hash_algorithm": "SHA-256",
+  "self_exclusion": "El manifiesto no contiene su propio hash; el hash externo protege el ZIP completo",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 198,
+      "sha256": "73a139e8e97e1f1c39690f0bec11dad64f96ddabf657b476fb223f88b8437799"
+    },
+    {
+      "path": ".env.s12.example",
+      "bytes": 724,
+      "sha256": "9f7c91fb3514c2bfc06128f82e264cb9465631dda8a41e694ff7036a03ed5723"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 35,
+      "sha256": "2fd04988d0b8feb8e20e823cfa081e6050f28c984a3712f9cf323fd5545899d9"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 242,
+      "sha256": "4c571a51d0002fe6062bcb490e25d3717d6120cda58737f5ab0ce7093722d874"
+    },
+    {
+      "path": "backend-legacy-casos/.dockerignore",
+      "bytes": 44,
+      "sha256": "0143bb2c95699217be8fcf01b8303a358edfd5ddd74b4c1653dbe5a1995c8152"
+    },
+    {
+      "path": "backend-legacy-casos/Dockerfile",
+      "bytes": 410,
+      "sha256": "bfe2e4c44a74a7e45658f60c08a13fc5501398ab0dc5e4d07caf554d85d81d34"
+    },
+    {
+      "path": "backend-legacy-casos/ensure-maven.ps1",
+      "bytes": 733,
+      "sha256": "814c2907b5bf187e2814671ffed6dd3a237a57d7900208ca9d1e46b8d2f029ce"
+    },
+    {
+      "path": "backend-legacy-casos/pom.xml",
+      "bytes": 4666,
+      "sha256": "74a1208296f52d67050ccb2440937fa3ffbe52076c41c9222e8f2907d307b13f"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/CasosLegalesApplication.java",
+      "bytes": 332,
+      "sha256": "4573a1fe9402942b0c19b0debfc16adb87d65f9977fd1c7b37df221d831dbb3d"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/config/DataInitializer.java",
+      "bytes": 5260,
+      "sha256": "bffb910686906f5d2e2aa1fb37f81a24739211785ad3e0cef1ce2aff60973f02"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/config/JwtValidationConfig.java",
+      "bytes": 1761,
+      "sha256": "a740df171aa62eb8019e4d411bf34c6c67ad8fb31070965c7a6b43bbacd51daa"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/config/KeycloakLegacySecurity.java",
+      "bytes": 2847,
+      "sha256": "006fdbe3489caf2b79402118471aed78fe1a78d1dce03e198d48da36732388a7"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/config/SecurityConfig.java",
+      "bytes": 5277,
+      "sha256": "083f7d31e09c282b78157d4706d9225be98a519e3d19e2deb6b71c957b1ab86f"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/controller/AbogadoController.java",
+      "bytes": 1357,
+      "sha256": "a2377a86777b082e46831a7b8e254dbaeb84c1bf277be5af02f0fa606b28fcdf"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/controller/AgendaController.java",
+      "bytes": 932,
+      "sha256": "ac641b2e63d22548ce6a4b9b21aaf679fd983ce612d1a7d3230e9eb94a94985f"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/controller/AuthController.java",
+      "bytes": 879,
+      "sha256": "748606abcc882a9d5f6b719e55656eb66633415a63ae1e4f7b3a8ae72fedb2ab"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/controller/CasoController.java",
+      "bytes": 2615,
+      "sha256": "b8defde46b6c5df532c631a56f8b526bac48c2e727461cb923779e536a1d9076"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/controller/ClienteController.java",
+      "bytes": 1519,
+      "sha256": "9fb4c8981a0bd9d5b7e4e5130b716ca9e2c00785b8fa504d0b2c30932b07e86d"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/controller/DashboardController.java",
+      "bytes": 1473,
+      "sha256": "ec37d8e33899dfea764a47aadff62b8dd854a7f845f1761343de8d48d7471a0c"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/controller/DocumentoController.java",
+      "bytes": 4053,
+      "sha256": "c0766406017f2daa58bfd5c8d56435f6fa74b8c853ce63752f039ea331f37e51"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/controller/IdentidadController.java",
+      "bytes": 922,
+      "sha256": "30b91830789102fa403c8ab55ce1537b981d6331c099a7736bec451ed82e437d"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/controller/MensajeController.java",
+      "bytes": 1376,
+      "sha256": "9e9b26bb63bc2237dc5d0b81945d4efa5608b9e666d6fde461d1a34110bf17a9"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/Correlation.java",
+      "bytes": 1018,
+      "sha256": "d7acbc9b93c1db130821cab88541c6ecaabfb3293062d95be9741c975f048eb5"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/AbogadoRequest.java",
+      "bytes": 190,
+      "sha256": "db9d8fe8c2624b4bcc52954ad55f3bf7f87ada9851bc18c4f6d7f77d62412cc0"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/AbogadoResponse.java",
+      "bytes": 229,
+      "sha256": "75222aeeafb18c6aa01a3cf492093e322ec97484071be0dd8a4929903281f788"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/AgendaRequest.java",
+      "bytes": 215,
+      "sha256": "d7dfa42ffd5d5ac5208076ec6434fa0ebe8a7985300223425ce5ad116600eb83"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/AgendaResponse.java",
+      "bytes": 233,
+      "sha256": "8b0c391f8934e186bf7fda744a77bbf88c3a4887870a0c4a4cdb1619777e5309"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/AuthResponse.java",
+      "bytes": 170,
+      "sha256": "c71393e1644c5223d71513c507b2fe20793645b7a0dfd48358bd6718e2f593cb"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/CasoRequest.java",
+      "bytes": 340,
+      "sha256": "d78865f1add20336a81b36b153db030bbc20d135e8b997a1ba63c866e1a1b94f"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/CasoResponse.java",
+      "bytes": 418,
+      "sha256": "056a1465c0e4c80c0b159217b757b0fe5a8e9a7a6430d1beb8a545a3911b965b"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/ClienteRequest.java",
+      "bytes": 454,
+      "sha256": "199492c4503ec13de017ed8e12c8ca01e2a8523ad66891ac111cdef24922c151"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/ClienteResponse.java",
+      "bytes": 200,
+      "sha256": "2176d568c9c7137026d96b076ed0a0cdd3417e6234b99f380e47b7cf1993eeb7"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/CreateUserResponse.java",
+      "bytes": 106,
+      "sha256": "1cf16616e701ad45e33b6e76f2cf769b98ee98cc492409d5d52c5412b787a8ac"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/DashboardResponse.java",
+      "bytes": 176,
+      "sha256": "83b719088354d994c2271ed29930f432cb95ebe8ad3cf167fc88cc914f3593b2"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/DocumentoResource.java",
+      "bytes": 199,
+      "sha256": "e0da39887d779163c1801158dd79261a19be1105d0549c8805e2b80de7a0788e"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/DocumentoResponse.java",
+      "bytes": 185,
+      "sha256": "d2912ae48f7b2f688539299e5465a1d8999a9ba822790ecef44313b4e508e15d"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/LoginRequest.java",
+      "bytes": 252,
+      "sha256": "a02e09a3d316965e32b49f82ce049210df6f5ebf15f3a00f443cbb70d844c59e"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/MensajeRequest.java",
+      "bytes": 81,
+      "sha256": "41e786e63dc8bfcbfb553c8ea80809d7fdbfd60ca250fb6dcfcd120c9333b67d"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/dto/MensajeResponse.java",
+      "bytes": 176,
+      "sha256": "fb0eee608f8135f2326225e0ae104e942ce4397dbbde9fd6a66512017a08841f"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/exception/GlobalExceptionHandler.java",
+      "bytes": 2620,
+      "sha256": "e5c528c90871ce63bb2ac6eb9da07f078ff76a301e28bb028fe25e34bfa568c6"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/model/Abogado.java",
+      "bytes": 1419,
+      "sha256": "9b43c36d1339038770c6a32e812ad006a6fd6346b4e001364c6c44a2034a9702"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/model/Agenda.java",
+      "bytes": 1120,
+      "sha256": "7a04248aed37a921ec802d3395f91e17f3f20dee3e194689ab21d8d986eaf707"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/model/Caso.java",
+      "bytes": 2029,
+      "sha256": "7eac8c9604b4940762485003b0ddce7814044444a44e5ca2640e0fc83848c871"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/model/Cliente.java",
+      "bytes": 1203,
+      "sha256": "7fb568aa244fc6041b74e981889ac5999460edcc2f97d8cb201f38ba052d246d"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/model/Documento.java",
+      "bytes": 1684,
+      "sha256": "340d2207f816a3c9a4d1d1bc0e558dc752d38d9bca48aec19347c025c09261a8"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/model/IdentidadKeycloak.java",
+      "bytes": 1095,
+      "sha256": "d795c3242e49848e6ea57585789dccf416df8642cc7ed9311abdd06cd317f3b0"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/model/Mensaje.java",
+      "bytes": 950,
+      "sha256": "6bab8be270326db9ed6b20c614c9d2fab77bd10bfdc5c206b4a5b8ededdc1de7"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/model/Role.java",
+      "bytes": 646,
+      "sha256": "4060fa59ce558ddc1eedf091676cb14f2b93950c282b2d539d162527c48f258e"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/model/User.java",
+      "bytes": 1224,
+      "sha256": "b10dfba4517481180443688cc4341d1000abf0bc88f4f4fb4d06b3773bbf1c1d"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/repository/AbogadoRepository.java",
+      "bytes": 342,
+      "sha256": "fbfdc420ee132438569361d23829ee56b0882d14c7915cb22b9e4fc60a59a7bd"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/repository/AgendaRepository.java",
+      "bytes": 212,
+      "sha256": "ffdc697013f248974039714bef23b1d61b52efe8e5bd8556b3a8d22f46a39d0d"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/repository/CasoRepository.java",
+      "bytes": 353,
+      "sha256": "4bcd4d71a3c7d0b8e7eab147a3a0aa30573f33f779bdab5d6c0471f8067d3281"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/repository/ClienteRepository.java",
+      "bytes": 342,
+      "sha256": "8fd2d6b21fd1dba22c8f236007ba81f63b44203d2541e7cc91abde77df446a01"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/repository/DocumentoRepository.java",
+      "bytes": 306,
+      "sha256": "9f53469bc0dc8fd54383c8ad8b328614d0d5423fa530c719fc186ad3ee469c3f"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/repository/IdentidadKeycloakRepository.java",
+      "bytes": 439,
+      "sha256": "27e12037cf64f00cb2be2713f17a7b7629a2463d61189c2b31e734d7ccbef162"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/repository/MensajeRepository.java",
+      "bytes": 297,
+      "sha256": "59345b2b110af50fea9f9dae2e5154d0ef264145114c1671069cd762be0cab9f"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/repository/RoleRepository.java",
+      "bytes": 279,
+      "sha256": "10a4c2c21c00abba2a8bac31747ac686c624b545e2d2b082286150a193099848"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/repository/UserRepository.java",
+      "bytes": 612,
+      "sha256": "ca62bed8e5e8ad377924617e3716fa1667c1a7f46345c25848a376a566febb66"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/SafeObservationLayout.java",
+      "bytes": 1766,
+      "sha256": "4e63328ed75a1469c3e7f95970af22d2fd0c4363858be4a7abd67bf26c33d5e6"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/security/CustomUserDetailsService.java",
+      "bytes": 1203,
+      "sha256": "172fc45cee1302ef455d20f69a344d8176098687608d9409dbbbd83c561c153e"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/security/IdentidadJuridicaFilter.java",
+      "bytes": 2242,
+      "sha256": "32a3769a1db26bc69f564eb3b0ac385702af4c7cd047a8d1416717ce5186ef89"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/security/IdentidadJuridicaService.java",
+      "bytes": 1759,
+      "sha256": "de0527419a132a8b9ab9b16273820c18b08e6b99e40cb101ba94a141051afbd7"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/security/JwtAuthFilter.java",
+      "bytes": 2457,
+      "sha256": "48d548b77102220c2baadf9054536539ec9e4c4f4fb846ca7d22054143ecb455"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/security/JwtService.java",
+      "bytes": 1883,
+      "sha256": "eb413ba06770df76bef46aa1db00f7372d83f9be4f24bf78e67f2a8c7cc595e8"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/service/AbogadoService.java",
+      "bytes": 3594,
+      "sha256": "dc484e3eba3fccaf4c0b7046843258f410871f76b0d1da2a1c9e03dbfbe99438"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/service/AgendaService.java",
+      "bytes": 2141,
+      "sha256": "e37ad51383b4daf833dfce6684e758c69300e40f5d5523a16884560e86db8b80"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/service/AuthService.java",
+      "bytes": 2170,
+      "sha256": "36dc494433402f6d932843e335a69ad3b9ac2d56bcc4dcb9fe7207a1bdcfa997"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/service/CasoService.java",
+      "bytes": 7022,
+      "sha256": "b65a0fa37df55b8bc9c5714ee2b2ae1bcd205f9008b3efea7f99bd94ff8e80bc"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/service/ClienteService.java",
+      "bytes": 3521,
+      "sha256": "4bec92e6f7c30f1e1c37265aa28aaa4c8174467c24d8ef03279df510ebebccc1"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/service/DocumentoService.java",
+      "bytes": 6236,
+      "sha256": "caf3299fd39032923954ec7093b1d19b1efcb6166b929902d496c4abc530cd82"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/service/MensajeService.java",
+      "bytes": 2041,
+      "sha256": "304c07171ab9692a9cf8832b6b1d378be6ddf6817a2a99aafa1cc78868772511"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/java/com/casoslegales/TraceIdFilter.java",
+      "bytes": 1056,
+      "sha256": "f46753529f0607229b88efa9cd93e0680a2fce9da1fb8425385c6368a2cc349f"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/resources/application-dev.yml",
+      "bytes": 379,
+      "sha256": "19b53ba6417a8976a15877148a56f231e1e54e1bf5f10805cf755ccd56f181e8"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/resources/application-docker.yml",
+      "bytes": 389,
+      "sha256": "3656c8b8a4cc5ed99872a4c52953cedc915f4c524b5597a4c698ac3381b3c7f3"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/resources/application-postgres.yml",
+      "bytes": 230,
+      "sha256": "7728d29466d8fe4d9e5f53e434f7a0f06c5fdf3151411f4ca136369edf32a01c"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/resources/application-s12.yml",
+      "bytes": 470,
+      "sha256": "2370ccd1b72c296a3bc508309b40f918578b41d8f044f15529b8f87724f3ff8a"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/resources/application.yml",
+      "bytes": 885,
+      "sha256": "209834b4ba9a073e75524da49b8aad1c8aca70546aecdf112c07e13b1385b434"
+    },
+    {
+      "path": "backend-legacy-casos/src/main/resources/logback-spring.xml",
+      "bytes": 1191,
+      "sha256": "52bf8731aa6c48d785b215e1af7ef0352506cfeaeeb6cc1e4409daaa431b832c"
+    },
+    {
+      "path": "backend-legacy-casos/src/test/java/com/casoslegales/config/DataInitializerTest.java",
+      "bytes": 1570,
+      "sha256": "a9a05b46ef8012c47247ef53e53e61821242e4f66dcac1a1e2f4e08a18f4e346"
+    },
+    {
+      "path": "backend-legacy-casos/src/test/java/com/casoslegales/security/IdentidadJuridicaTest.java",
+      "bytes": 4735,
+      "sha256": "c2003f5bebc8bef291b8dbcc5e5b22a31b42aa765dc7b6a09ec52e6744aa8df1"
+    },
+    {
+      "path": "BUILD-S12.ps1",
+      "bytes": 1114,
+      "sha256": "8c88ae28c1236a7d2e77a7884c002f9f903436545e2fb49d1518eab56b4c8cf4"
+    },
+    {
+      "path": "CHECKLIST_ENTREGA_FINAL.md",
+      "bytes": 1966,
+      "sha256": "57942ba5611e131b9c8532cab2716665aec5f21958305fc4d6d5c3304737951a"
+    },
+    {
+      "path": "database/01-schema.sql",
+      "bytes": 5225,
+      "sha256": "5693168c1cd4fe65e7bbfca07a0d6f33b9c2652785225b5145de1a48fc58987c"
+    },
+    {
+      "path": "database/04-fase1-saga.sql",
+      "bytes": 757,
+      "sha256": "92550b5b9d40e723a05fb65b72ee4a0f7b6f57188677d15ea24e33abe8ff61c9"
+    },
+    {
+      "path": "database/05-fase2-compras-detalle.sql",
+      "bytes": 3322,
+      "sha256": "cdd8c3567f4058dd85a174697b705f66d5686372f0a78ed3b810d94a4440fbc3"
+    },
+    {
+      "path": "database/06-fase2-mensajeria.sql",
+      "bytes": 3130,
+      "sha256": "aa75e0d22d2aeec402a4decc0a2a03f35b24bb4c77faa49c663a607e7a1de4fc"
+    },
+    {
+      "path": "database/07-fase3-identidad-juridica.sql",
+      "bytes": 580,
+      "sha256": "3023a3d17c65823399fe66763c9bcc7aad701d479331c526830ff04d670704a5"
+    },
+    {
+      "path": "database/README.md",
+      "bytes": 616,
+      "sha256": "231a23d71529725aa95a217c82ac1d94c11816278aa7914fab8aa3dd2f14a76d"
+    },
+    {
+      "path": "database/s12/00-init.sh",
+      "bytes": 2611,
+      "sha256": "0fcb7ebbed62046418209294a4f279f8a4b535c3bbf8c9c777d72c99bbbc6140"
+    },
+    {
+      "path": "database/s12/clientes-base.sql",
+      "bytes": 247,
+      "sha256": "3bb82b246d96c1ecd92b2ddcbec41b2c81a2ac0f5ada5462cc205c654e946308"
+    },
+    {
+      "path": "database/s12/ordenes-base.sql",
+      "bytes": 498,
+      "sha256": "d5836376e0eaf0446ef91b42c2df8f96c36136a0b467abd4bbb37184bc15629b"
+    },
+    {
+      "path": "database/s12/pagos-base.sql",
+      "bytes": 414,
+      "sha256": "b2d8304fe81b02b5814fede3cd33212e6c6d716af2d9a23e039f5c3238ea2dc2"
+    },
+    {
+      "path": "database/s12/servicios-base.sql",
+      "bytes": 202,
+      "sha256": "1fed7c21f2eb608b9811a81c81551ca15dabd3f3b76d509a405ad03ae3d823e3"
+    },
+    {
+      "path": "docker-compose.s12.yml",
+      "bytes": 145,
+      "sha256": "6b2ee75199b74f1a41250cc9ca3de2188996a6e4625ea67783d03939063afe11"
+    },
+    {
+      "path": "docker-compose.yml",
+      "bytes": 10590,
+      "sha256": "c2ecb73370e99c7fe08fcea7091f0345418ea8a53034f16e6aface612862c509"
+    },
+    {
+      "path": "docs/ARCHIVOS_NUEVOS_Y_CAMBIOS.json",
+      "bytes": 21096,
+      "sha256": "399b15bbaf9f5be086f027253f5e059b63802a376cb6bec98d992e34a2604a4d"
+    },
+    {
+      "path": "docs/ARQUITECTURA.md",
+      "bytes": 1678,
+      "sha256": "717d0c49bc47b9f70da56a27916d440d533f0d0575cbc9a32dfc7a045bae7d8b"
+    },
+    {
+      "path": "docs/CARRITO_RELACIONAL.md",
+      "bytes": 1396,
+      "sha256": "ed8be0ec2c1024543cac4d84f425ed9eac318833841696570fff089689355588"
+    },
+    {
+      "path": "docs/DECISIONES_UI.md",
+      "bytes": 1232,
+      "sha256": "cb8fb040fc5f389687004774702839e474fdd3f17766e15cc15a348971442690"
+    },
+    {
+      "path": "docs/diagramas/arquitectura.svg",
+      "bytes": 6087,
+      "sha256": "840664b4cb1809534151913b799d2953796c95e37e9d67c3bd2c54d25678d3f6"
+    },
+    {
+      "path": "docs/diagramas/carrito.svg",
+      "bytes": 3490,
+      "sha256": "39fb0905471fd8e530248aeec11bbfd0654f4b92c9153cdec28bc7b863594f72"
+    },
+    {
+      "path": "docs/diagramas/contextos.svg",
+      "bytes": 3860,
+      "sha256": "45f572eea2985f32823ea0a490408edb1783005f4754ffb83d25f2593d4bcba6"
+    },
+    {
+      "path": "docs/exclusiones-observabilidad.json",
+      "bytes": 1151,
+      "sha256": "49951941e445fbf74c369deb435fe941f183d6dbb464e5610b44244a5ffcb1df"
+    },
+    {
+      "path": "docs/HISTORIAL_VERIFICACION.md",
+      "bytes": 1256,
+      "sha256": "7c58e74afaf9e2d2773033c0af56170a3778a9c5ee10b88f44f7749b817cdc1b"
+    },
+    {
+      "path": "docs/INVENTARIO_ORIGEN.csv",
+      "bytes": 164200,
+      "sha256": "d349d3aa2242c917479c6ad6b3eec4b595dfee7918769af33a10a595b362d2d2"
+    },
+    {
+      "path": "docs/OBSERVABILIDAD.md",
+      "bytes": 1570,
+      "sha256": "0c0a533b5b12d5cea550378577864582d22b396b14427f628acdb0c041d54e32"
+    },
+    {
+      "path": "docs/ORGANIZACION.md",
+      "bytes": 1946,
+      "sha256": "9882e409414fd0b4f63f508390bd35ae8bd010f31c47b8693778ad56f4403f54"
+    },
+    {
+      "path": "docs/sitio/CHECKLIST_ENTREGA_FINAL.html",
+      "bytes": 4002,
+      "sha256": "3f811c5f277c71ff4813ff7cce38178ba45f6fa2cca122c538347ce75a228345"
+    },
+    {
+      "path": "docs/sitio/docs__ARQUITECTURA.html",
+      "bytes": 3792,
+      "sha256": "2850e471b9dae19bd45cfe1f78b5ef5a60ae3c0c49c3292959e3d1c05cf1a971"
+    },
+    {
+      "path": "docs/sitio/docs__CARRITO_RELACIONAL.html",
+      "bytes": 3415,
+      "sha256": "818a393375bf770d705da4bd88533d67be737131e4b0ceece0dd54dc30c63c37"
+    },
+    {
+      "path": "docs/sitio/docs__DECISIONES_UI.html",
+      "bytes": 3280,
+      "sha256": "724871c4fd02fab2166c08e9f012623f7110720999784c6b583bd9b5262f3ee9"
+    },
+    {
+      "path": "docs/sitio/docs__HISTORIAL_VERIFICACION.html",
+      "bytes": 3368,
+      "sha256": "fabac361a3b83858a1dfe9988b8d0b4d211f67f4ccdad3b7b3186622d9418ad6"
+    },
+    {
+      "path": "docs/sitio/docs__OBSERVABILIDAD.html",
+      "bytes": 3547,
+      "sha256": "85d8fa307c13a0f3514f12209df74103d75e70cc7f70932130f5eb0d5476fcc1"
+    },
+    {
+      "path": "docs/sitio/docs__ORGANIZACION.html",
+      "bytes": 3860,
+      "sha256": "385671c07270d784caaa64110862aaf20d06f115495f94082539ed2d268fca55"
+    },
+    {
+      "path": "docs/sitio/evidencias__README.html",
+      "bytes": 2817,
+      "sha256": "529d601d59f0653f486a5212a93029686c65d222a2c41fea774d98f9cec451a0"
+    },
+    {
+      "path": "docs/sitio/FASE5_RESULTADOS.html",
+      "bytes": 10728,
+      "sha256": "cf52eefce15431f30fa4831e2b33d9b819aaacc6f0180e7996df4d17863feaf7"
+    },
+    {
+      "path": "docs/sitio/GUIA_DE_SUSTENTACION.html",
+      "bytes": 10398,
+      "sha256": "62907da5d720eb2824d7770be33f67ee9a2bb9683a68169fdca96da11e0d8309"
+    },
+    {
+      "path": "docs/sitio/GUIA_INSTALACION.html",
+      "bytes": 7271,
+      "sha256": "8bd4609e40d42180a5cf702c414d53a07d19a41d7e36454701838913229ff3b9"
+    },
+    {
+      "path": "docs/sitio/index.html",
+      "bytes": 2014,
+      "sha256": "37be056a8b7119cc3227e9662a119add9078c7bc12a41b8867fbe203a304ffd0"
+    },
+    {
+      "path": "docs/sitio/INFORME_FINAL_UNIDAD_2.html",
+      "bytes": 5691,
+      "sha256": "ed480288f08a652411ffbcc1a8c6b4396a7cd22b1aa103bdc44bd427565c3a63"
+    },
+    {
+      "path": "docs/sitio/MATRIZ_CUMPLIMIENTO_S12.html",
+      "bytes": 5030,
+      "sha256": "7dc03415f6a9d803157f81f895f9da92ee2894cf76502347d95810692ec0d26c"
+    },
+    {
+      "path": "docs/sitio/README.html",
+      "bytes": 5369,
+      "sha256": "9229dcc25722e4be974e861446fb1f95bf3acdcdcdd7a7eb5361cd122a4e1a07"
+    },
+    {
+      "path": "docs/sitio/SOLUCION_ERRORES.html",
+      "bytes": 5126,
+      "sha256": "9b76acee88c19f97669cf24a5d98ebe0721dac1d97f9f31377cbb40e4160c86b"
+    },
+    {
+      "path": "docs/sitio/u2-producto.html",
+      "bytes": 5059,
+      "sha256": "e85bfcd131f8d18f1c8af6bdae32f5c3e96583c2cad704f703ddea6d37710b7f"
+    },
+    {
+      "path": "docs/sitio/verification__README.html",
+      "bytes": 3984,
+      "sha256": "41e1868a4900694690bad3ae7804647e97514c819e30cabe917d92612bcd32f5"
+    },
+    {
+      "path": "evidencias/procedencia.json",
+      "bytes": 8355,
+      "sha256": "a38d1da787fcf26f3e9e1fa41216ce7a70fdf7facefd0e0e1aabecda4434f87b"
+    },
+    {
+      "path": "evidencias/README.md",
+      "bytes": 915,
+      "sha256": "e950484973c2471d34745e6ea815f09ba86e1dd6a8ad1edc86f9558325e5a150"
+    },
+    {
+      "path": "evidencias/S06/diagnostico.json",
+      "bytes": 25146,
+      "sha256": "be9ecc8f1dc3bd491b3b26cfd0197ff7fd706493e7eb77b3aa62144f14ddcb61"
+    },
+    {
+      "path": "evidencias/S06/metrics-catalogue-failure.json",
+      "bytes": 11600,
+      "sha256": "48b4556fe7cedffee0ec8bf01712a2e82f81c57b82a34915f7509e72c56b7e9a"
+    },
+    {
+      "path": "evidencias/S06/metrics-recovered.json",
+      "bytes": 9782,
+      "sha256": "e8e537425b67d6aecf48647a365c0f5a1f767ec9e25598eafd2291341e9ba1eb"
+    },
+    {
+      "path": "evidencias/S07/seguridad.json",
+      "bytes": 37097,
+      "sha256": "88dc57af78377fc7e805e01fb5f7b89d229fc9e7c921ec933b294a6fe394fb06"
+    },
+    {
+      "path": "evidencias/S08-S09/cierre.json",
+      "bytes": 5657,
+      "sha256": "00be5e0ff98ff387be12a5d34b3ab50b82df646297a5f0b2eea80a4fb8247d5f"
+    },
+    {
+      "path": "evidencias/S08-S09/consistencia.json",
+      "bytes": 5114,
+      "sha256": "6f28944e0ee0aafce0f759c5b9a3b78b43e9e9d84bd7b58b65a670906f0d9dbf"
+    },
+    {
+      "path": "evidencias/S08-S09/dos-instancias.json",
+      "bytes": 3231,
+      "sha256": "55c1f3128d85fceba97278f6bcf8aa6c74bfe1de75898a25ec799249b9bee37c"
+    },
+    {
+      "path": "evidencias/S08-S09/invariantes-alcance.json",
+      "bytes": 505,
+      "sha256": "f8f2ef86552809e9119851a611475d847efcc9a89c4caa8c0d44deaca898bf05"
+    },
+    {
+      "path": "evidencias/S08-S09/offsets-after-duplicates.json",
+      "bytes": 425,
+      "sha256": "32a06268d0fbb208a92250b83b671cb66d143d238ea9870cac1cfdbc56492f3d"
+    },
+    {
+      "path": "evidencias/S08-S09/offsets-after-payment-validation.json",
+      "bytes": 433,
+      "sha256": "cef20f094d97e577475812a81f7f796af49518ddf334ddb51d9a66478c0d1e0c"
+    },
+    {
+      "path": "evidencias/S08-S09/pruebas-previas-reutilizadas.json",
+      "bytes": 5006,
+      "sha256": "4ced8ad5d2272975be048d7c656eb79befb03b633fe833a69c3c5d594e439943"
+    },
+    {
+      "path": "evidencias/S08-S09/resumen-operativo.json",
+      "bytes": 2535,
+      "sha256": "7af309697c93e5bfb7ea453ffff7410ab7a9317d3e0e1ba62fd36fd63ca4c3ba"
+    },
+    {
+      "path": "evidencias/S08-S09/validacion-pagos.json",
+      "bytes": 5353,
+      "sha256": "f04845ec47bab5e16d82964db7376b23e09da5274894918436dc568f64affffc"
+    },
+    {
+      "path": "evidencias/S10/grafana-panel-results.json",
+      "bytes": 21875,
+      "sha256": "edbf53c42b0362a9c2b9c7ebe3e9f7f3dde869cf82566285f374b20f2ebcf8a2"
+    },
+    {
+      "path": "evidencias/S10/metrics-dlt.json",
+      "bytes": 10448,
+      "sha256": "12ff76136ead7637c8aeb03febbb5c1390fd1cd9576f81d4db6d7d4bd4d47b88"
+    },
+    {
+      "path": "evidencias/S10/metrics-outbox-exhausted.json",
+      "bytes": 10569,
+      "sha256": "29c9f5ae506a05a9ada3e7e04a4bd65f6c1a79217097cdb719f69a40585b864c"
+    },
+    {
+      "path": "evidencias/S10/metrics-outbox-queued.json",
+      "bytes": 10406,
+      "sha256": "25908528de1961e448f888bd2bc21f66e374da2228c8eaddac224b816e0168ed"
+    },
+    {
+      "path": "evidencias/S10/trace-purchase.json",
+      "bytes": 4723,
+      "sha256": "bef519a99e91ee881bd3db2159a41d391a3a63eb0e92501052632999a9bb5d5b"
+    },
+    {
+      "path": "evidencias/S11-S12/01-keycloak-pkce.jpg",
+      "bytes": 27912,
+      "sha256": "84c1b3fcbfaa6b70c4a2b75b245d658ac9c9b5c11e6aa087acb7d8f3a8b51741"
+    },
+    {
+      "path": "evidencias/S11-S12/02-mensajes-integrados.jpg",
+      "bytes": 65516,
+      "sha256": "c3395887c097a0706b5b1bde67085ec5f3c7aed03b0776b5ee98e4abde5e9445"
+    },
+    {
+      "path": "evidencias/S11-S12/03-compra-53-conservada.jpg",
+      "bytes": 47074,
+      "sha256": "4efb1809246401c5940e5abe1f11e981659f5eb5a9d410804b0f35eb341b4e07"
+    },
+    {
+      "path": "evidencias/S11-S12/04-sesion-renovada-mensajes.jpg",
+      "bytes": 65516,
+      "sha256": "c3395887c097a0706b5b1bde67085ec5f3c7aed03b0776b5ee98e4abde5e9445"
+    },
+    {
+      "path": "evidencias/S11-S12/05-agenda-admin-integrada.jpg",
+      "bytes": 58826,
+      "sha256": "2e3d98f346a5f40d3ea2c65a60a1a06b60fe2c93d1ec4a927bad7008a28426eb"
+    },
+    {
+      "path": "evidencias/S11-S12/06-usuarios-alcance-explicito.jpg",
+      "bytes": 47288,
+      "sha256": "ed6219aa0dda4e34f12ac18372ce7f36afdaea0514924a48d196488bccbb91a2"
+    },
+    {
+      "path": "evidencias/S11-S12/07-evento-persistido-admin.jpg",
+      "bytes": 55843,
+      "sha256": "2870b4ac3f3193be93afa21f2770e8ad6eec05ce73bd32f15e6c32bb9146c1f2"
+    },
+    {
+      "path": "evidencias/S11-S12/08-abogado-mensajes-persistidos.jpg",
+      "bytes": 66149,
+      "sha256": "938a78d7b9ee681ef29f27135a374c4824ba7d52dd648c9b89f9a736312cdf9c"
+    },
+    {
+      "path": "evidencias/S11-S12/09-documentacion-navegable.jpg",
+      "bytes": 87412,
+      "sha256": "811579faf66f7baa757fb71baee34b270a6b99d9900cd9b107de765812dc3596"
+    },
+    {
+      "path": "evidencias/S11-S12/angular-build.log",
+      "bytes": 2377,
+      "sha256": "40d7840041dc3b1efeee6100d6e6a780ba268ede9e61a7fea0a3a76242a1d7f3"
+    },
+    {
+      "path": "evidencias/S11-S12/angular-test-final.log",
+      "bytes": 413,
+      "sha256": "438809515d4dd2731d74dd52cf5fd1b087f47b697a68bf9489c8f38b620bc273"
+    },
+    {
+      "path": "evidencias/S11-S12/compatibilidad-c.json",
+      "bytes": 177,
+      "sha256": "6d3c6683ac833b358eec616b9930cdd99b951438d1d6b2e9a5dd2bb9752b3666"
+    },
+    {
+      "path": "evidencias/S11-S12/compra-persistencia.json",
+      "bytes": 2330,
+      "sha256": "1c47b6c2dc2eb49badda5bff3f5ad1124e937114c5dd3649adc3041eea32475b"
+    },
+    {
+      "path": "evidencias/S11-S12/docker-estado-final.jsonl",
+      "bytes": 3438,
+      "sha256": "98f3aa4365ac169794fac20b2d1b799635e86155d1ee25c77e2223dd168ee479"
+    },
+    {
+      "path": "evidencias/S11-S12/guias-consultadas.json",
+      "bytes": 145,
+      "sha256": "955734b0378aa719eb0b0d3b31b704074098678d6acdb2b94626922daed20e74"
+    },
+    {
+      "path": "evidencias/S11-S12/nginx-dns-resultados.json",
+      "bytes": 273,
+      "sha256": "274247b02ba6c6cca27e6424dd83073d5b6d436abcefa0357354408ed4c22659"
+    },
+    {
+      "path": "evidencias/S11-S12/powershell-validado.json",
+      "bytes": 39,
+      "sha256": "138435d698a1571bf598aa5abb7a9356e7ab5a3b8481cd8253187f83502a2e93"
+    },
+    {
+      "path": "evidencias/S11-S12/resultados-navegador-c.json",
+      "bytes": 1083,
+      "sha256": "ddf203988bcc54e0796e58608e8635b84d15ff43c66d46f4887eedc47a655dc5"
+    },
+    {
+      "path": "evidencias/S11-S12/resultados-persistencia.json",
+      "bytes": 2253,
+      "sha256": "97da2277a4ff986ed74527a52daff7a60c08af7a2982a02883f46aa471c06588"
+    },
+    {
+      "path": "evidencias/S11-S12/smoke-desde-entrega.json",
+      "bytes": 2036,
+      "sha256": "a1fb00713c2b96806a9b5656b056d03f26f575ba02147faab77c33d3b4a57816"
+    },
+    {
+      "path": "evidencias/S11-S12/validacion-final.json",
+      "bytes": 2298,
+      "sha256": "39f02ab85fbed271e80b17b6e72b157b0aa9d7880c37c93e4c5fe029a4f99ea8"
+    },
+    {
+      "path": "FASE5_RESULTADOS.md",
+      "bytes": 8358,
+      "sha256": "9f02e9340284b1957c947c7ef7b2652f7f67cbf6ba77fa4404ff0371b0852178"
+    },
+    {
+      "path": "frontend/.dockerignore",
+      "bytes": 36,
+      "sha256": "0af4b1df707cc07963ab3293c99cf03a6905d22e50ab9c2c3042b0f49ac101e8"
+    },
+    {
+      "path": "frontend/angular.json",
+      "bytes": 2611,
+      "sha256": "831dba00b1bbde81798fbb4a9a0b52544f6ebe5ae567305eb30258d6e065ac27"
+    },
+    {
+      "path": "frontend/Dockerfile",
+      "bytes": 328,
+      "sha256": "4f530fce541f718fab967a85c15813e0fc1d763672b0ba84ec4ac363c913ffd0"
+    },
+    {
+      "path": "frontend/nginx.conf",
+      "bytes": 811,
+      "sha256": "7d709438b1891808fb46d51151b3eedb0164d5c77485a1108d3662e861548f1f"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "bytes": 232368,
+      "sha256": "35f5743ab8d85a462b180ad1ed344acf3f647198f9b351e661f341631fd36b29"
+    },
+    {
+      "path": "frontend/package.json",
+      "bytes": 968,
+      "sha256": "21abc6227701b14b6db9709bdb8ecc0b68e0b6991b86787259744fc61ab82170"
+    },
+    {
+      "path": "frontend/src/app/app.component.ts",
+      "bytes": 317,
+      "sha256": "719e86bb22ebdc927272a7a39625282d83d7732587ffbdcb26716569751e5e6e"
+    },
+    {
+      "path": "frontend/src/app/app.config.ts",
+      "bytes": 646,
+      "sha256": "8a0b82c1dc334fe3607ca64c715a8c7fb6d04367c2bbe636fe7ce49ce7a27cc1"
+    },
+    {
+      "path": "frontend/src/app/app.routes.ts",
+      "bytes": 4836,
+      "sha256": "6e6d6734a3e142d36f3104021e1a75dab53e5fef5b8990a1040ffbe98bee56aa"
+    },
+    {
+      "path": "frontend/src/app/core/auth/auth-callback.ts",
+      "bytes": 1478,
+      "sha256": "4e0a6b37af486e75e300b32268cf7d1fdb3fc0a488d15a709b3e280de8f00d36"
+    },
+    {
+      "path": "frontend/src/app/core/auth/auth-destination.spec.ts",
+      "bytes": 1102,
+      "sha256": "41674e81e675adbb8c25dc6c982d431cdaa705aab17e1c7daa9b609a18009c79"
+    },
+    {
+      "path": "frontend/src/app/core/auth/auth-destination.ts",
+      "bytes": 564,
+      "sha256": "5176a2c9c9664e6c3c343fa0ab62399d7ac09ee3892437e06ca26c948c6a4a00"
+    },
+    {
+      "path": "frontend/src/app/core/auth/auth-service.ts",
+      "bytes": 9958,
+      "sha256": "71018f15270e6bba2213f09acdd510a0d15f0faf98f31e658636cbfe42bb7a77"
+    },
+    {
+      "path": "frontend/src/app/core/auth/jwt.ts",
+      "bytes": 685,
+      "sha256": "a94c7760b999e61a13a73609e43eae6af61da04ad4a5576961ae061123e33ebb"
+    },
+    {
+      "path": "frontend/src/app/core/auth/oidc-token.spec.ts",
+      "bytes": 3290,
+      "sha256": "44a892bc38a811bf886e7c7d5ed8083b8eb4c0fb331c1a66b0b93271200b632d"
+    },
+    {
+      "path": "frontend/src/app/core/auth/oidc-token.ts",
+      "bytes": 2074,
+      "sha256": "bbad627f06ff30c6cc60054f20a48764d13aaca6b781028c74788a28940dd685"
+    },
+    {
+      "path": "frontend/src/app/core/auth/pkce.ts",
+      "bytes": 642,
+      "sha256": "b9053f21124bddee73e20db870b3152967abca2bb4e24bf65541e78814c21681"
+    },
+    {
+      "path": "frontend/src/app/core/auth/session-refresh.spec.ts",
+      "bytes": 4557,
+      "sha256": "a602811e02daa39569acad1ed1830ee06f481cfc9407168e0d2db4e45900c16d"
+    },
+    {
+      "path": "frontend/src/app/core/guards/auth.guard.ts",
+      "bytes": 433,
+      "sha256": "9755c983c61c8959f62268ecc8b8d21871c979f9c6b284f6d2ca1cf0b9bcfa7e"
+    },
+    {
+      "path": "frontend/src/app/core/guards/dashboard.guard.ts",
+      "bytes": 623,
+      "sha256": "d8c9093eb019b0564ed69e0d9ba6f8b677d60e35aa511fb8ba9320a54adbec93"
+    },
+    {
+      "path": "frontend/src/app/core/guards/role.guard.ts",
+      "bytes": 931,
+      "sha256": "77081321aface3f1ac7a4888146cfc877f345c3d2707343c63bfdffc30d5e4a0"
+    },
+    {
+      "path": "frontend/src/app/core/inicio/inicio.html",
+      "bytes": 220,
+      "sha256": "01615722421b8720a690bb7f07ee7258b88a6982fa2d666ec7bf74605aa1837d"
+    },
+    {
+      "path": "frontend/src/app/core/inicio/inicio.ts",
+      "bytes": 161,
+      "sha256": "ccf9980066cf642b84e8f613126c45a35fe16d7538e5e91436902dd7236b9ada"
+    },
+    {
+      "path": "frontend/src/app/core/interceptors/api-destination.spec.ts",
+      "bytes": 1249,
+      "sha256": "268e01bb5f201af4547a8c2ab4a8817e70fb20513209c74e275352894bcf4dcd"
+    },
+    {
+      "path": "frontend/src/app/core/interceptors/api-destination.ts",
+      "bytes": 665,
+      "sha256": "83764dd47e913d433b755a8e6238ceba61cb5c3124da1b5978d9736d9c348b01"
+    },
+    {
+      "path": "frontend/src/app/core/interceptors/auth-trace.spec.ts",
+      "bytes": 2257,
+      "sha256": "6b159877e2da71262ec9620c21e8e37d58ae54f9a7cc5d6cab5c9fa200b89e0f"
+    },
+    {
+      "path": "frontend/src/app/core/interceptors/auth.interceptor.ts",
+      "bytes": 1076,
+      "sha256": "985b277545d8810ff6e7e902d9e7b8ba1fab5898d25748fd44079c58e9018178"
+    },
+    {
+      "path": "frontend/src/app/core/interceptors/interceptors-integrados.spec.ts",
+      "bytes": 2091,
+      "sha256": "07a250c2a10e81ad2434d5ebc5837110800503ceb7fa2af1dbb9fff3540edf2e"
+    },
+    {
+      "path": "frontend/src/app/core/interceptors/trace.interceptor.ts",
+      "bytes": 598,
+      "sha256": "4c10f022113237f16f78920186c352ad6cbc9f45a35676ac35144a759494c34d"
+    },
+    {
+      "path": "frontend/src/app/core/models/index.ts",
+      "bytes": 1201,
+      "sha256": "2d00dd81df57acc7dde561755ca48093cebc2e8a9ea16da2a8b4862fcad5e879"
+    },
+    {
+      "path": "frontend/src/app/core/services/abogado.service.ts",
+      "bytes": 803,
+      "sha256": "05c25c9308444c3526892926a6b6cb83380d85b0cf6d39fceee89c5cb916b858"
+    },
+    {
+      "path": "frontend/src/app/core/services/caso.service.ts",
+      "bytes": 889,
+      "sha256": "cd633e11617939566b8cc0c78683245554823dfce6415cad0a365b533d356d25"
+    },
+    {
+      "path": "frontend/src/app/core/services/cliente.service.ts",
+      "bytes": 884,
+      "sha256": "3b73777fa348b9c8a6b6de24a581fd446a054724ba7addf692481601b799bd41"
+    },
+    {
+      "path": "frontend/src/app/core/services/dashboard.service.ts",
+      "bytes": 412,
+      "sha256": "4063d5319f8e7dd84f619a250af2b111a481320a7bdf47bfb829dcdc8b95ee99"
+    },
+    {
+      "path": "frontend/src/app/core/services/documento.service.ts",
+      "bytes": 866,
+      "sha256": "8ef7b81d0787766d488a1cb09a9f987e456efad2e73c2faa1653abf6c2b8beef"
+    },
+    {
+      "path": "frontend/src/app/core/services/mensaje.service.ts",
+      "bytes": 576,
+      "sha256": "d6a5218ca3d51c8a0ca07dce5678add735f6b0d4799375a1300dbcf5d1af3cb7"
+    },
+    {
+      "path": "frontend/src/app/features/abogados/abogados.component.ts",
+      "bytes": 4768,
+      "sha256": "0c17d0ac1b6a2e4562f11deb163424c1bf88d4f7021265e6ba4fff48a72e58cd"
+    },
+    {
+      "path": "frontend/src/app/features/audiencias/audiencias.component.ts",
+      "bytes": 2567,
+      "sha256": "e5abe98c5fcaaf6378469c139ff070e6a59ff1d5eef4372953c328f1709a2d10"
+    },
+    {
+      "path": "frontend/src/app/features/auth/login.component.ts",
+      "bytes": 6216,
+      "sha256": "46ee5215e567a718d9b51b9fb7717aa39dd05f9f95cd34dae9a65b8657361d18"
+    },
+    {
+      "path": "frontend/src/app/features/calendario/calendario.component.ts",
+      "bytes": 3882,
+      "sha256": "161c66b87df5eb308d6e38e0e515655aa1fb4c203ce40f1573278cfe490be613"
+    },
+    {
+      "path": "frontend/src/app/features/casos/caso-create.component.ts",
+      "bytes": 5390,
+      "sha256": "d6f7cfb777f80be1c77c64c34784e08b36d24e866152d4fc9a3036fece393674"
+    },
+    {
+      "path": "frontend/src/app/features/casos/caso-detail.component.ts",
+      "bytes": 10281,
+      "sha256": "2720b1e0c0752664335ab3ea330e14feac0fc1dc83b6140da25ae020d00d8c82"
+    },
+    {
+      "path": "frontend/src/app/features/casos/casos-list-carga.spec.ts",
+      "bytes": 1627,
+      "sha256": "120662db2b7320fafb16267daa2511ad5296e0bbb66bca6c435e4cd72e79c605"
+    },
+    {
+      "path": "frontend/src/app/features/casos/casos-list.component.ts",
+      "bytes": 3221,
+      "sha256": "8f34a91ae8e7905e016719b823d8e0ba794324a7d51c95ca0c1b5f63417f6a83"
+    },
+    {
+      "path": "frontend/src/app/features/catalogo/servicio-form.html",
+      "bytes": 1052,
+      "sha256": "e9ff101e5864b72cc3f8de75aad75047bc0345343aba9361849a9ee60b6e13eb"
+    },
+    {
+      "path": "frontend/src/app/features/catalogo/servicio-form.ts",
+      "bytes": 3084,
+      "sha256": "48ad1fa3dea5a137c7bc5e382d8b8fde1f0d03d220696151a0f12dfdf8837a85"
+    },
+    {
+      "path": "frontend/src/app/features/catalogo/servicio-list.html",
+      "bytes": 1196,
+      "sha256": "523a724f58ce08d5abfa53f5567a1d00170b4d3f04ee5e58fd0eca8a589fd1ac"
+    },
+    {
+      "path": "frontend/src/app/features/catalogo/servicio-list.ts",
+      "bytes": 1877,
+      "sha256": "5ca56c5ed4d62cf746a541ba96b4e5944ffb985fd9bfb5c6c46b702726932f20"
+    },
+    {
+      "path": "frontend/src/app/features/catalogo/servicio.model.ts",
+      "bytes": 152,
+      "sha256": "9d60d82948bd1f52fe483616fa8de7a7dbe48f4c5e4a580e481479a4298540cf"
+    },
+    {
+      "path": "frontend/src/app/features/catalogo/servicio.service.ts",
+      "bytes": 1058,
+      "sha256": "15401423e1fb77ec0ebd09dbb774d10d1863d76851c050b07ed8187c6e72bd32"
+    },
+    {
+      "path": "frontend/src/app/features/clientes/clientes.component.ts",
+      "bytes": 5015,
+      "sha256": "ceae2b48fa45a6b38a912a265115c7f7bee511060b5a8d1cb68b40e09a83e292"
+    },
+    {
+      "path": "frontend/src/app/features/configuracion/configuracion.component.ts",
+      "bytes": 1648,
+      "sha256": "94d4119f7f55d75ba779d4017c414a23c93726db7a898fbce94a072efac6d0e7"
+    },
+    {
+      "path": "frontend/src/app/features/dashboard/dashboard-identidad.spec.ts",
+      "bytes": 1942,
+      "sha256": "46330ce8dca5a78f60ac66b26e6623483368ea74f7d73e5c6c7b714bca8a5f46"
+    },
+    {
+      "path": "frontend/src/app/features/dashboard/dashboard.component.ts",
+      "bytes": 19499,
+      "sha256": "5247def757aff9fcfdef222edd1661bf015f90dbe747bbed785e0dfe4e6846e4"
+    },
+    {
+      "path": "frontend/src/app/features/documentos/documentos.component.ts",
+      "bytes": 4304,
+      "sha256": "b01e3fb1df816afbe972e049e35e4af37777eea286d2fdb6bf315ed08707b375"
+    },
+    {
+      "path": "frontend/src/app/features/entrega-flujos.spec.ts",
+      "bytes": 4196,
+      "sha256": "d1ac01f6ce8195d5d8f9821815477f122086727af00076f7fce7277477be877f"
+    },
+    {
+      "path": "frontend/src/app/features/mensajes/mensajes.component.ts",
+      "bytes": 3258,
+      "sha256": "a067bf8698baa9f4043d913ca44943fbbdb65112f48d9d52ce319d2921b0949d"
+    },
+    {
+      "path": "frontend/src/app/features/ordenes/mis-ordenes.component.ts",
+      "bytes": 5415,
+      "sha256": "8cffca339ba68c32c6f7044c4336d9438a9a649761f62ef13ece607cc3f7e46a"
+    },
+    {
+      "path": "frontend/src/app/features/reportes/reportes.component.ts",
+      "bytes": 2809,
+      "sha256": "836380ea8f7a92155b247d6f0e581bda06b4d81ce5c097f28d610bdb7fa71343"
+    },
+    {
+      "path": "frontend/src/app/features/tareas/tareas.component.ts",
+      "bytes": 794,
+      "sha256": "6618fdec0222526aeca63a26f6c9a8a315b084345c420d752c022f21e9b4f103"
+    },
+    {
+      "path": "frontend/src/app/features/tienda-juridica/compra-intento.spec.ts",
+      "bytes": 2352,
+      "sha256": "83e4d1b68662694a3406034aabd135121e0e9ee95c33156bdf5ebefe0319fec7"
+    },
+    {
+      "path": "frontend/src/app/features/tienda-juridica/compra-intento.ts",
+      "bytes": 2077,
+      "sha256": "3afc898fba3ca1d297c0a43d18b9445f214e43f7f86996fbde9246aafaf119b2"
+    },
+    {
+      "path": "frontend/src/app/features/tienda-juridica/compra-trace.spec.ts",
+      "bytes": 1397,
+      "sha256": "9b8551b16c879aaaaa8ffce4320bae09a56b22a733bb3cdbf594f87abdaabdff"
+    },
+    {
+      "path": "frontend/src/app/features/tienda-juridica/tienda-compra.spec.ts",
+      "bytes": 3812,
+      "sha256": "11c05c999883433f9872d099bf07294da6c3425e308e8fef7012c6425954a5b0"
+    },
+    {
+      "path": "frontend/src/app/features/tienda-juridica/tienda-juridica.component.ts",
+      "bytes": 36238,
+      "sha256": "d046f14c0e3506e84ade7aca647413b57a9c754475b99bc4bfc67ccc08718172"
+    },
+    {
+      "path": "frontend/src/app/features/usuarios/usuarios.component.ts",
+      "bytes": 927,
+      "sha256": "5f1a55a337e010a46862485c63cd4012afd43fcc03bb0d14be31e609fb209475"
+    },
+    {
+      "path": "frontend/src/app/shared/layout/layout-async.spec.ts",
+      "bytes": 1771,
+      "sha256": "542e9eeda9ae08917c9eeb81978cac54d7384809d5588e09422037ec00d986b6"
+    },
+    {
+      "path": "frontend/src/app/shared/layout/layout.component.css",
+      "bytes": 1806,
+      "sha256": "ef076a0d9ffccf534ba14242fc96ecaf6191d6f04b63e4946058efc58a4ec4b4"
+    },
+    {
+      "path": "frontend/src/app/shared/layout/layout.component.html",
+      "bytes": 1611,
+      "sha256": "63e69aab5c081af6b9880001eb242630d56e16a9819c9d60ad71c432ca1b6733"
+    },
+    {
+      "path": "frontend/src/app/shared/layout/layout.component.ts",
+      "bytes": 654,
+      "sha256": "f00fa9e27b7bd9ef9ba4f1c0bf948a93bb906a5a80966e10876a7306f793267b"
+    },
+    {
+      "path": "frontend/src/assets/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "frontend/src/assets/login-bg.png",
+      "bytes": 2518315,
+      "sha256": "db70350c2640291a9ed482c235cf231d6fab3943a10d9d795760d2b94ad6c4b6"
+    },
+    {
+      "path": "frontend/src/assets/runtime-config.js",
+      "bytes": 32,
+      "sha256": "5e35f3f939fcc3c66117dd1adb3272cb5c11740c4d93a5ef988d3f31d3cd4d2c"
+    },
+    {
+      "path": "frontend/src/environments/environment.production.ts",
+      "bytes": 169,
+      "sha256": "e86ade462ad2c84a2203ca94c18c39efa30598ee71c84b422357c48e55f1072a"
+    },
+    {
+      "path": "frontend/src/environments/environment.ts",
+      "bytes": 214,
+      "sha256": "90477afda64e1c820ffb99ee824468757ca1bcc1a52be36fa7ca12a4c381297d"
+    },
+    {
+      "path": "frontend/src/environments/keycloak-config.ts",
+      "bytes": 507,
+      "sha256": "31d37055385a09557ec5ef2135b9e0df1a1d0b5377b13aeb61a33ff822dbed46"
+    },
+    {
+      "path": "frontend/src/index.html",
+      "bytes": 292,
+      "sha256": "df5b52136f1e3ca851c33b373a2aed35703c36fd0362cb6876fec71f7181eee8"
+    },
+    {
+      "path": "frontend/src/main.ts",
+      "bytes": 248,
+      "sha256": "df86c29a815353fb3aa6bc4022156228e2269b02c8fb51e3901dea9458ae8829"
+    },
+    {
+      "path": "frontend/src/styles.css",
+      "bytes": 45760,
+      "sha256": "905b126aa8a387b12b40f95864187c7b7347aa536c0d10a94ecf0f82bb41f24c"
+    },
+    {
+      "path": "frontend/tsconfig.app.json",
+      "bytes": 404,
+      "sha256": "7156cc5fb2536c8f23ec6749d28d4b88d8c3b7fea649ad6c0158e87601d957f8"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "bytes": 489,
+      "sha256": "0c10f8d66c0701da73991b5ac0925ef2b9b15be9b8e720a95cf34fdee3f2cdd0"
+    },
+    {
+      "path": "frontend/tsconfig.spec.json",
+      "bytes": 202,
+      "sha256": "3a9dffc42d01e877395e9438cd4daa16e8cc852fcfb9aa8c06a9063918c43443"
+    },
+    {
+      "path": "GUIA_DE_SUSTENTACION.md",
+      "bytes": 7759,
+      "sha256": "71e1d6db0a8cac3f237b68b43953ff527cf2e8e8fe46b5153ad5f3355a0bae66"
+    },
+    {
+      "path": "GUIA_INSTALACION.md",
+      "bytes": 5086,
+      "sha256": "aff795ad2cb6ca4f1833e633ef7e0c532e128821b985dabffbe0b57a316fa12f"
+    },
+    {
+      "path": "INFORME_FINAL_UNIDAD_2.md",
+      "bytes": 3715,
+      "sha256": "e0035de48db2c2f35bac4709e00aa0e039c7ce1d6d408a4996328a1711ee1b5a"
+    },
+    {
+      "path": "infra/docker/40-runtime-config.sh",
+      "bytes": 342,
+      "sha256": "b7eddbf1f2c14ab5c395a55330a6613ae620decc1029ef4b885acb1db27da0e1"
+    },
+    {
+      "path": "infra/docker/Dockerfile.frontend",
+      "bytes": 376,
+      "sha256": "f060f399af552eb63378a6aade22687fb29842146b76327f6009c8b9f5eafe21"
+    },
+    {
+      "path": "infra/docker/Dockerfile.frontend.dockerignore",
+      "bytes": 245,
+      "sha256": "18fe8ecc7270d64bc64daeda2963292c061665614e065ba633c45553807dfa9a"
+    },
+    {
+      "path": "infra/docker/Dockerfile.jar",
+      "bytes": 496,
+      "sha256": "a396bb455cf4b496dd81ba0c0ca32548044d5f89ebc7906284395c44aea64b31"
+    },
+    {
+      "path": "infra/docker/Dockerfile.jar.dockerignore",
+      "bytes": 218,
+      "sha256": "670b3fb27fd18fa1c893b616b6ec5ec721dae77a43c507f75b3f4c0e408c7ea9"
+    },
+    {
+      "path": "infra/docker/init-kafka-storage.sh",
+      "bytes": 422,
+      "sha256": "30c0a461308f92ba261d578a968383278c76b5cb0a3db46696f8e5ca5eb0b0cc"
+    },
+    {
+      "path": "infra/docker/init-observation-storage.sh",
+      "bytes": 129,
+      "sha256": "f698fe0b2f557a3c177dbdc4d4aeae0289937dc6546dc72ac37bf949311dad0c"
+    },
+    {
+      "path": "infra/keycloak/compose-dev.yml",
+      "bytes": 1675,
+      "sha256": "321e7ed84e96d791d220d66ff81c82d2df7391094882c1b6109cdbf91225123d"
+    },
+    {
+      "path": "infra/keycloak/realm-illari-legal.json",
+      "bytes": 1574,
+      "sha256": "0fd7006ec94cb0d0094e3febc7acab81b7f5c7edbe2443b06fdfe347f385618b"
+    },
+    {
+      "path": "infra/legal-config/config-repo/caso-ms-dev.yml",
+      "bytes": 504,
+      "sha256": "d08ce84388330c9e78ddefd0b8dcaea3d46aa84e02d6dcff0f99e1c55a8e0469"
+    },
+    {
+      "path": "infra/legal-config/config-repo/caso-ms-docker.yml",
+      "bytes": 741,
+      "sha256": "53489634636f7d3921caa1e81156bd10bd538cc9e6f3b769dd92b385b8cad1b1"
+    },
+    {
+      "path": "infra/legal-config/config-repo/caso-ms-s12.yml",
+      "bytes": 149,
+      "sha256": "b21ec7308492f710f165f38f59a34e3dd2992866edfc0cd8ad2bdf91bfc5f718"
+    },
+    {
+      "path": "infra/legal-config/config-repo/cliente-ms-dev.yml",
+      "bytes": 256,
+      "sha256": "85a47fb09d284ea7cf30aef40b96dc04a27a6f66a766b83f9003a2d634df2d86"
+    },
+    {
+      "path": "infra/legal-config/config-repo/cliente-ms-docker.yml",
+      "bytes": 366,
+      "sha256": "8131d8d1194ac29d2595e7834268a12df7993614b11a36fac6127aed31c1a13f"
+    },
+    {
+      "path": "infra/legal-config/config-repo/cliente-ms-s12.yml",
+      "bytes": 149,
+      "sha256": "fd11a919d1267bd5b3e0db64310db19e5da558cd0c75f5f45d17efa48a2c0efa"
+    },
+    {
+      "path": "infra/legal-config/config-repo/legal-eureka-dev.yml",
+      "bytes": 248,
+      "sha256": "45c992db996b0fc61527bf052bfaca3ce2b6da9e91106a996502fea32a7efffd"
+    },
+    {
+      "path": "infra/legal-config/config-repo/legal-eureka-docker.yml",
+      "bytes": 294,
+      "sha256": "3dc8a14b0d5ca336a4787c36de70ef7f23a299f6c000a02f84aeb47b12ebcad7"
+    },
+    {
+      "path": "infra/legal-config/config-repo/legal-eureka-s12.yml",
+      "bytes": 177,
+      "sha256": "be10f0324a7159b994081b3b14abd9cf8314be9b29b33dd8c4182bbbaf61a3f9"
+    },
+    {
+      "path": "infra/legal-config/config-repo/legal-gateway-s12.yml",
+      "bytes": 150,
+      "sha256": "e86b844fa6bcaa38e85a8e872d593ac6104a9d402b3c095e705abe1371e953e7"
+    },
+    {
+      "path": "infra/legal-config/config-repo/orden-legal-ms-dev.yml",
+      "bytes": 256,
+      "sha256": "5ab5365dda57ceba68b36c478c75ccc3e118805fd37dc7b3aef2a2db0f3c5098"
+    },
+    {
+      "path": "infra/legal-config/config-repo/orden-legal-ms-docker.yml",
+      "bytes": 366,
+      "sha256": "3ab882aa454de169f8ea578c7fd743b914767f05b6f7f29c20708f82f2da51ae"
+    },
+    {
+      "path": "infra/legal-config/config-repo/orden-legal-ms-s12.yml",
+      "bytes": 149,
+      "sha256": "890b4f7317e0f40d9f7bb13ae870b00c50bd5453fb7e88ab1e87d40c01dbc93f"
+    },
+    {
+      "path": "infra/legal-config/config-repo/pago-ms-dev.yml",
+      "bytes": 256,
+      "sha256": "8b3283bbed4b8e0276917360b76894e462b012a5aba4340c008026c141f086d8"
+    },
+    {
+      "path": "infra/legal-config/config-repo/pago-ms-docker.yml",
+      "bytes": 366,
+      "sha256": "3f673b0ca25b653fa419266e89660f03afdf4928e0f5dea3fc2bd5bf6990c043"
+    },
+    {
+      "path": "infra/legal-config/config-repo/pago-ms-s12.yml",
+      "bytes": 149,
+      "sha256": "5e339a130d69da2adfd1d8e12b31924e125b772a4b9f02ee5ba6ceb82de267fa"
+    },
+    {
+      "path": "infra/legal-config/config-repo/servicio-legal-ms-dev.yml",
+      "bytes": 256,
+      "sha256": "7af87d0c2d43f95e44e9ae56b65f62283bf0a60ef3829c6de3ab57b5f4a516f8"
+    },
+    {
+      "path": "infra/legal-config/config-repo/servicio-legal-ms-docker.yml",
+      "bytes": 366,
+      "sha256": "dc1a587520da91e61f31d9ea857c8514ee283f2471627dd052b28728d2ce966f"
+    },
+    {
+      "path": "infra/legal-config/config-repo/servicio-legal-ms-s12.yml",
+      "bytes": 149,
+      "sha256": "0912b112446d39c1cd18e7700b7f8a94edec69ee94e6fc6fee0c9fbd2507661b"
+    },
+    {
+      "path": "infra/legal-config/Dockerfile",
+      "bytes": 253,
+      "sha256": "414a8aca9541c3e2106f17aad7cb9786561adba19d47ef26a7048e9b1ad2ed1e"
+    },
+    {
+      "path": "infra/legal-config/pom.xml",
+      "bytes": 1506,
+      "sha256": "446064ef78bbce8d32576de6a78dabe942a189ecda0ec92e4c30428f20cd57cc"
+    },
+    {
+      "path": "infra/legal-config/src/main/java/com/casoslegales/configserver/LegalConfigApplication.java",
+      "bytes": 429,
+      "sha256": "702971e931fdf5e993d7a0993c48c0032ff3f09640c5817614b397e65f814ae6"
+    },
+    {
+      "path": "infra/legal-config/src/main/resources/application.yml",
+      "bytes": 386,
+      "sha256": "73a2f1a0bff1c374381e0cabdf894ca0a8772121177664f014436db24e923696"
+    },
+    {
+      "path": "infra/legal-eureka/Dockerfile",
+      "bytes": 253,
+      "sha256": "164bf299a3c8004b946bb919fd3f9b2a1829ee6d43d2ecc83c0b0df5282e9911"
+    },
+    {
+      "path": "infra/legal-eureka/pom.xml",
+      "bytes": 1648,
+      "sha256": "b051c13970784dcabb33bb16d1ac9961540da3d97b2adbdb94da08b4ddd6ab21"
+    },
+    {
+      "path": "infra/legal-eureka/src/main/java/com/casoslegales/eureka/LegalEurekaApplication.java",
+      "bytes": 431,
+      "sha256": "31a4aaaf31f4b3b10701758db08cb9889799f7a9b85eaa2914b968e78a07fa42"
+    },
+    {
+      "path": "infra/legal-eureka/src/main/resources/application.yml",
+      "bytes": 187,
+      "sha256": "b9f6126dbfb3a7eaa9ad2a94fd48564396361980469e97a664096ee9c7695d9f"
+    },
+    {
+      "path": "infra/legal-gateway/Dockerfile",
+      "bytes": 232,
+      "sha256": "111855724b30704c87f47cc38c486100f0112083deeb716a9235ccd7b906bed7"
+    },
+    {
+      "path": "infra/legal-gateway/pom.xml",
+      "bytes": 2074,
+      "sha256": "9d9f49c1bf9159ae9522754c26230239a2e13f1cb873a19913d6f9fb75684386"
+    },
+    {
+      "path": "infra/legal-gateway/src/main/java/com/illarilegal/gateway/config/CorsConfig.java",
+      "bytes": 1349,
+      "sha256": "1f2536d086c0b3c3db792b540d475e14ae732b4bc6dadef4a1326edd0a1c2bb0"
+    },
+    {
+      "path": "infra/legal-gateway/src/main/java/com/illarilegal/gateway/Correlation.java",
+      "bytes": 1025,
+      "sha256": "0fa62b05af1fb42ab1864557350bed14f70dfe37c748c056c2f62ad01276d780"
+    },
+    {
+      "path": "infra/legal-gateway/src/main/java/com/illarilegal/gateway/GatewaySecurity.java",
+      "bytes": 4204,
+      "sha256": "8d65da91b7729d0d142219aa2933b425b69441d46f72e9edae11948662e8a679"
+    },
+    {
+      "path": "infra/legal-gateway/src/main/java/com/illarilegal/gateway/JwtValidationConfig.java",
+      "bytes": 1655,
+      "sha256": "ef81aad8619c6ce5ce37684c311d5f0d11e2a6dab3ac3ccf0eb6495148b4bd12"
+    },
+    {
+      "path": "infra/legal-gateway/src/main/java/com/illarilegal/gateway/LegalGatewayApplication.java",
+      "bytes": 314,
+      "sha256": "a8d405f7f736abbbd4e90dd16d4edc762521d3dfb36fb2051e6d3072df3a9380"
+    },
+    {
+      "path": "infra/legal-gateway/src/main/java/com/illarilegal/gateway/SafeObservationLayout.java",
+      "bytes": 1773,
+      "sha256": "048316583d35300fc76d9ed9f72916960c505574de78b606493a9391896c72de"
+    },
+    {
+      "path": "infra/legal-gateway/src/main/java/com/illarilegal/gateway/TraceWebFilter.java",
+      "bytes": 1219,
+      "sha256": "2d4ca821b3c6b32bd8962c710bc3d8d6adc4f59d07cde6a16e2aa1bf4484d988"
+    },
+    {
+      "path": "infra/legal-gateway/src/main/resources/application.yml",
+      "bytes": 2291,
+      "sha256": "c54e63da2813f9e183fde80915ccfd3f231cc1bae3cf8d4a68f0f609af328da6"
+    },
+    {
+      "path": "infra/legal-gateway/src/main/resources/logback-spring.xml",
+      "bytes": 1184,
+      "sha256": "f3c4a0676a3ad49bdb1d800355ec6fe29a9470a9ce67183fa20f20dc4e93c83a"
+    },
+    {
+      "path": "infra/legal-gateway/src/test/java/com/illarilegal/gateway/JwtValidationTest.java",
+      "bytes": 3991,
+      "sha256": "6dcb4ff5ce2dad1c9b2eb4b6d9be8c2482e56ea1a046b42b18e5eb078ad2470a"
+    },
+    {
+      "path": "infra/legal-gateway/src/test/java/com/illarilegal/gateway/TraceWebFilterTest.java",
+      "bytes": 1564,
+      "sha256": "8b72c7c60d189ac7c3f66c621c2ae70e713a9bd983572a1369adbd2a65478407"
+    },
+    {
+      "path": "infra/monitoring/prometheus.yml",
+      "bytes": 1793,
+      "sha256": "d0662394f25790d46828644e295a11f9b44ab40a4dd3551e3a1c50fed1a6a104"
+    },
+    {
+      "path": "INICIAR-OBS-S12.ps1",
+      "bytes": 1257,
+      "sha256": "7ea998589c2ecc73aaa6d3c5fd0d6826cd19db3b1266f5ecc3d4c83a212c7674"
+    },
+    {
+      "path": "INICIAR-U2-S12.ps1",
+      "bytes": 2892,
+      "sha256": "47a595b1178c866ad4d4c875acaaa1c8e639a8dde5392b1e7943f296f5623692"
+    },
+    {
+      "path": "kafka/README.md",
+      "bytes": 626,
+      "sha256": "879d88e0e4027edc726a90f6ed27622b881cac0a13bcf7c9d95f09afedb3ac0e"
+    },
+    {
+      "path": "MATRIZ_CUMPLIMIENTO_S12.md",
+      "bytes": 2656,
+      "sha256": "73d0d2326b4a0fcfb69a587f2bb880dfa54270a8629b473cdfd7c82dcc82f33e"
+    },
+    {
+      "path": "obs/alloy/config.alloy",
+      "bytes": 1272,
+      "sha256": "0a1126e56b1dee3ba7c3c6442841180353c7c9aee667832f7f4f3dd78ff72cce"
+    },
+    {
+      "path": "obs/blackbox/blackbox.yml",
+      "bytes": 215,
+      "sha256": "80abafc32076ecf52ef6d731e321b4d3161f8adc6ad9582b330b2e7e9eeb81f2"
+    },
+    {
+      "path": "obs/compose.s12.yml",
+      "bytes": 6112,
+      "sha256": "5aee1335b28bff18732a2082ea9c986505ed11eb4c47944eedbc0cbd6a7034d6"
+    },
+    {
+      "path": "obs/grafana/dashboards/illari-s12-overview.json",
+      "bytes": 22868,
+      "sha256": "d6759d08ab6754ea6d6eaf39136dc5022af628e8fa3f83ab6a96987b6d54b082"
+    },
+    {
+      "path": "obs/grafana/provisioning-docker/dashboards/dashboards.yml",
+      "bytes": 204,
+      "sha256": "5e7e35de24ee5c55318e1615794b21395a4c5580a8b56f03d495bf2808e0fe27"
+    },
+    {
+      "path": "obs/grafana/provisioning-docker/datasources/datasources.yml",
+      "bytes": 320,
+      "sha256": "9aacfe49adbc235e70517001f0b301bde1bfe3584841f77179ff7a9a6a85a2b0"
+    },
+    {
+      "path": "obs/loki/loki.yml",
+      "bytes": 630,
+      "sha256": "6be18b9f67ca1757ddd79a120795f93d5cf1ecf467021bd387b18f07235c31a7"
+    },
+    {
+      "path": "obs/prometheus/alerts.test.yml",
+      "bytes": 2352,
+      "sha256": "8e33a5426e2666e8d384043801347f9508da13593a9f349c82f7dd48ac7b510f"
+    },
+    {
+      "path": "obs/prometheus/alerts.yml",
+      "bytes": 1727,
+      "sha256": "753f585598d1a1be9f1f4405bc24043d89793d708e6005125597f7cdb0403c9e"
+    },
+    {
+      "path": "obs/prometheus/prometheus.yml",
+      "bytes": 1793,
+      "sha256": "d0662394f25790d46828644e295a11f9b44ab40a4dd3551e3a1c50fed1a6a104"
+    },
+    {
+      "path": "obs/README.md",
+      "bytes": 225,
+      "sha256": "d1542c06df5b5e990a9ea26f1297f77fa5a7d6e9bc142c78332cde8d7ee9c9ca"
+    },
+    {
+      "path": "PROBAR-COMPRA-S12.ps1",
+      "bytes": 2493,
+      "sha256": "7ea0d744eff37b722dab8f75fcd1339fb2694315feb5e866fe6f39ecf3c8ac8f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2932,
+      "sha256": "1f87dde9e084ee2e8f41b9e4f366e0dca7f2d825cff9b9f150ba49f04126bb35"
+    },
+    {
+      "path": "RESPALDAR-BASE-S12.ps1",
+      "bytes": 4993,
+      "sha256": "a5ce5f44971a55553c8653bd98e47092e8966ce7b498f32d7f168262cef9d8a2"
+    },
+    {
+      "path": "services/cliente-ms/.dockerignore",
+      "bytes": 26,
+      "sha256": "1b9a20fcdbab1308264156b715c12de17925b39cedbbbf1c470d7df8ecda8453"
+    },
+    {
+      "path": "services/cliente-ms/Dockerfile",
+      "bytes": 270,
+      "sha256": "6b494d17d6c388a48beae3689a6afd51882f9add756dd94f3685de3cadf00d76"
+    },
+    {
+      "path": "services/cliente-ms/pom.xml",
+      "bytes": 2903,
+      "sha256": "fd0d98fb10e8cc424d0b87eed12384d2c2239a6cc9d4e2d8ed572ca909f40460"
+    },
+    {
+      "path": "services/cliente-ms/src/main/java/com/illarilegal/cliente/ClienteController.java",
+      "bytes": 3286,
+      "sha256": "9ec430a0b03ec37c5b654eefcdd6ad941b9bb3350c1271814345a7d5caf8aefd"
+    },
+    {
+      "path": "services/cliente-ms/src/main/java/com/illarilegal/cliente/ClienteEntity.java",
+      "bytes": 1604,
+      "sha256": "f12bfd579848c20d02a542730bc5438337800e7ec4c8aa43a01a1ab524ca500b"
+    },
+    {
+      "path": "services/cliente-ms/src/main/java/com/illarilegal/cliente/ClienteMsApplication.java",
+      "bytes": 332,
+      "sha256": "15b3c522e5e01175c3c138dbd4866beb9b5ee2a71847d3ee2c4fcfff1188162f"
+    },
+    {
+      "path": "services/cliente-ms/src/main/java/com/illarilegal/cliente/ClienteRepository.java",
+      "bytes": 308,
+      "sha256": "41d5041692426c2cf374f8a938dc698f317e64a1bd5a46918fb02538a2ca50e2"
+    },
+    {
+      "path": "services/cliente-ms/src/main/java/com/illarilegal/cliente/Correlation.java",
+      "bytes": 1025,
+      "sha256": "86cd67820c62959372cbf6e21656a81c61b6df8620d4df545acedd0f0d80c109"
+    },
+    {
+      "path": "services/cliente-ms/src/main/java/com/illarilegal/cliente/DistributedSecurityConfig.java",
+      "bytes": 2564,
+      "sha256": "2b2fd65dba15ea21ccbccda2632d771969997aaa4d89c9c28d6c681985c38b5f"
+    },
+    {
+      "path": "services/cliente-ms/src/main/java/com/illarilegal/cliente/JwtValidationConfig.java",
+      "bytes": 1631,
+      "sha256": "f1d11254711186a6f77e7d14066cd13bd5b8ceabb4041a183236bbf869a80d59"
+    },
+    {
+      "path": "services/cliente-ms/src/main/java/com/illarilegal/cliente/SafeObservationLayout.java",
+      "bytes": 1773,
+      "sha256": "025d8052d69278523e01e8abd50aea6a0d48f41446664f9bc60e09c6d98613b0"
+    },
+    {
+      "path": "services/cliente-ms/src/main/java/com/illarilegal/cliente/TraceIdFilter.java",
+      "bytes": 1063,
+      "sha256": "ee512a5425336bd56f0567486c9f1accaabcbe993a342c1712d779f9ac77a242"
+    },
+    {
+      "path": "services/cliente-ms/src/main/resources/application-s12.yml",
+      "bytes": 404,
+      "sha256": "90dd3def8ff4f4b6fe0523a70725705acfd5376a60a314dbe388b92d5e00e634"
+    },
+    {
+      "path": "services/cliente-ms/src/main/resources/application.yml",
+      "bytes": 998,
+      "sha256": "77abdb1981a6b2d09248bb90a0ae2af1210f5db8eae04111789292150e3a7181"
+    },
+    {
+      "path": "services/cliente-ms/src/main/resources/logback-spring.xml",
+      "bytes": 1178,
+      "sha256": "94a8b6bf02c7ba1b786b184127718edd191ad34700d8a469febb246e4e26a399"
+    },
+    {
+      "path": "services/cliente-ms/src/test/java/com/illarilegal/cliente/ClienteRepositoryTest.java",
+      "bytes": 849,
+      "sha256": "8ae8c0562ec4eef274209f2dbe03aa7cecb1a6d8a1648a0971205a8c9297a030"
+    },
+    {
+      "path": "services/orden-legal-ms/.dockerignore",
+      "bytes": 26,
+      "sha256": "1b9a20fcdbab1308264156b715c12de17925b39cedbbbf1c470d7df8ecda8453"
+    },
+    {
+      "path": "services/orden-legal-ms/Dockerfile",
+      "bytes": 270,
+      "sha256": "6b494d17d6c388a48beae3689a6afd51882f9add756dd94f3685de3cadf00d76"
+    },
+    {
+      "path": "services/orden-legal-ms/pom.xml",
+      "bytes": 3857,
+      "sha256": "2da5fcf94186799eaa000e737b947d52b92945fb8f2b5c3139e8fa9375dff26c"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/BusinessMetrics.java",
+      "bytes": 707,
+      "sha256": "374ea7f5a4960aae22a169723ca1952b7b8c7d7cb6b12e79668484361043de64"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/CatalogoBusinessException.java",
+      "bytes": 413,
+      "sha256": "c69da448f7bb9f9ebede8490189d4aa14a49f351f62c16f2af59b9b05d47902f"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/CatalogoResilienteService.java",
+      "bytes": 1973,
+      "sha256": "40056bd475a93e80b0b9254bd708ae2075491d9e07fef05750f74f99f2d6039c"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/CompraIdempotenciaEntity.java",
+      "bytes": 1297,
+      "sha256": "156ac2de92536327f1c5cd80a49a38872dc0f13d3fdc75a74426e51c7493e6dd"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/CompraIdempotenciaRepository.java",
+      "bytes": 501,
+      "sha256": "7be2444ba5a2ef84cb16dd367cc414b9ac4745af109d7ca0a227dda732746922"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/CompraIdempotenteService.java",
+      "bytes": 3432,
+      "sha256": "7250d7c5abfcc1efd768649b1a77b15f71ae9c190404c221f37d154f8b1051c9"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/Correlation.java",
+      "bytes": 1028,
+      "sha256": "baa94a1fabd17aede3a1e6598f4f1000262a35e22cc52f508c34ec586f2464be"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/DistributedSecurityConfig.java",
+      "bytes": 2475,
+      "sha256": "f2305182d08d5f57e6dd406a1995b05c7000d659304dbbbcfacc519d93689fc7"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/EventEnvelope.java",
+      "bytes": 2832,
+      "sha256": "5dd5c42d79a431f90afe52dcf1f8b55d2860aad9f8f5fbbe59ffe4c91cb12a39"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/EventoRecibidoEntity.java",
+      "bytes": 920,
+      "sha256": "cf0b141a0f743bd7ad3e2a10b70082498e37cb53df8320b01fc7a2b6386927fe"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/EventoRecibidoRepository.java",
+      "bytes": 173,
+      "sha256": "bc35657a2af105840d24219349043b6bad3b89c0757f8b330d134a5d6fefe3c7"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/FeignTraceConfiguration.java",
+      "bytes": 618,
+      "sha256": "d95f0bedd94d12084fe1e981aa3462bdc9aab7781efe88ee2602dcfc5cb7ce2f"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/JwtValidationConfig.java",
+      "bytes": 1634,
+      "sha256": "b2a76c13f1429ef1516e7445825c20df012332defca55c2119511469c4219585"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/KafkaRecoveryConfiguration.java",
+      "bytes": 4280,
+      "sha256": "16a67d03110f44233510e24a5d82a4f81c2cbdd682a7662cd77891bd91e64cb4"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/MensajeFallidoEntity.java",
+      "bytes": 1227,
+      "sha256": "36020c1c019766d706667be0ee27bd29f70739961ea081796ace62ef1574beff"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/MensajeFallidoRepository.java",
+      "bytes": 815,
+      "sha256": "3114e7a70862a35a4fcd53f5c63ae22d8f12cc0b0e5bbd62fec9b09463004b4b"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/MensajeriaController.java",
+      "bytes": 2513,
+      "sha256": "81667c217a9132c854687a66a908412efaa17f77e3a8798d81f5e9f9ac217c48"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/MensajeriaRecoveryService.java",
+      "bytes": 8307,
+      "sha256": "e3f92e60231e2f791be07b782af6b4997ea21045272d420163eafbf08ff8e0c0"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/ObservationCommit.java",
+      "bytes": 824,
+      "sha256": "7224386b412eee1f5eccb0f4e841db9fe2ab594523d0ea09906cf3396136a2ee"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenDetalleEntity.java",
+      "bytes": 1738,
+      "sha256": "e6cad9bd7aa18e74940202a148bb1903c6d677ff7b0521c8c252a286a710f723"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenEntity.java",
+      "bytes": 3012,
+      "sha256": "ed4bb763a5161feb80b7e9585e7f47ea9c2997eb57f88221518fc97441d873c1"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenLegalController.java",
+      "bytes": 14140,
+      "sha256": "e06fc1ac2faba77820d3b62a9f020af28e5823a71f5a0f37d70d958fec397133"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenLegalMsApplication.java",
+      "bytes": 457,
+      "sha256": "846236222faeff13704ce6a02fbca4a4adf8ca68d2b0a30084e099b9d9a0e68e"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenOutboxEntity.java",
+      "bytes": 2729,
+      "sha256": "eb5e2f3e9605d34c064ce86f3eae958402f45d2142b2cc6013aeb0a385703890"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenOutboxPublisher.java",
+      "bytes": 3956,
+      "sha256": "c143d0dc8dc9f194a94c6dc1358c75a4dbc65f700f7c42c9f18307d0a242b036"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenOutboxRepository.java",
+      "bytes": 1396,
+      "sha256": "490cb1fc4b34d6a936a3c41c0cdc88bf1ab783b5a7693e55e47b2fb411166c2a"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenRepository.java",
+      "bytes": 758,
+      "sha256": "1b7e53ab8c70d972fddfc0e06c23ae728373014e7fde2620e9988395fdbe46a2"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/PagoEventConsumer.java",
+      "bytes": 3699,
+      "sha256": "95840c22cc46ec891467bccecd256d60b0e1bb5928698aa95444f2dd818685d7"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/ReglasCompra.java",
+      "bytes": 2536,
+      "sha256": "05895f4cf024d55c9f99b7758e04e0124c9418d5498a80d6d2d7f6273051dd8d"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/ReplayAuditoriaEntity.java",
+      "bytes": 959,
+      "sha256": "40883da60032f31540802428a9651eec1102c3a28e95b6bae80a20f3cf173a32"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/ReplayAuditoriaRepository.java",
+      "bytes": 173,
+      "sha256": "4bedf3e38b04352c69a26cf4ccacf0b27cee30bf936aa8a477032fabae0fe5e5"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/ResilienciaController.java",
+      "bytes": 571,
+      "sha256": "bec3d5b9ed2befaea8e966a45d63ed207399146488accc21097b8dba04fe6cd1"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/SafeObservationLayout.java",
+      "bytes": 1776,
+      "sha256": "f07437c7e733dde818bfaef8fcf5923e029cd0a68f62dad7d61ebd07da4713cd"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/ServicioLegalFeignClient.java",
+      "bytes": 497,
+      "sha256": "238b380b81832dc2bf2aaa82aae7edf07bf653e6ad350c4527a3f861b92dae1a"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/TraceIdFilter.java",
+      "bytes": 1066,
+      "sha256": "f69e272fc364dcebc172b5fa5eb105a49e66622e85e34f279c8f9bc3ad9e51e5"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/resources/application-s12.yml",
+      "bytes": 404,
+      "sha256": "90dd3def8ff4f4b6fe0523a70725705acfd5376a60a314dbe388b92d5e00e634"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/resources/application.yml",
+      "bytes": 2395,
+      "sha256": "d96638e3f4196b49b666f6d1dfa8393ea0d4ca5a70506ef6eb53bc4f18cc81db"
+    },
+    {
+      "path": "services/orden-legal-ms/src/main/resources/logback-spring.xml",
+      "bytes": 1189,
+      "sha256": "741e4ff1569c4267247cdbc2dc9d2e06c1de10f20840c57eec725ae7212a8153"
+    },
+    {
+      "path": "services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/CatalogoResilienciaRegressionTest.java",
+      "bytes": 5505,
+      "sha256": "90ace3a077f327dd75209e55acad1b4945b3371c91aba4999c6206c0f46d92b7"
+    },
+    {
+      "path": "services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/CompraFase2IntegrationTest.java",
+      "bytes": 11818,
+      "sha256": "301453be02409b85967d8fa691b67ce1535ba59a61ca3b6acce11656cfcfcc48"
+    },
+    {
+      "path": "services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/ObservabilityRegressionTest.java",
+      "bytes": 5088,
+      "sha256": "14b4336e60239570e552a42af4ec7edfe660b233e7c5eed1708227bbe24857fa"
+    },
+    {
+      "path": "services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/OrdenConsistenciaRegressionTest.java",
+      "bytes": 8939,
+      "sha256": "be108c02d8307e4d204c92970755e995f25c9ed4bd27f4efb34a68f6e4cec0ad"
+    },
+    {
+      "path": "services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/OrdenLegalControllerTest.java",
+      "bytes": 7421,
+      "sha256": "942433b6ba8980868ed8df8f2a38514cdec4f05dbe838a42e0061e15a0f907d5"
+    },
+    {
+      "path": "services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/OrdenLegalHttpTest.java",
+      "bytes": 3424,
+      "sha256": "d9a826352914187a0099f113eda91031eb6691073936a86859c9d09f8f8e829a"
+    },
+    {
+      "path": "services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/OrdenPagoKafkaIntegrationTest.java",
+      "bytes": 3929,
+      "sha256": "0b7ec7477c42ddba0fdae0814185c3c9c527820c3a42f3da219e3b1fab95b6d2"
+    },
+    {
+      "path": "services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/OutboxAgeRepositoryTest.java",
+      "bytes": 1499,
+      "sha256": "434585abbd288bcd034c5c3288052819750712144f38ccf1f94dba96358acb31"
+    },
+    {
+      "path": "services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/PagoEventConsumerTest.java",
+      "bytes": 2836,
+      "sha256": "065e79f7e2683a72269f0acf31cb4bc9200c64ef05b76f43c389a6cb5195dd5a"
+    },
+    {
+      "path": "services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/ReglasCompraTest.java",
+      "bytes": 2667,
+      "sha256": "89c4dc1cbd1a113b6f9bbb4d9e2672886c21ce18330c1232773333a8794e6c4c"
+    },
+    {
+      "path": "services/pago-ms/.dockerignore",
+      "bytes": 26,
+      "sha256": "1b9a20fcdbab1308264156b715c12de17925b39cedbbbf1c470d7df8ecda8453"
+    },
+    {
+      "path": "services/pago-ms/Dockerfile",
+      "bytes": 270,
+      "sha256": "6b494d17d6c388a48beae3689a6afd51882f9add756dd94f3685de3cadf00d76"
+    },
+    {
+      "path": "services/pago-ms/pom.xml",
+      "bytes": 3032,
+      "sha256": "ba771b405b3b1249e590220af6faa2539fae81a3f843c0ce10fa0efc6e0e22ce"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/BusinessMetrics.java",
+      "bytes": 692,
+      "sha256": "b0a41069c6a43b2215494aebfc44e83068802b25b98eb8543df483ab3784427f"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/Correlation.java",
+      "bytes": 1022,
+      "sha256": "4b75f4a7ce6074281730fe294307eec3b8c636e09c04859f6e5d2dace16a71e3"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/DistributedSecurityConfig.java",
+      "bytes": 2387,
+      "sha256": "a4bb603473717f24e355aaf8dc3d8b02cfe0a4c4f2e8c295d15dae583d819b0d"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/EventEnvelope.java",
+      "bytes": 2826,
+      "sha256": "7f4a7d69de624f97eb92b6920ec3b69f3ee7e306031832ec5f3ee9559224e7c3"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/EventoRecibidoEntity.java",
+      "bytes": 913,
+      "sha256": "6872d277f7078c1a180c944b0d644a49f06972f59c88f5151298e10ecd3cf7cb"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/EventoRecibidoRepository.java",
+      "bytes": 167,
+      "sha256": "2a3018790189e63d3338548e6297f7e11cd3c7bbc695c462669a3d4c5550517b"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/JwtValidationConfig.java",
+      "bytes": 1628,
+      "sha256": "11f937c9d649e0c087ac87ade84ea7f17020dd0d4e7a8f74c09e412c926d271a"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/KafkaRecoveryConfiguration.java",
+      "bytes": 4267,
+      "sha256": "c969e1c7128b563bc49cc41daa56d18de0750e72e9fb75479cf2e0b7b07b5790"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/MensajeFallidoEntity.java",
+      "bytes": 1220,
+      "sha256": "f0e6e49ade107b0c94e22e427f91be528a6d52121be01054dd0eea9e26651693"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/MensajeFallidoRepository.java",
+      "bytes": 809,
+      "sha256": "92675e87ceeddd2962b652f70c935158a0e50f097f85e1811159600b6d160f80"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/MensajeriaController.java",
+      "bytes": 2503,
+      "sha256": "df92b15928f32988f75178c295164fcb37d2f8c9b7cd0ee3eb53ee6d31162e8c"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/MensajeriaRecoveryService.java",
+      "bytes": 8293,
+      "sha256": "d9b40761aebacb8aac4b72824d757cbd52f2df5bebadc448ef1347ae2bb1c85b"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/ObservationCommit.java",
+      "bytes": 818,
+      "sha256": "d52a0449a215e9b7414aea754fcf52c010043d972dbb15e2b95d0a541863d205"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/OrdenEventConsumer.java",
+      "bytes": 5849,
+      "sha256": "c0e1fa6c32ad16ee34a6448111122c3fcced63e2b3ca46240f45b7d1571122f2"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/PagoController.java",
+      "bytes": 2175,
+      "sha256": "5a21a962ef17820eb78b7872797a37f392fcca1e8806f53aaca578ba384d322e"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/PagoEntity.java",
+      "bytes": 1841,
+      "sha256": "20a5d1e3c8d3de6bce4044ecb710577dfb8bad71d10976dad101817c538174d9"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/PagoMsApplication.java",
+      "bytes": 383,
+      "sha256": "d22d5805227b94c4f202fc0d633d173f2b40fbc51aaff8629a48e36748c40b38"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/PagoOutboxEntity.java",
+      "bytes": 2992,
+      "sha256": "2724715c1e34ada7aca0c58da3dfc16d1991df27580173d645460c5a879b6f6c"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/PagoOutboxPublisher.java",
+      "bytes": 3938,
+      "sha256": "521fd089c4d8d51413dfae53dda1e8451fb05f2be5449ffe0f9a696725a21599"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/PagoOutboxRepository.java",
+      "bytes": 1889,
+      "sha256": "e8561edff435faeae4674508eb5041524bc5cd9971bc9007f760eab5048193af"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/PagoRepository.java",
+      "bytes": 945,
+      "sha256": "ae85497b7453d3d2170425664508715c0a95cf5e9b28b35ba3cd295ccb2c88e0"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/PagoService.java",
+      "bytes": 4395,
+      "sha256": "59f2226ccc17889184f30079ff49e6512047a6cbfb2edb59f6b351cfa190ef2f"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/ReplayAuditoriaEntity.java",
+      "bytes": 952,
+      "sha256": "29ca50b4f0e3359b5b66a9721273b98893d91fbc27bca20ca0a260391d091c10"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/ReplayAuditoriaRepository.java",
+      "bytes": 167,
+      "sha256": "d2742e5f80c93d917818d5d601b2c91da622e7d4e34f86fb85368f460c1c1193"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/SafeObservationLayout.java",
+      "bytes": 1770,
+      "sha256": "e4666f7b932f626e02e95f58a205a86491a179b412158c9ac3498eee423c3101"
+    },
+    {
+      "path": "services/pago-ms/src/main/java/com/illarilegal/pago/TraceIdFilter.java",
+      "bytes": 1060,
+      "sha256": "10ef2d4aec9f5d0ad51267e37ca131e09e08696bc4649ca9323657a1d5961266"
+    },
+    {
+      "path": "services/pago-ms/src/main/resources/application-s12.yml",
+      "bytes": 404,
+      "sha256": "90dd3def8ff4f4b6fe0523a70725705acfd5376a60a314dbe388b92d5e00e634"
+    },
+    {
+      "path": "services/pago-ms/src/main/resources/application.yml",
+      "bytes": 1698,
+      "sha256": "56e60f07491fdd312bc26dd4e5ab23c48e0e48061732d197c087a2bb82b6f30f"
+    },
+    {
+      "path": "services/pago-ms/src/main/resources/logback-spring.xml",
+      "bytes": 1169,
+      "sha256": "1982a14a8732ca7b7a62fadf38e53417cbdcb67675b3660576ed16657ec266a8"
+    },
+    {
+      "path": "services/pago-ms/src/test/java/com/illarilegal/pago/CancelacionPagoRegressionTest.java",
+      "bytes": 3469,
+      "sha256": "ffef6a0182435080bce68d9a49829502fd26a083391d70491e7a865e8ad28cd5"
+    },
+    {
+      "path": "services/pago-ms/src/test/java/com/illarilegal/pago/OrdenEventConsumerTest.java",
+      "bytes": 3201,
+      "sha256": "fb22a92904115ae2740b1858e99c886f910013e55bce19a13b218c59ae1ee728"
+    },
+    {
+      "path": "services/pago-ms/src/test/java/com/illarilegal/pago/OutboxAgeRepositoryTest.java",
+      "bytes": 1490,
+      "sha256": "8c63e35fa79d3afbc2de637ef0c9bbb749a65a7af1a174a2528edc1c52f462da"
+    },
+    {
+      "path": "services/pago-ms/src/test/java/com/illarilegal/pago/PagoKafkaIntegrationTest.java",
+      "bytes": 5327,
+      "sha256": "3ea422f7a03f507db6b14e4b41ff6d95ad2630aa8f8b22d2e0ea968e9e824e25"
+    },
+    {
+      "path": "services/pago-ms/src/test/java/com/illarilegal/pago/PagoOutboxIdempotenciaTest.java",
+      "bytes": 1739,
+      "sha256": "58392adbcc0df3dfa98747bb692e66a3c575bdd4ed5fc3736b34cd0278e14047"
+    },
+    {
+      "path": "services/servicio-legal-ms/.dockerignore",
+      "bytes": 26,
+      "sha256": "1b9a20fcdbab1308264156b715c12de17925b39cedbbbf1c470d7df8ecda8453"
+    },
+    {
+      "path": "services/servicio-legal-ms/Dockerfile",
+      "bytes": 270,
+      "sha256": "6b494d17d6c388a48beae3689a6afd51882f9add756dd94f3685de3cadf00d76"
+    },
+    {
+      "path": "services/servicio-legal-ms/pom.xml",
+      "bytes": 2917,
+      "sha256": "8c4c46af1b41cf57813b3900477ba1a543066c8f416945d85956924a6462292c"
+    },
+    {
+      "path": "services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/Correlation.java",
+      "bytes": 1031,
+      "sha256": "0f1a74ad0a35be555fee99620997c825c6b69fcefa3f4903b4228685fc700b16"
+    },
+    {
+      "path": "services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/DistributedSecurityConfig.java",
+      "bytes": 2334,
+      "sha256": "5a696d9a7d4c1ae2cd65c58fd95c61fac0a255020c8d765933820e4bc0787610"
+    },
+    {
+      "path": "services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/JwtValidationConfig.java",
+      "bytes": 1637,
+      "sha256": "953e48dfc0513836087fbaf24e5a3f38270ed4d30ec1f43a872add046bd504ac"
+    },
+    {
+      "path": "services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/SafeObservationLayout.java",
+      "bytes": 1779,
+      "sha256": "6aa8ef6f2b683d20a5cb806a2ed7fcce0b59b0f412b9f546732182b5bd635ef4"
+    },
+    {
+      "path": "services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/ServicioLegalController.java",
+      "bytes": 4919,
+      "sha256": "93054e72fb1688c9f5c69a2c9107216e18a752f28964e88561a658d978684694"
+    },
+    {
+      "path": "services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/ServicioLegalEntity.java",
+      "bytes": 1859,
+      "sha256": "ad285362e50021310742e46bba88181d5b595d87649ff4f06b4910332660abc4"
+    },
+    {
+      "path": "services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/ServicioLegalMsApplication.java",
+      "bytes": 350,
+      "sha256": "8deeddaf9c5a6af65d3f707e177568ec354695f96b3b34e0ce2ccdfb71ac7088"
+    },
+    {
+      "path": "services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/ServicioLegalRepository.java",
+      "bytes": 257,
+      "sha256": "89cd86936bc5591d87606ced317c0b1aa2eeeece4ab01c5eaf00c4700d1acefb"
+    },
+    {
+      "path": "services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/ServicioLegalSeed.java",
+      "bytes": 3197,
+      "sha256": "ecf15f29334a7c197deae750d035733c30630855d2010803bb6a6a89a9f1f2a8"
+    },
+    {
+      "path": "services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/TraceIdFilter.java",
+      "bytes": 1069,
+      "sha256": "4923a0776b448c77890828049097b51aaca3259880c5d48076aea8282218f974"
+    },
+    {
+      "path": "services/servicio-legal-ms/src/main/resources/application-s12.yml",
+      "bytes": 404,
+      "sha256": "90dd3def8ff4f4b6fe0523a70725705acfd5376a60a314dbe388b92d5e00e634"
+    },
+    {
+      "path": "services/servicio-legal-ms/src/main/resources/application.yml",
+      "bytes": 1012,
+      "sha256": "8917ae1759c5c583c84f8e402afdf8c91c791ecd219cac83dccebf50d1d3932b"
+    },
+    {
+      "path": "services/servicio-legal-ms/src/main/resources/logback-spring.xml",
+      "bytes": 1198,
+      "sha256": "3cf2c8800cb906d26d98935f3ad29026e2e9834ad2821b519635b80a6b931f1b"
+    },
+    {
+      "path": "services/servicio-legal-ms/src/test/java/com/illarilegal/serviciolegal/ValidacionesCatalogoTest.java",
+      "bytes": 1593,
+      "sha256": "47dabbccebd2e5b264788762bc210b46479ece1ef57811c55c53bc1de9fc3f97"
+    },
+    {
+      "path": "SOLUCION_ERRORES.md",
+      "bytes": 2717,
+      "sha256": "687210b231d03e7feb5f3ff89a85e445be2b535f43ea863143d39afb59c06d3b"
+    },
+    {
+      "path": "u2-producto.md",
+      "bytes": 2877,
+      "sha256": "c759d87046fbce41b2e87c9c781da572047de21eaf43eda93bcb1acd39a76b2e"
+    },
+    {
+      "path": "VERIFICAR-FASE1.ps1",
+      "bytes": 899,
+      "sha256": "c38c9947707a5a2f4e7e35928d0eb3d566abe51c6376f24fbd6c4ee8e9af977d"
+    },
+    {
+      "path": "VERIFICAR-FASE2.ps1",
+      "bytes": 5602,
+      "sha256": "22da79955a26ec4e97495f671769b6b59236ca793d38eb7ccc9858e7801c0f5b"
+    },
+    {
+      "path": "VERIFICAR-FASE3.ps1",
+      "bytes": 1872,
+      "sha256": "e1d8b4fa05ca53a047a1fcafcb1b011881ed8049cff05ed1c353c5de3239627b"
+    },
+    {
+      "path": "VERIFICAR-FASE4.ps1",
+      "bytes": 1607,
+      "sha256": "118b88490762da814eb31c11489cc398c6b55aa4152274275d2a8e8d3293a73a"
+    },
+    {
+      "path": "verification/entrega/generar_documentacion.py",
+      "bytes": 4436,
+      "sha256": "bf17e040ef4c587e15f81851a66d4c6f352e603c90f78b447e147fbef9f3a225"
+    },
+    {
+      "path": "verification/entrega/validar_entrega.py",
+      "bytes": 5577,
+      "sha256": "03606455e9f068756c47a0a45736dbcff93412c5d5c3598af85801f96963b5e7"
+    },
+    {
+      "path": "verification/infra/verificar_compra_navegador.py",
+      "bytes": 6385,
+      "sha256": "f2d85daf0b390104d254e4f8234d3efcaca6fcf73f21cf63e1e13996ded5d571"
+    },
+    {
+      "path": "verification/infra/verificar_observabilidad.py",
+      "bytes": 21697,
+      "sha256": "e559df5cdc5645f437c9cd35357947491f6fd6f00d8bbb9e79ae4230996894e1"
+    },
+    {
+      "path": "verification/infra/verificar_parte_b.py",
+      "bytes": 31477,
+      "sha256": "ba91c9e26806b51a51bab51deb9fafc70c18af28df76ee919a76f3efec20984d"
+    },
+    {
+      "path": "verification/infra/verificar_s12.py",
+      "bytes": 33693,
+      "sha256": "7a831c2b1d520cb3136f6cc6908b98a26b0b7f2f3ddc6a4231dfa5c9696a9d19"
+    },
+    {
+      "path": "verification/postgres/orden-fase1.sql",
+      "bytes": 1178,
+      "sha256": "d0d7bdab9c6c7b5fde0c452ab04066a79dda06a133d8bef437ae0e89883b5b5e"
+    },
+    {
+      "path": "verification/postgres/pago-fase1.sql",
+      "bytes": 979,
+      "sha256": "164cba5fff9b69b03b2008e270b3472dce7d1b9b78da7eb926162de50685c852"
+    },
+    {
+      "path": "verification/README.md",
+      "bytes": 1860,
+      "sha256": "643f4874400529c73cf28ec38e8cc285fb1489a48d4f91c543dda46ea5d48535"
+    },
+    {
+      "path": "verification/saga/pom.xml",
+      "bytes": 3526,
+      "sha256": "96391a9b7acc4d2b142150e5d4231768d1e3941ad10b099de2a37e939f1b4085"
+    },
+    {
+      "path": "verification/saga/src/test/java/com/illarilegal/verification/SagaOrdenPagoIntegrationTest.java",
+      "bytes": 24590,
+      "sha256": "707c35958217316221871c4e516ccf961afcf54e989b53b00cf28f221cb631d2"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+﻿
+state  Servicio              Alerta                                    
+-----  --------              ------                                    
+Normal illari-pago           ILLARI LEGAL - Microservicio no disponible
+Normal illari-servicio-legal ILLARI LEGAL - Microservicio no disponible
+Normal illari-cliente        ILLARI LEGAL - Microservicio no disponible
+Normal illari-gateway        ILLARI LEGAL - Microservicio no disponible
+Normal illari-orden          ILLARI LEGAL - Microservicio no disponible
+
+

@@ -1,0 +1,378 @@
+﻿{
+    "id":  1,
+    "panels":  [
+                   {
+                       "datasource":  {
+                                          "type":  "prometheus",
+                                          "uid":  "eg2q637yo4ttsc"
+                                      },
+                       "fieldConfig":  {
+                                           "defaults":  {
+                                                            "unit":  "short"
+                                                        },
+                                           "overrides":  [
+
+                                                         ]
+                                       },
+                       "gridPos":  {
+                                       "h":  6,
+                                       "w":  8,
+                                       "x":  0,
+                                       "y":  0
+                                   },
+                       "id":  1,
+                       "options":  {
+
+                                   },
+                       "targets":  [
+                                       {
+                                           "datasource":  {
+                                                              "type":  "prometheus",
+                                                              "uid":  "eg2q637yo4ttsc"
+                                                          },
+                                           "expr":  "sum(up{job=~\"illari-.*\"})",
+                                           "instant":  true,
+                                           "legendFormat":  "{{job}}",
+                                           "range":  false,
+                                           "refId":  "A"
+                                       }
+                                   ],
+                       "title":  "Microservicios activos",
+                       "type":  "stat"
+                   },
+                   {
+                       "datasource":  {
+                                          "type":  "prometheus",
+                                          "uid":  "eg2q637yo4ttsc"
+                                      },
+                       "fieldConfig":  {
+                                           "defaults":  {
+                                                            "unit":  "short"
+                                                        },
+                                           "overrides":  [
+
+                                                         ]
+                                       },
+                       "gridPos":  {
+                                       "h":  6,
+                                       "w":  16,
+                                       "x":  8,
+                                       "y":  0
+                                   },
+                       "id":  2,
+                       "options":  {
+
+                                   },
+                       "targets":  [
+                                       {
+                                           "datasource":  {
+                                                              "type":  "prometheus",
+                                                              "uid":  "eg2q637yo4ttsc"
+                                                          },
+                                           "expr":  "up{job=~\"illari-.*\"}",
+                                           "instant":  false,
+                                           "legendFormat":  "{{job}}",
+                                           "range":  true,
+                                           "refId":  "A"
+                                       }
+                                   ],
+                       "title":  "Disponibilidad por servicio",
+                       "type":  "timeseries"
+                   },
+                   {
+                       "datasource":  {
+                                          "type":  "prometheus",
+                                          "uid":  "eg2q637yo4ttsc"
+                                      },
+                       "fieldConfig":  {
+                                           "defaults":  {
+                                                            "unit":  "reqps"
+                                                        },
+                                           "overrides":  [
+
+                                                         ]
+                                       },
+                       "gridPos":  {
+                                       "h":  8,
+                                       "w":  12,
+                                       "x":  0,
+                                       "y":  6
+                                   },
+                       "id":  3,
+                       "options":  {
+
+                                   },
+                       "targets":  [
+                                       {
+                                           "datasource":  {
+                                                              "type":  "prometheus",
+                                                              "uid":  "eg2q637yo4ttsc"
+                                                          },
+                                           "expr":  "sum by (job) (rate(http_server_requests_seconds_count{job=~\"illari-.*\"}[5m]))",
+                                           "instant":  false,
+                                           "legendFormat":  "{{job}}",
+                                           "range":  true,
+                                           "refId":  "A"
+                                       }
+                                   ],
+                       "title":  "Solicitudes HTTP por segundo",
+                       "type":  "timeseries"
+                   },
+                   {
+                       "datasource":  {
+                                          "type":  "prometheus",
+                                          "uid":  "eg2q637yo4ttsc"
+                                      },
+                       "fieldConfig":  {
+                                           "defaults":  {
+                                                            "custom":  {
+                                                                           "axisCenteredZero":  false,
+                                                                           "axisPlacement":  "auto",
+                                                                           "drawStyle":  "line",
+                                                                           "fillOpacity":  15,
+                                                                           "lineWidth":  2,
+                                                                           "showPoints":  "never",
+                                                                           "spanNulls":  false
+                                                                       },
+                                                            "min":  0,
+                                                            "unit":  "reqps"
+                                                        },
+                                           "overrides":  [
+
+                                                         ]
+                                       },
+                       "gridPos":  {
+                                       "h":  8,
+                                       "w":  12,
+                                       "x":  12,
+                                       "y":  6
+                                   },
+                       "id":  4,
+                       "options":  {
+
+                                   },
+                       "targets":  [
+                                       {
+                                           "datasource":  {
+                                                              "type":  "prometheus",
+                                                              "uid":  "eg2q637yo4ttsc"
+                                                          },
+                                           "expr":  "sum by (job) (rate(http_server_requests_seconds_count{job=~\"illari-.*\",status=~\"5..\"}[5m]))",
+                                           "instant":  false,
+                                           "legendFormat":  "{{job}}",
+                                           "range":  true,
+                                           "refId":  "A"
+                                       }
+                                   ],
+                       "title":  "Errores HTTP 5xx por segundo",
+                       "type":  "timeseries"
+                   },
+                   {
+                       "datasource":  {
+                                          "type":  "prometheus",
+                                          "uid":  "eg2q637yo4ttsc"
+                                      },
+                       "fieldConfig":  {
+                                           "defaults":  {
+                                                            "unit":  "bytes"
+                                                        },
+                                           "overrides":  [
+
+                                                         ]
+                                       },
+                       "gridPos":  {
+                                       "h":  8,
+                                       "w":  12,
+                                       "x":  0,
+                                       "y":  14
+                                   },
+                       "id":  5,
+                       "options":  {
+
+                                   },
+                       "targets":  [
+                                       {
+                                           "datasource":  {
+                                                              "type":  "prometheus",
+                                                              "uid":  "eg2q637yo4ttsc"
+                                                          },
+                                           "expr":  "sum by (job) (jvm_memory_used_bytes{job=~\"illari-.*\",area=\"heap\"})",
+                                           "instant":  false,
+                                           "legendFormat":  "{{job}}",
+                                           "range":  true,
+                                           "refId":  "A"
+                                       }
+                                   ],
+                       "title":  "Memoria JVM utilizada",
+                       "type":  "timeseries"
+                   },
+                   {
+                       "datasource":  {
+                                          "type":  "prometheus",
+                                          "uid":  "eg2q637yo4ttsc"
+                                      },
+                       "fieldConfig":  {
+                                           "defaults":  {
+                                                            "unit":  "percent"
+                                                        },
+                                           "overrides":  [
+
+                                                         ]
+                                       },
+                       "gridPos":  {
+                                       "h":  8,
+                                       "w":  12,
+                                       "x":  12,
+                                       "y":  14
+                                   },
+                       "id":  6,
+                       "options":  {
+
+                                   },
+                       "targets":  [
+                                       {
+                                           "datasource":  {
+                                                              "type":  "prometheus",
+                                                              "uid":  "eg2q637yo4ttsc"
+                                                          },
+                                           "expr":  "process_cpu_usage{job=~\"illari-.*\"} * 100",
+                                           "instant":  false,
+                                           "legendFormat":  "{{job}}",
+                                           "range":  true,
+                                           "refId":  "A"
+                                       }
+                                   ],
+                       "title":  "CPU por microservicio",
+                       "type":  "timeseries"
+                   },
+                   {
+                       "datasource":  {
+                                          "type":  "prometheus",
+                                          "uid":  "eg2q637yo4ttsc"
+                                      },
+                       "fieldConfig":  {
+                                           "defaults":  {
+                                                            "unit":  "s"
+                                                        },
+                                           "overrides":  [
+
+                                                         ]
+                                       },
+                       "gridPos":  {
+                                       "h":  8,
+                                       "w":  12,
+                                       "x":  0,
+                                       "y":  22
+                                   },
+                       "id":  7,
+                       "options":  {
+
+                                   },
+                       "targets":  [
+                                       {
+                                           "datasource":  {
+                                                              "type":  "prometheus",
+                                                              "uid":  "eg2q637yo4ttsc"
+                                                          },
+                                           "expr":  "sum by(job)(rate(http_server_requests_seconds_sum{job=~\"illari-.*\"}[5m])) / clamp_min(sum by(job)(rate(http_server_requests_seconds_count{job=~\"illari-.*\"}[5m])), 0.000001)",
+                                           "legendFormat":  "{{job}}",
+                                           "range":  true,
+                                           "refId":  "A"
+                                       }
+                                   ],
+                       "title":  "Latencia HTTP promedio",
+                       "type":  "timeseries"
+                   },
+                   {
+                       "datasource":  {
+                                          "type":  "prometheus",
+                                          "uid":  "eg2q637yo4ttsc"
+                                      },
+                       "fieldConfig":  {
+                                           "defaults":  {
+                                                            "unit":  "percent"
+                                                        },
+                                           "overrides":  [
+
+                                                         ]
+                                       },
+                       "gridPos":  {
+                                       "h":  8,
+                                       "w":  12,
+                                       "x":  12,
+                                       "y":  22
+                                   },
+                       "id":  8,
+                       "options":  {
+
+                                   },
+                       "targets":  [
+                                       {
+                                           "datasource":  {
+                                                              "type":  "prometheus",
+                                                              "uid":  "eg2q637yo4ttsc"
+                                                          },
+                                           "expr":  "100 * (sum by(job)(rate(http_server_requests_seconds_count{job=~\"illari-.*\",status=~\"5..\"}[5m])) or 0 * sum by(job)(rate(http_server_requests_seconds_count{job=~\"illari-.*\"}[5m]))) / clamp_min(sum by(job)(rate(http_server_requests_seconds_count{job=~\"illari-.*\"}[5m])), 0.000001)",
+                                           "legendFormat":  "{{job}}",
+                                           "range":  true,
+                                           "refId":  "A"
+                                       }
+                                   ],
+                       "title":  "Porcentaje de errores HTTP 5xx",
+                       "type":  "timeseries"
+                   },
+                   {
+                       "datasource":  {
+                                          "type":  "prometheus",
+                                          "uid":  "eg2q637yo4ttsc"
+                                      },
+                       "fieldConfig":  {
+                                           "defaults":  {
+                                                            "unit":  "short"
+                                                        },
+                                           "overrides":  [
+
+                                                         ]
+                                       },
+                       "gridPos":  {
+                                       "h":  8,
+                                       "w":  24,
+                                       "x":  0,
+                                       "y":  30
+                                   },
+                       "id":  9,
+                       "options":  {
+
+                                   },
+                       "targets":  [
+                                       {
+                                           "datasource":  {
+                                                              "type":  "prometheus",
+                                                              "uid":  "eg2q637yo4ttsc"
+                                                          },
+                                           "expr":  "sum by(job)(increase(http_server_requests_seconds_count{job=~\"illari-.*\",status=~\"5..\"}[15m]))",
+                                           "legendFormat":  "{{job}}",
+                                           "range":  true,
+                                           "refId":  "A"
+                                       }
+                                   ],
+                       "title":  "Errores HTTP 5xx - ultimos 15 minutos",
+                       "type":  "timeseries"
+                   }
+               ],
+    "refresh":  "15s",
+    "schemaVersion":  41,
+    "tags":  [
+                 "illari-legal",
+                 "s12",
+                 "microservicios"
+             ],
+    "time":  {
+                 "from":  "now-30m",
+                 "to":  "now"
+             },
+    "timezone":  "browser",
+    "title":  "ILLARI LEGAL | OBSERVABILIDAD S12",
+    "uid":  "illari-observabilidad-s12",
+    "version":  3
+}

@@ -1,0 +1,206 @@
+{
+  "project": "illari-fase3-audit",
+  "run": "ae3baa8737",
+  "passed": 33,
+  "failed": 0,
+  "results": [
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206672.6945782
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206672.6961958
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206672.8820503
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206672.8831146
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206673.037226
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206673.037779
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206673.2233725
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206673.2246718
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206673.4040384
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206673.4050999
+    },
+    {
+      "name": "Inconsistent payment wrong-client rejected to Orders DLT",
+      "passed": true,
+      "actual": null,
+      "at": 1793206676.1829662
+    },
+    {
+      "name": "Rejected wrong-client has no successful inbox receipt",
+      "passed": true,
+      "actual": null,
+      "at": 1793206676.4387019
+    },
+    {
+      "name": "Invalid wrong-client leaves paid order and refunded order unchanged",
+      "passed": true,
+      "actual": null,
+      "at": 1793206676.9336138
+    },
+    {
+      "name": "wrong-client real DLT replay denied to CLIENTE",
+      "passed": true,
+      "actual": 403,
+      "at": 1793206676.962111
+    },
+    {
+      "name": "wrong-client real DLT replay denied to ABOGADO",
+      "passed": true,
+      "actual": 403,
+      "at": 1793206676.9948523
+    },
+    {
+      "name": "wrong-client DLT corrected replay authorized ADMIN",
+      "passed": true,
+      "actual": 202,
+      "at": 1793206677.0475452
+    },
+    {
+      "name": "wrong-client corrected event consumed once",
+      "passed": true,
+      "actual": null,
+      "at": 1793206678.6015253
+    },
+    {
+      "name": "Inconsistent payment wrong-amount rejected to Orders DLT",
+      "passed": true,
+      "actual": null,
+      "at": 1793206681.2425194
+    },
+    {
+      "name": "Rejected wrong-amount has no successful inbox receipt",
+      "passed": true,
+      "actual": null,
+      "at": 1793206681.495925
+    },
+    {
+      "name": "Invalid wrong-amount leaves paid order and refunded order unchanged",
+      "passed": true,
+      "actual": null,
+      "at": 1793206681.9744658
+    },
+    {
+      "name": "wrong-amount real DLT replay denied to CLIENTE",
+      "passed": true,
+      "actual": 403,
+      "at": 1793206681.9965606
+    },
+    {
+      "name": "wrong-amount real DLT replay denied to ABOGADO",
+      "passed": true,
+      "actual": 403,
+      "at": 1793206682.0194454
+    },
+    {
+      "name": "wrong-amount DLT corrected replay authorized ADMIN",
+      "passed": true,
+      "actual": 202,
+      "at": 1793206682.0769036
+    },
+    {
+      "name": "wrong-amount corrected event consumed once",
+      "passed": true,
+      "actual": null,
+      "at": 1793206682.3396876
+    },
+    {
+      "name": "Inconsistent payment wrong-order rejected to Orders DLT",
+      "passed": true,
+      "actual": null,
+      "at": 1793206684.8807106
+    },
+    {
+      "name": "Rejected wrong-order has no successful inbox receipt",
+      "passed": true,
+      "actual": null,
+      "at": 1793206685.124049
+    },
+    {
+      "name": "Invalid wrong-order leaves paid order and refunded order unchanged",
+      "passed": true,
+      "actual": null,
+      "at": 1793206685.6326256
+    },
+    {
+      "name": "wrong-order real DLT replay denied to CLIENTE",
+      "passed": true,
+      "actual": 403,
+      "at": 1793206685.6681411
+    },
+    {
+      "name": "wrong-order real DLT replay denied to ABOGADO",
+      "passed": true,
+      "actual": 403,
+      "at": 1793206685.6877298
+    },
+    {
+      "name": "wrong-order DLT corrected replay authorized ADMIN",
+      "passed": true,
+      "actual": 202,
+      "at": 1793206685.7380435
+    },
+    {
+      "name": "wrong-order corrected event consumed once",
+      "passed": true,
+      "actual": null,
+      "at": 1793206685.9819949
+    },
+    {
+      "name": "Orders DLT and business offsets now commit after actual records",
+      "passed": true,
+      "actual": null,
+      "at": 1793206690.24912
+    },
+    {
+      "name": "Validation and replay never duplicate payment",
+      "passed": true,
+      "actual": null,
+      "at": 1793206690.5027637
+    }
+  ]
+}

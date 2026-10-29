@@ -1,0 +1,85 @@
+{
+  "orderId": 53,
+  "orders": [
+    {
+      "id": 53,
+      "estado": "PAGADA",
+      "total": "310.00",
+      "metodo_pago": "YAPE",
+      "pago_id": 53,
+      "estado_pago": "VALIDADO"
+    }
+  ],
+  "payments": [
+    {
+      "id": 53,
+      "id_orden": 53,
+      "estado": "VALIDADO",
+      "monto": "310.00"
+    }
+  ],
+  "details": [
+    {
+      "servicio_id": 1,
+      "nombre_historico": "Consulta jurídica",
+      "cantidad": 2,
+      "precio_unitario": "80.00",
+      "subtotal": "160.00"
+    },
+    {
+      "servicio_id": 2,
+      "nombre_historico": "Asesoría civil",
+      "cantidad": 1,
+      "precio_unitario": "150.00",
+      "subtotal": "150.00"
+    }
+  ],
+  "events": {
+    "orden-legal-ms": {
+      "eventId": "53bf2586-4de6-4aac-89af-5e05b650eee2",
+      "traceId": "0994f992-0b88-471f-b9de-3a0a48c21745",
+      "tipo": "orden.creada"
+    },
+    "pago-ms": {
+      "eventId": "afc44f9d-95b2-4ffe-bcd3-24fbf5f8244f",
+      "traceId": "0994f992-0b88-471f-b9de-3a0a48c21745",
+      "tipo": "pago.validado"
+    }
+  },
+  "observations": [
+    {
+      "service": "orden-legal-ms",
+      "timestamp": "2026-10-28T16:23:45.736Z",
+      "traceId": "0994f992-0b88-471f-b9de-3a0a48c21745",
+      "message": "http_completed method=POST status=200 durationMs=1673"
+    },
+    {
+      "service": "orden-legal-ms",
+      "timestamp": "2026-10-28T16:23:46.052Z",
+      "traceId": "0994f992-0b88-471f-b9de-3a0a48c21745",
+      "eventId": "53bf2586-4de6-4aac-89af-5e05b650eee2",
+      "message": "outbox_published"
+    },
+    {
+      "service": "orden-legal-ms",
+      "timestamp": "2026-10-28T16:23:48.192Z",
+      "traceId": "0994f992-0b88-471f-b9de-3a0a48c21745",
+      "eventId": "afc44f9d-95b2-4ffe-bcd3-24fbf5f8244f",
+      "message": "kafka_processed"
+    },
+    {
+      "service": "pago-ms",
+      "timestamp": "2026-10-28T16:23:46.766Z",
+      "traceId": "0994f992-0b88-471f-b9de-3a0a48c21745",
+      "eventId": "53bf2586-4de6-4aac-89af-5e05b650eee2",
+      "message": "kafka_processed"
+    },
+    {
+      "service": "pago-ms",
+      "timestamp": "2026-10-28T16:23:48.125Z",
+      "traceId": "0994f992-0b88-471f-b9de-3a0a48c21745",
+      "eventId": "afc44f9d-95b2-4ffe-bcd3-24fbf5f8244f",
+      "message": "outbox_published"
+    }
+  ]
+}

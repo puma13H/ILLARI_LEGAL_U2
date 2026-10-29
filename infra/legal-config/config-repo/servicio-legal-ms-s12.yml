@@ -1,0 +1,9 @@
+server:
+  port: 8082
+eureka:
+  client:
+    service-url:
+      defaultZone: http://legal-eureka:8761/eureka/
+  instance:
+    prefer-ip-address: true
+

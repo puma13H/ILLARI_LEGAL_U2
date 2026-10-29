@@ -1,0 +1,47 @@
+<div class="page-header"><div><p class="eyebrow">ILLARI LEGAL</p><h1 class="page-title">Asesorías y recursos jurídicos</h1><p class="page-subtitle">Consulta nuestro catálogo y encuentra el servicio que necesitas.</p></div><a class="btn btn-primary" routerLink="/tienda-juridica">Ir a la tienda →</a></div>
+<label>Buscar por nombre o especialidad <input class="input" [ngModel]="busqueda()" (ngModelChange)="busqueda.set($event)" placeholder="Civil, penal, laboral…" /></label>
+@if (cargando()) {
+  <p>Cargando servicios legales...</p>
+} @else if (error()) {
+  <p>{{ error() }}</p>
+} @else {
+  @if (auth.tieneRol('ADMIN')) {
+    <a routerLink="/servicios/nuevo">Nuevo servicio</a>
+  }
+
+  @if (errorAccion()) {
+    <p class="error">{{ errorAccion() }}</p>
+  }
+
+  <div class="table-wrap"><table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Categoría</th>
+        <th>Precio</th>
+        <th>Estado</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (servicio of filtrados(); track servicio.id) {
+        <tr>
+          <td>{{ servicio.nombre }}</td>
+          <td>{{ servicio.descripcion }}</td>
+          <td>{{ servicio.categoria }}</td>
+          <td>{{ servicio.precio | currency:'PEN':'S/ ' }}</td>
+          <td>{{ servicio.estado }}</td>
+          <td>
+            @if (auth.tieneRol('ADMIN')) {
+              <a [routerLink]="['/servicios', servicio.id, 'editar']">Editar</a>
+              <button type="button" (click)="eliminar(servicio.id!)">Eliminar</button>
+            }
+          </td>
+        </tr>
+      } @empty {
+        <tr><td colspan="6">No hay servicios que coincidan con tu búsqueda.</td></tr>
+      }
+    </tbody>
+  </table></div>
+}

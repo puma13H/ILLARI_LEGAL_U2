@@ -1,0 +1,5 @@
+CREATE TABLE servicios_legales (
+ id BIGSERIAL PRIMARY KEY,nombre VARCHAR(255) NOT NULL,descripcion TEXT,precio NUMERIC(12,2) NOT NULL,
+ categoria VARCHAR(255) NOT NULL,estado VARCHAR(255) NOT NULL
+);
+

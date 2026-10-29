@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Login CLIENTE con PKCE y encabezado sin identificador de acceso",
+    "passed": true,
+    "at": "2026-10-28T19:10:09.518Z"
+  },
+  {
+    "name": "Mensajes globales consulta y envía mediante la API del caso autorizado",
+    "passed": true
+  },
+  {
+    "name": "Orden53 y pago53 conservados en la interfaz de entrega",
+    "passed": true
+  },
+  {
+    "name": "Sesión CLIENTE conserva acceso protegido tras 511 segundos sin nuevo login",
+    "passed": true,
+    "elapsedSeconds": 511
+  },
+  {
+    "name": "ADMIN crea un evento de agenda por API existente y lo visualiza",
+    "passed": true
+  },
+  {
+    "name": "Usuarios declara explícitamente ausencia de CRUD en Angular",
+    "passed": true
+  },
+  {
+    "name": "Agenda conserva el evento después de abandonar y reabrir la página",
+    "passed": true
+  },
+  {
+    "name": "ABOGADO inicia sesión sin menú administrativo y lee el mensaje nuevo del CLIENTE en su caso",
+    "passed": true
+  },
+  {
+    "name": "CLIENTE y ABOGADO no reciben formulario ni evento de agenda general ADMIN",
+    "passed": true
+  }
+]

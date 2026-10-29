@@ -1,0 +1,13 @@
+{
+  "orders_examined": 64,
+  "payments_examined": 64,
+  "violations": {
+    "No duplicate payment per order": [],
+    "No CANCELADA order has VALIDADO payment": [],
+    "Every PAGADA order has exactly one VALIDADO payment": [],
+    "Payments reference existing orders with matching owner and amount": [],
+    "All order totals requiring payment are positive": [],
+    "All order payment IDs agree with payment service": [],
+    "No cancellation intent remains unconfirmed at closure": []
+  }
+}

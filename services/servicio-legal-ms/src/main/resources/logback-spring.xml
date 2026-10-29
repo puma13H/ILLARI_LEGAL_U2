@@ -1,0 +1,17 @@
+<configuration>
+  <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+  <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
+  <springProperty scope="context" name="OBS_DIR" source="illari.observation.directory" defaultValue=""/>
+  <springProfile name="s12">
+    <appender name="SAFE_OBSERVATIONS" class="ch.qos.logback.core.rolling.RollingFileAppender">
+      <file>${OBS_DIR:-/tmp/illari-observations}/servicio-legal-ms.json</file>
+      <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+        <fileNamePattern>${OBS_DIR:-/tmp/illari-observations}/servicio-legal-ms.%d{yyyy-MM-dd}.%i.json.gz</fileNamePattern>
+        <maxFileSize>10MB</maxFileSize><maxHistory>3</maxHistory><totalSizeCap>100MB</totalSizeCap>
+      </rollingPolicy>
+      <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder"><layout class="com.illarilegal.serviciolegal.SafeObservationLayout"/></encoder>
+    </appender>
+    <logger name="ILLARI_OBS" level="INFO" additivity="false"><appender-ref ref="SAFE_OBSERVATIONS"/></logger>
+  </springProfile>
+  <root level="INFO"><appender-ref ref="CONSOLE"/></root>
+</configuration>

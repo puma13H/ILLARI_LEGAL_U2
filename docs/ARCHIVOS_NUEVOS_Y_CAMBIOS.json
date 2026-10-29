@@ -1,0 +1,535 @@
+{
+  "alcance": "Solo la copia independiente; los originales permanecen intactos",
+  "archivos": [
+    {
+      "archivo": ".env.s12.example",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Externalizacion de configuracion local o exclusiones seguras para entrega"
+    },
+    {
+      "archivo": ".gitignore",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Externalizacion de configuracion local o exclusiones seguras para entrega"
+    },
+    {
+      "archivo": "backend-legacy-casos/src/main/resources/application-dev.yml",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Externalizacion de configuracion local o exclusiones seguras para entrega"
+    },
+    {
+      "archivo": "backend-legacy-casos/src/main/resources/application-postgres.yml",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Externalizacion de configuracion local o exclusiones seguras para entrega"
+    },
+    {
+      "archivo": "CHECKLIST_ENTREGA_FINAL.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "database/README.md",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/ARCHIVOS_NUEVOS_Y_CAMBIOS.json",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/ARQUITECTURA.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/CARRITO_RELACIONAL.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/DECISIONES_UI.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/diagramas/arquitectura.svg",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/diagramas/carrito.svg",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/diagramas/contextos.svg",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/exclusiones-observabilidad.json",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/HISTORIAL_VERIFICACION.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/INVENTARIO_ORIGEN.csv",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/OBSERVABILIDAD.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/ORGANIZACION.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/CHECKLIST_ENTREGA_FINAL.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/docs__ARQUITECTURA.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/docs__CARRITO_RELACIONAL.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/docs__DECISIONES_UI.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/docs__HISTORIAL_VERIFICACION.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/docs__OBSERVABILIDAD.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/docs__ORGANIZACION.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/evidencias__README.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/FASE5_RESULTADOS.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/GUIA_DE_SUSTENTACION.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/GUIA_INSTALACION.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/index.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/INFORME_FINAL_UNIDAD_2.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/MATRIZ_CUMPLIMIENTO_S12.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/README.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/SOLUCION_ERRORES.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/u2-producto.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "docs/sitio/verification__README.html",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "evidencias/procedencia.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/README.md",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S06/diagnostico.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S06/metrics-catalogue-failure.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S06/metrics-recovered.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S07/seguridad.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S08-S09/cierre.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S08-S09/consistencia.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S08-S09/dos-instancias.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S08-S09/invariantes-alcance.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S08-S09/offsets-after-duplicates.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S08-S09/offsets-after-payment-validation.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S08-S09/pruebas-previas-reutilizadas.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S08-S09/resumen-operativo.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S08-S09/validacion-pagos.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S10/grafana-panel-results.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S10/metrics-dlt.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S10/metrics-outbox-exhausted.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S10/metrics-outbox-queued.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S10/trace-purchase.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/01-keycloak-pkce.jpg",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/02-mensajes-integrados.jpg",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/03-compra-53-conservada.jpg",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/04-sesion-renovada-mensajes.jpg",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/05-agenda-admin-integrada.jpg",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/06-usuarios-alcance-explicito.jpg",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/07-evento-persistido-admin.jpg",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/08-abogado-mensajes-persistidos.jpg",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/09-documentacion-navegable.jpg",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/angular-build.log",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/angular-test-final.log",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/compatibilidad-c.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/compra-persistencia.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/docker-estado-final.jsonl",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/guias-consultadas.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/nginx-dns-resultados.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/powershell-validado.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/resultados-navegador-c.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/resultados-persistencia.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/smoke-desde-entrega.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "evidencias/S11-S12/validacion-final.json",
+      "estado": "nuevo",
+      "motivo": "Evidencia comprobada de A/B sanitizada o ejecucion nueva de C; originales conservados"
+    },
+    {
+      "archivo": "FASE5_RESULTADOS.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "frontend/src/app/core/auth/auth-service.ts",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Integracion de APIs existentes, renovacion de sesion, accesibilidad y pruebas afectadas"
+    },
+    {
+      "archivo": "frontend/src/app/core/auth/oidc-token.spec.ts",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Integracion de APIs existentes, renovacion de sesion, accesibilidad y pruebas afectadas"
+    },
+    {
+      "archivo": "frontend/src/app/core/auth/oidc-token.ts",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Integracion de APIs existentes, renovacion de sesion, accesibilidad y pruebas afectadas"
+    },
+    {
+      "archivo": "frontend/src/app/core/auth/session-refresh.spec.ts",
+      "estado": "nuevo",
+      "motivo": "Integracion de APIs existentes, renovacion de sesion, accesibilidad y pruebas afectadas"
+    },
+    {
+      "archivo": "frontend/src/app/features/calendario/calendario.component.ts",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Integracion de APIs existentes, renovacion de sesion, accesibilidad y pruebas afectadas"
+    },
+    {
+      "archivo": "frontend/src/app/features/dashboard/dashboard.component.ts",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Integracion de APIs existentes, renovacion de sesion, accesibilidad y pruebas afectadas"
+    },
+    {
+      "archivo": "frontend/src/app/features/entrega-flujos.spec.ts",
+      "estado": "nuevo",
+      "motivo": "Integracion de APIs existentes, renovacion de sesion, accesibilidad y pruebas afectadas"
+    },
+    {
+      "archivo": "frontend/src/app/features/mensajes/mensajes.component.ts",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Integracion de APIs existentes, renovacion de sesion, accesibilidad y pruebas afectadas"
+    },
+    {
+      "archivo": "frontend/src/app/features/ordenes/mis-ordenes.component.ts",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Integracion de APIs existentes, renovacion de sesion, accesibilidad y pruebas afectadas"
+    },
+    {
+      "archivo": "frontend/src/app/features/tienda-juridica/tienda-juridica.component.ts",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Integracion de APIs existentes, renovacion de sesion, accesibilidad y pruebas afectadas"
+    },
+    {
+      "archivo": "frontend/src/app/features/usuarios/usuarios.component.ts",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Integracion de APIs existentes, renovacion de sesion, accesibilidad y pruebas afectadas"
+    },
+    {
+      "archivo": "frontend/src/app/shared/layout/layout.component.css",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Integracion de APIs existentes, renovacion de sesion, accesibilidad y pruebas afectadas"
+    },
+    {
+      "archivo": "frontend/src/app/shared/layout/layout.component.html",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Integracion de APIs existentes, renovacion de sesion, accesibilidad y pruebas afectadas"
+    },
+    {
+      "archivo": "frontend/src/styles.css",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Integracion de APIs existentes, renovacion de sesion, accesibilidad y pruebas afectadas"
+    },
+    {
+      "archivo": "GUIA_DE_SUSTENTACION.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "GUIA_INSTALACION.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "INFORME_FINAL_UNIDAD_2.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "infra/legal-config/config-repo/caso-ms-dev.yml",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Externalizacion de configuracion local o exclusiones seguras para entrega"
+    },
+    {
+      "archivo": "kafka/README.md",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "MANIFIESTO_ENTREGA.json",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "MATRIZ_CUMPLIMIENTO_S12.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "obs/README.md",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "README.md",
+      "estado": "modificado_solo_en_copia",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "SOLUCION_ERRORES.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "u2-producto.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    },
+    {
+      "archivo": "verification/entrega/generar_documentacion.py",
+      "estado": "nuevo",
+      "motivo": "Validacion y documentacion portable de solo lectura"
+    },
+    {
+      "archivo": "verification/entrega/validar_entrega.py",
+      "estado": "nuevo",
+      "motivo": "Validacion y documentacion portable de solo lectura"
+    },
+    {
+      "archivo": "verification/README.md",
+      "estado": "nuevo",
+      "motivo": "Documentacion, diagramas, inventario y trazabilidad de entrega"
+    }
+  ]
+}

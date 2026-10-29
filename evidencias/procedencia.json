@@ -1,0 +1,146 @@
+[
+  {
+    "source": "evidencias/fase5-parte-b/diagnostico.json",
+    "original_sha256": "be9ecc8f1dc3bd491b3b26cfd0197ff7fd706493e7eb77b3aa62144f14ddcb61",
+    "export": "evidencias/S06/diagnostico.json",
+    "export_sha256": "be9ecc8f1dc3bd491b3b26cfd0197ff7fd706493e7eb77b3aa62144f14ddcb61",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/metrics-catalogue-failure.json",
+    "original_sha256": "48b4556fe7cedffee0ec8bf01712a2e82f81c57b82a34915f7509e72c56b7e9a",
+    "export": "evidencias/S06/metrics-catalogue-failure.json",
+    "export_sha256": "48b4556fe7cedffee0ec8bf01712a2e82f81c57b82a34915f7509e72c56b7e9a",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/metrics-recovered.json",
+    "original_sha256": "e8e537425b67d6aecf48647a365c0f5a1f767ec9e25598eafd2291341e9ba1eb",
+    "export": "evidencias/S06/metrics-recovered.json",
+    "export_sha256": "e8e537425b67d6aecf48647a365c0f5a1f767ec9e25598eafd2291341e9ba1eb",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/seguridad.json",
+    "original_sha256": "f72c199a07b3c77348bb5c71c19c054e5bc52a48370573dd8002d0528e8942c7",
+    "export": "evidencias/S07/seguridad.json",
+    "export_sha256": "88dc57af78377fc7e805e01fb5f7b89d229fc9e7c921ec933b294a6fe394fb06",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/consistencia.json",
+    "original_sha256": "6f28944e0ee0aafce0f759c5b9a3b78b43e9e9d84bd7b58b65a670906f0d9dbf",
+    "export": "evidencias/S08-S09/consistencia.json",
+    "export_sha256": "6f28944e0ee0aafce0f759c5b9a3b78b43e9e9d84bd7b58b65a670906f0d9dbf",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/dos-instancias.json",
+    "original_sha256": "55c1f3128d85fceba97278f6bcf8aa6c74bfe1de75898a25ec799249b9bee37c",
+    "export": "evidencias/S08-S09/dos-instancias.json",
+    "export_sha256": "55c1f3128d85fceba97278f6bcf8aa6c74bfe1de75898a25ec799249b9bee37c",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/validacion-pagos.json",
+    "original_sha256": "f04845ec47bab5e16d82964db7376b23e09da5274894918436dc568f64affffc",
+    "export": "evidencias/S08-S09/validacion-pagos.json",
+    "export_sha256": "f04845ec47bab5e16d82964db7376b23e09da5274894918436dc568f64affffc",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/cierre.json",
+    "original_sha256": "00be5e0ff98ff387be12a5d34b3ab50b82df646297a5f0b2eea80a4fb8247d5f",
+    "export": "evidencias/S08-S09/cierre.json",
+    "export_sha256": "00be5e0ff98ff387be12a5d34b3ab50b82df646297a5f0b2eea80a4fb8247d5f",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/invariantes-alcance.json",
+    "original_sha256": "f8f2ef86552809e9119851a611475d847efcc9a89c4caa8c0d44deaca898bf05",
+    "export": "evidencias/S08-S09/invariantes-alcance.json",
+    "export_sha256": "f8f2ef86552809e9119851a611475d847efcc9a89c4caa8c0d44deaca898bf05",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/offsets-after-duplicates.json",
+    "original_sha256": "32a06268d0fbb208a92250b83b671cb66d143d238ea9870cac1cfdbc56492f3d",
+    "export": "evidencias/S08-S09/offsets-after-duplicates.json",
+    "export_sha256": "32a06268d0fbb208a92250b83b671cb66d143d238ea9870cac1cfdbc56492f3d",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/offsets-after-payment-validation.json",
+    "original_sha256": "cef20f094d97e577475812a81f7f796af49518ddf334ddb51d9a66478c0d1e0c",
+    "export": "evidencias/S08-S09/offsets-after-payment-validation.json",
+    "export_sha256": "cef20f094d97e577475812a81f7f796af49518ddf334ddb51d9a66478c0d1e0c",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/resumen-operativo.json",
+    "original_sha256": "7af309697c93e5bfb7ea453ffff7410ab7a9317d3e0e1ba62fd36fd63ca4c3ba",
+    "export": "evidencias/S08-S09/resumen-operativo.json",
+    "export_sha256": "7af309697c93e5bfb7ea453ffff7410ab7a9317d3e0e1ba62fd36fd63ca4c3ba",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/pruebas-previas-reutilizadas.json",
+    "original_sha256": "4ced8ad5d2272975be048d7c656eb79befb03b633fe833a69c3c5d594e439943",
+    "export": "evidencias/S08-S09/pruebas-previas-reutilizadas.json",
+    "export_sha256": "4ced8ad5d2272975be048d7c656eb79befb03b633fe833a69c3c5d594e439943",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/grafana-panel-results.json",
+    "original_sha256": "edbf53c42b0362a9c2b9c7ebe3e9f7f3dde869cf82566285f374b20f2ebcf8a2",
+    "export": "evidencias/S10/grafana-panel-results.json",
+    "export_sha256": "edbf53c42b0362a9c2b9c7ebe3e9f7f3dde869cf82566285f374b20f2ebcf8a2",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/trace-purchase.json",
+    "original_sha256": "bef519a99e91ee881bd3db2159a41d391a3a63eb0e92501052632999a9bb5d5b",
+    "export": "evidencias/S10/trace-purchase.json",
+    "export_sha256": "bef519a99e91ee881bd3db2159a41d391a3a63eb0e92501052632999a9bb5d5b",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/metrics-dlt.json",
+    "original_sha256": "12ff76136ead7637c8aeb03febbb5c1390fd1cd9576f81d4db6d7d4bd4d47b88",
+    "export": "evidencias/S10/metrics-dlt.json",
+    "export_sha256": "12ff76136ead7637c8aeb03febbb5c1390fd1cd9576f81d4db6d7d4bd4d47b88",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/metrics-outbox-exhausted.json",
+    "original_sha256": "29c9f5ae506a05a9ada3e7e04a4bd65f6c1a79217097cdb719f69a40585b864c",
+    "export": "evidencias/S10/metrics-outbox-exhausted.json",
+    "export_sha256": "29c9f5ae506a05a9ada3e7e04a4bd65f6c1a79217097cdb719f69a40585b864c",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-b/metrics-outbox-queued.json",
+    "original_sha256": "25908528de1961e448f888bd2bc21f66e374da2228c8eaddac224b816e0168ed",
+    "export": "evidencias/S10/metrics-outbox-queued.json",
+    "export_sha256": "25908528de1961e448f888bd2bc21f66e374da2228c8eaddac224b816e0168ed",
+    "sanitization": "omitir identificadores de acceso y contactos; no alterar resultados"
+  },
+  {
+    "source": "evidencias/fase5-parte-a/compra-persistencia.json",
+    "original_sha256": "1c47b6c2dc2eb49badda5bff3f5ad1124e937114c5dd3649adc3041eea32475b",
+    "export": "evidencias/S11-S12/compra-persistencia.json",
+    "export_sha256": "1c47b6c2dc2eb49badda5bff3f5ad1124e937114c5dd3649adc3041eea32475b"
+  },
+  {
+    "source": "evidencias/fase5-parte-a/resultados-persistencia.json",
+    "original_sha256": "97da2277a4ff986ed74527a52daff7a60c08af7a2982a02883f46aa471c06588",
+    "export": "evidencias/S11-S12/resultados-persistencia.json",
+    "export_sha256": "97da2277a4ff986ed74527a52daff7a60c08af7a2982a02883f46aa471c06588"
+  },
+  {
+    "source": "evidencias/fase5-parte-a/nginx-dns-resultados.json",
+    "original_sha256": "274247b02ba6c6cca27e6424dd83073d5b6d436abcefa0357354408ed4c22659",
+    "export": "evidencias/S11-S12/nginx-dns-resultados.json",
+    "export_sha256": "274247b02ba6c6cca27e6424dd83073d5b6d436abcefa0357354408ed4c22659"
+  }
+]

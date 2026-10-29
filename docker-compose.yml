@@ -1,0 +1,298 @@
+name: ${COMPOSE_PROJECT_NAME:-illari-s12}
+
+x-java: &java
+  restart: unless-stopped
+  mem_limit: 512m
+  networks: [legal-net]
+  labels:
+    illari.environment: ${ILLARI_ENVIRONMENT:-development}
+  healthcheck:
+    test: ["CMD-SHELL", "wget -qO- http://localhost:$${SERVER_PORT}/actuator/health/readiness | grep -q UP"]
+    interval: 10s
+    timeout: 5s
+    retries: 30
+    start_period: 40s
+
+x-app-env: &app-env
+  SPRING_PROFILES_ACTIVE: s12
+  SPRING_CONFIG_IMPORT: configserver:http://legal-config:8888
+  EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://legal-eureka:8761/eureka/
+  EUREKA_INSTANCE_PREFER_IP_ADDRESS: "true"
+  KEYCLOAK_ISSUER_URI: ${KEYCLOAK_PUBLIC_URL:-http://localhost:18180}/realms/illari-legal
+  KEYCLOAK_JWK_SET_URI: http://keycloak:8080/realms/illari-legal/protocol/openid-connect/certs
+  ILLARI_SECURITY_AUDIENCE: illari-api
+  KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+  MANAGEMENT_ENDPOINT_HEALTH_PROBES_ENABLED: "true"
+  MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS: never
+  ILLARI_OBSERVATION_DIRECTORY: /tmp/illari-observations
+
+x-app-deps: &app-deps
+  postgres: {condition: service_healthy}
+  keycloak: {condition: service_healthy}
+  legal-config: {condition: service_healthy}
+  legal-eureka: {condition: service_healthy}
+  kafka: {condition: service_healthy}
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    mem_limit: 384m
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+      CLIENTES_DB_PASSWORD: ${CLIENTES_DB_PASSWORD:?Set CLIENTES_DB_PASSWORD}
+      SERVICIOS_DB_PASSWORD: ${SERVICIOS_DB_PASSWORD:?Set SERVICIOS_DB_PASSWORD}
+      ORDENES_DB_PASSWORD: ${ORDENES_DB_PASSWORD:?Set ORDENES_DB_PASSWORD}
+      PAGOS_DB_PASSWORD: ${PAGOS_DB_PASSWORD:?Set PAGOS_DB_PASSWORD}
+      LEGACY_DB_PASSWORD: ${LEGACY_DB_PASSWORD:?Set LEGACY_DB_PASSWORD}
+      KEYCLOAK_DB_PASSWORD: ${KEYCLOAK_DB_PASSWORD:?Set KEYCLOAK_DB_PASSWORD}
+    ports: ["127.0.0.1:${POSTGRES_PORT:-0}:5432"]
+    volumes:
+      - pg_s12_data:/var/lib/postgresql/data
+      - ./database/s12/00-init.sh:/docker-entrypoint-initdb.d/00-init.sh:ro
+      - ./database:/migrations:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U postgres -d postgres"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+    labels:
+      illari.environment: ${ILLARI_ENVIRONMENT:-development}
+    networks: [legal-net]
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.2
+    restart: unless-stopped
+    mem_limit: 768m
+    command: ["start", "--http-enabled=true", "--import-realm"]
+    environment:
+      KC_HOSTNAME: ${KEYCLOAK_PUBLIC_URL:-http://localhost:18180}
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://postgres:5432/illari_keycloak
+      KC_DB_USERNAME: illari_keycloak
+      KC_DB_PASSWORD: ${KEYCLOAK_DB_PASSWORD:?Set KEYCLOAK_DB_PASSWORD}
+      KC_BOOTSTRAP_ADMIN_USERNAME: ${KEYCLOAK_ADMIN:-admin}
+      KC_BOOTSTRAP_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:?Set KEYCLOAK_ADMIN_PASSWORD}
+      KC_HEALTH_ENABLED: "true"
+      KC_HTTP_MANAGEMENT_PORT: 9000
+      ILLARI_FRONTEND_URL: ${FRONTEND_PUBLIC_URL:-http://localhost:4200}
+      JAVA_OPTS_KC_HEAP: "-Xms128m -Xmx448m"
+    ports: ["127.0.0.1:${KEYCLOAK_PORT:-18180}:8080"]
+    volumes:
+      - ./infra/keycloak/realm-illari-legal.json:/opt/keycloak/data/import/illari-legal-realm.json:ro
+    depends_on:
+      postgres: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD", "bash", "-ec", "exec 3<>/dev/tcp/127.0.0.1/9000; printf 'GET /health/ready HTTP/1.0\\r\\n\\r\\n' >&3; grep -q '200' <&3"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 60s
+    networks: [legal-net]
+
+  kafka-storage-init:
+    image: postgres:16-alpine
+    user: "0:0"
+    entrypoint: ["sh", "/init-kafka-storage.sh"]
+    network_mode: none
+    volumes:
+      - kafka_s12_data:/data
+      - ./infra/docker/init-kafka-storage.sh:/init-kafka-storage.sh:ro
+
+  kafka:
+    image: apache/kafka:3.9.0
+    restart: unless-stopped
+    hostname: kafka
+    mem_limit: 512m
+    environment:
+      CLUSTER_ID: MkU3OEVBNTcwNTJENDM2Qk
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
+      KAFKA_LISTENERS: PLAINTEXT://:9092,CONTROLLER://:9093
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,CONTROLLER:PLAINTEXT
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_LOG_DIRS: /var/lib/kafka/data
+      KAFKA_HEAP_OPTS: "-Xms128m -Xmx256m"
+    volumes: [kafka_s12_data:/var/lib/kafka/data]
+    tmpfs:
+      - /etc/kafka/secrets:uid=1000,gid=1000
+      - /mnt/shared/config:uid=1000,gid=1000
+    depends_on:
+      kafka-storage-init: {condition: service_completed_successfully}
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --list >/dev/null"]
+      interval: 10s
+      timeout: 10s
+      retries: 30
+      start_period: 20s
+    networks: [legal-net]
+
+  legal-config:
+    <<: *java
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.jar
+      args: {JAR_PATH: infra/legal-config/target/legal-config-1.0.0.jar}
+    environment:
+      SERVER_PORT: 8888
+      SPRING_PROFILES_ACTIVE: native
+      CONFIG_REPO_LOCATION: file:/config-repo
+      MANAGEMENT_ENDPOINT_HEALTH_PROBES_ENABLED: "true"
+    ports: ["127.0.0.1:${CONFIG_PORT:-0}:8888"]
+    volumes: ["./infra/legal-config/config-repo:/config-repo:ro"]
+
+  legal-eureka:
+    <<: *java
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.jar
+      args: {JAR_PATH: infra/legal-eureka/target/legal-eureka-1.0.0.jar}
+    environment:
+      SERVER_PORT: 8761
+      SPRING_PROFILES_ACTIVE: s12
+      SPRING_CONFIG_IMPORT: configserver:http://legal-config:8888
+      MANAGEMENT_ENDPOINT_HEALTH_PROBES_ENABLED: "true"
+    ports: ["127.0.0.1:${EUREKA_PORT:-0}:8761"]
+    depends_on:
+      legal-config: {condition: service_healthy}
+
+  cliente-ms:
+    <<: *java
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.jar
+      args: {JAR_PATH: services/cliente-ms/target/cliente-ms-1.0.0.jar}
+    environment:
+      <<: *app-env
+      SERVER_PORT: 8081
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/illari_clientes
+      SPRING_DATASOURCE_USERNAME: illari_clientes
+      SPRING_DATASOURCE_PASSWORD: ${CLIENTES_DB_PASSWORD:?Set CLIENTES_DB_PASSWORD}
+    ports: ["127.0.0.1:${CLIENTES_PORT:-0}:8081"]
+    depends_on:
+      <<: *app-deps
+
+  servicio-legal-ms:
+    <<: *java
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.jar
+      args: {JAR_PATH: services/servicio-legal-ms/target/servicio-legal-ms-1.0.0.jar}
+    environment:
+      <<: *app-env
+      SERVER_PORT: 8082
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/illari_servicios
+      SPRING_DATASOURCE_USERNAME: illari_servicios
+      SPRING_DATASOURCE_PASSWORD: ${SERVICIOS_DB_PASSWORD:?Set SERVICIOS_DB_PASSWORD}
+    ports: ["127.0.0.1:${SERVICIOS_PORT:-0}:8082"]
+    depends_on:
+      <<: *app-deps
+
+  orden-legal-ms:
+    <<: *java
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.jar
+      args: {JAR_PATH: services/orden-legal-ms/target/orden-legal-ms-1.0.0.jar}
+    environment:
+      <<: *app-env
+      SERVER_PORT: 8083
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/illari_ordenes
+      SPRING_DATASOURCE_USERNAME: illari_ordenes
+      SPRING_DATASOURCE_PASSWORD: ${ORDENES_DB_PASSWORD:?Set ORDENES_DB_PASSWORD}
+    ports: ["127.0.0.1:${ORDENES_PORT:-0}:8083"]
+    depends_on:
+      <<: *app-deps
+      servicio-legal-ms: {condition: service_healthy}
+
+  pago-ms:
+    <<: *java
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.jar
+      args: {JAR_PATH: services/pago-ms/target/pago-ms-1.0.0.jar}
+    environment:
+      <<: *app-env
+      SERVER_PORT: 8084
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/illari_pagos
+      SPRING_DATASOURCE_USERNAME: illari_pagos
+      SPRING_DATASOURCE_PASSWORD: ${PAGOS_DB_PASSWORD:?Set PAGOS_DB_PASSWORD}
+    ports: ["127.0.0.1:${PAGOS_PORT:-0}:8084"]
+    depends_on:
+      <<: *app-deps
+
+  backend-legacy:
+    <<: *java
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.jar
+      args: {JAR_PATH: backend-legacy-casos/target/backend-1.0.0.jar}
+    environment:
+      <<: *app-env
+      SERVER_PORT: 8080
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/illari_juridico
+      SPRING_DATASOURCE_USERNAME: illari_juridico
+      SPRING_DATASOURCE_PASSWORD: ${LEGACY_DB_PASSWORD:?Set LEGACY_DB_PASSWORD}
+      ILLARI_KEYCLOAK_LEGACY_ENABLED: "true"
+      UPLOAD_DIR: /app/uploads
+    ports: ["127.0.0.1:${LEGACY_PORT:-0}:8080"]
+    depends_on:
+      <<: *app-deps
+    volumes: [juridico_uploads:/app/uploads]
+
+  legal-gateway:
+    <<: *java
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.jar
+      args: {JAR_PATH: infra/legal-gateway/target/legal-gateway-1.0.0.jar}
+    environment:
+      <<: *app-env
+      SERVER_PORT: 18080
+      EUREKA_URL: http://legal-eureka:8761/eureka/
+      ILLARI_CORS_ALLOWED_ORIGINS: ${FRONTEND_PUBLIC_URL:-http://localhost:4200}
+    ports: ["127.0.0.1:${GATEWAY_PORT:-18080}:18080"]
+    depends_on:
+      legal-config: {condition: service_healthy}
+      legal-eureka: {condition: service_healthy}
+      keycloak: {condition: service_healthy}
+      cliente-ms: {condition: service_healthy}
+      servicio-legal-ms: {condition: service_healthy}
+      orden-legal-ms: {condition: service_healthy}
+      pago-ms: {condition: service_healthy}
+      backend-legacy: {condition: service_healthy}
+
+  frontend:
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.frontend
+    profiles: [ui]
+    restart: unless-stopped
+    mem_limit: 96m
+    environment:
+      KEYCLOAK_PUBLIC_URL: ${KEYCLOAK_PUBLIC_URL:-http://localhost:18180}
+    ports: ["127.0.0.1:${FRONTEND_PORT:-4200}:80"]
+    depends_on:
+      legal-gateway: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1/health/ready | grep -q UP"]
+      interval: 10s
+      timeout: 3s
+      retries: 15
+    networks: [legal-net]
+
+networks:
+  legal-net: {}
+volumes:
+  pg_s12_data: {}
+  kafka_s12_data: {}
+  juridico_uploads: {}

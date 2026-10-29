@@ -1,0 +1,10 @@
+# Compose consumes JARs produced by BUILD-S12.ps1 with tests enabled.
+FROM eclipse-temurin:21-jre-alpine
+WORKDIR /app
+RUN addgroup -S -g 10001 illari && adduser -S -u 10001 -G illari illari \
+    && mkdir -p /app/uploads /var/log/illari && chown -R illari:illari /app /var/log/illari
+ARG JAR_PATH
+COPY --chown=illari:illari ${JAR_PATH} /app/app.jar
+USER illari:illari
+ENTRYPOINT ["java","-XX:MaxRAMPercentage=55","-XX:ActiveProcessorCount=2","-XX:+ExitOnOutOfMemoryError","-jar","/app/app.jar"]
+

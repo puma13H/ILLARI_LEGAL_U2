@@ -1,0 +1,161 @@
+# Overlay for the SAME project; no external/global volumes or Docker socket.
+services:
+  observation-storage-init:
+    image: postgres:16-alpine
+    profiles: [obs]
+    user: "0:0"
+    network_mode: none
+    entrypoint: [sh, /init-observation-storage.sh]
+    volumes:
+      - ./infra/docker/init-observation-storage.sh:/init-observation-storage.sh:ro
+      - obs_legal_gateway:/logs/legal-gateway
+      - obs_cliente_ms:/logs/cliente-ms
+      - obs_servicio_legal_ms:/logs/servicio-legal-ms
+      - obs_orden_legal_ms:/logs/orden-legal-ms
+      - obs_pago_ms:/logs/pago-ms
+      - obs_backend_legacy:/logs/backend-legacy
+  legal-gateway:
+    environment:
+      ILLARI_OBSERVATION_DIRECTORY: /observations
+      MANAGEMENT_METRICS_DISTRIBUTION_PERCENTILESHISTOGRAM_HTTP_SERVER_REQUESTS: "true"
+    volumes:
+      - obs_legal_gateway:/observations
+    depends_on:
+      observation-storage-init: {condition: service_completed_successfully}
+  cliente-ms:
+    environment:
+      ILLARI_OBSERVATION_DIRECTORY: /observations
+      MANAGEMENT_METRICS_DISTRIBUTION_PERCENTILESHISTOGRAM_HTTP_SERVER_REQUESTS: "true"
+    volumes:
+      - obs_cliente_ms:/observations
+    depends_on:
+      observation-storage-init: {condition: service_completed_successfully}
+  servicio-legal-ms:
+    environment:
+      ILLARI_OBSERVATION_DIRECTORY: /observations
+      MANAGEMENT_METRICS_DISTRIBUTION_PERCENTILESHISTOGRAM_HTTP_SERVER_REQUESTS: "true"
+    volumes:
+      - obs_servicio_legal_ms:/observations
+    depends_on:
+      observation-storage-init: {condition: service_completed_successfully}
+  orden-legal-ms:
+    environment:
+      ILLARI_OBSERVATION_DIRECTORY: /observations
+      MANAGEMENT_METRICS_DISTRIBUTION_PERCENTILESHISTOGRAM_HTTP_SERVER_REQUESTS: "true"
+    volumes:
+      - obs_orden_legal_ms:/observations
+    depends_on:
+      observation-storage-init: {condition: service_completed_successfully}
+  pago-ms:
+    environment:
+      ILLARI_OBSERVATION_DIRECTORY: /observations
+      MANAGEMENT_METRICS_DISTRIBUTION_PERCENTILESHISTOGRAM_HTTP_SERVER_REQUESTS: "true"
+    volumes:
+      - obs_pago_ms:/observations
+    depends_on:
+      observation-storage-init: {condition: service_completed_successfully}
+  backend-legacy:
+    environment:
+      ILLARI_OBSERVATION_DIRECTORY: /observations
+      MANAGEMENT_METRICS_DISTRIBUTION_PERCENTILESHISTOGRAM_HTTP_SERVER_REQUESTS: "true"
+    volumes:
+      - obs_backend_legacy:/observations
+    depends_on:
+      observation-storage-init: {condition: service_completed_successfully}
+  blackbox:
+    image: prom/blackbox-exporter:v0.26.0
+    profiles: [obs]
+    restart: unless-stopped
+    mem_limit: 64m
+    command: ['--config.file=/etc/blackbox/blackbox.yml']
+    volumes: ['./obs/blackbox/blackbox.yml:/etc/blackbox/blackbox.yml:ro']
+    networks: [legal-net]
+  prometheus:
+    image: prom/prometheus:v3.2.1
+    profiles: [obs]
+    restart: unless-stopped
+    mem_limit: 256m
+    command: ['--config.file=/etc/prometheus/prometheus.yml', '--storage.tsdb.retention.time=3d']
+    volumes:
+      - ./obs/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./obs/prometheus/alerts.yml:/etc/prometheus/alerts.yml:ro
+      - ./obs/prometheus/alerts.test.yml:/etc/prometheus/alerts.test.yml:ro
+      - prometheus_s12_data:/prometheus
+    networks: [legal-net]
+    healthcheck:
+      test: [CMD-SHELL, 'wget -qO- http://127.0.0.1:9090/-/ready >/dev/null']
+      interval: 5s
+      timeout: 3s
+      retries: 30
+  loki:
+    image: grafana/loki:3.4.2
+    profiles: [obs]
+    restart: unless-stopped
+    mem_limit: 256m
+    command: ['-config.file=/etc/loki/config.yml']
+    volumes:
+      - ./obs/loki/loki.yml:/etc/loki/config.yml:ro
+      - loki_s12_data:/loki
+    networks: [legal-net]
+    healthcheck:
+      test: [CMD-SHELL, 'wget -qO- http://127.0.0.1:3100/ready >/dev/null']
+      interval: 5s
+      timeout: 3s
+      retries: 30
+  alloy:
+    image: grafana/alloy:v1.8.3
+    profiles: [obs]
+    restart: unless-stopped
+    mem_limit: 160m
+    user: "0:0"
+    command: [run, '--server.http.listen-addr=127.0.0.1:12345', '--storage.path=/var/lib/alloy/data', /etc/alloy/config.alloy]
+    volumes:
+      - ./obs/alloy/config.alloy:/etc/alloy/config.alloy:ro
+      - alloy_s12_data:/var/lib/alloy/data
+      - obs_legal_gateway:/var/log/illari/legal-gateway:ro
+      - obs_cliente_ms:/var/log/illari/cliente-ms:ro
+      - obs_servicio_legal_ms:/var/log/illari/servicio-legal-ms:ro
+      - obs_orden_legal_ms:/var/log/illari/orden-legal-ms:ro
+      - obs_pago_ms:/var/log/illari/pago-ms:ro
+      - obs_backend_legacy:/var/log/illari/backend-legacy:ro
+    depends_on:
+      loki: {condition: service_healthy}
+    networks: [legal-net]
+  grafana:
+    image: grafana/grafana:11.6.0
+    profiles: [obs]
+    restart: unless-stopped
+    mem_limit: 256m
+    ports: ['127.0.0.1:${GRAFANA_PORT:-0}:3000']
+    environment:
+      GF_SECURITY_ADMIN_USER: ${GRAFANA_ADMIN_USER:-admin}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD:?Set a private password for NEW Grafana storage}
+      GF_AUTH_ANONYMOUS_ENABLED: 'false'
+      GF_USERS_ALLOW_SIGN_UP: 'false'
+      GF_ANALYTICS_REPORTING_ENABLED: 'false'
+      GF_ANALYTICS_CHECK_FOR_UPDATES: 'false'
+      GF_SECURITY_COOKIE_SAMESITE: strict
+    volumes:
+      - ./obs/grafana/provisioning-docker:/etc/grafana/provisioning:ro
+      - ./obs/grafana/dashboards:/var/lib/grafana/dashboards:ro
+      - grafana_s12_data:/var/lib/grafana
+    depends_on:
+      prometheus: {condition: service_healthy}
+      loki: {condition: service_healthy}
+    networks: [legal-net]
+    healthcheck:
+      test: [CMD-SHELL, 'wget -qO- http://127.0.0.1:3000/api/health >/dev/null']
+      interval: 5s
+      timeout: 3s
+      retries: 30
+volumes:
+  obs_legal_gateway: {}
+  obs_cliente_ms: {}
+  obs_servicio_legal_ms: {}
+  obs_orden_legal_ms: {}
+  obs_pago_ms: {}
+  obs_backend_legacy: {}
+  prometheus_s12_data: {}
+  loki_s12_data: {}
+  alloy_s12_data: {}
+  grafana_s12_data: {}

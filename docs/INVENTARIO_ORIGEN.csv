@@ -1,0 +1,1063 @@
+﻿archivo,categoria,bytes,decision_entrega,motivo,original_conservado
+.dockerignore,ejecucion,198,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+.env.example,privado_o_local,130,excluido_del_paquete,"no distribuir datos, credenciales o almacenamientos locales",True
+.env.s12.example,ejecucion,616,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+.gitattributes,ejecucion,35,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+.gitignore,ejecucion,481,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+ARQUITECTURA-DISTRIBUIDA.md,documentacion_historica,1429,archivado_en_desarrollo,conservar original y consolidar documentacion de entrega,True
+BUILD-S12.ps1,ejecucion,1114,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+CHECKLIST-DEMOSTRACION-S12.md,historico,10413,archivado_en_desarrollo,historico conservado en desarrollo,True
+CMD_RUN_INSTRUCTIONS.md,historico,1601,archivado_en_desarrollo,historico conservado en desarrollo,True
+COMMIT_HISTORY.md,historico,1719,archivado_en_desarrollo,historico conservado en desarrollo,True
+create-repo.bat,historico,146,archivado_en_desarrollo,historico conservado en desarrollo,True
+DESPLIEGUE-S12.md,documentacion_historica,8854,archivado_en_desarrollo,conservar original y consolidar documentacion de entrega,True
+DETENER-4-MICROSERVICIOS.bat,historico,125,archivado_en_desarrollo,historico conservado en desarrollo,True
+DETENER-DISTRIBUIDO.bat,historico,125,archivado_en_desarrollo,historico conservado en desarrollo,True
+docker-compose.s12.yml,ejecucion,145,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+docker-compose.yml,ejecucion,10590,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+DOCKER-DETENER.bat,historico,170,archivado_en_desarrollo,historico conservado en desarrollo,True
+DOCKER-INICIAR.bat,historico,1479,archivado_en_desarrollo,historico conservado en desarrollo,True
+DOCKER.md,historico,2718,archivado_en_desarrollo,historico conservado en desarrollo,True
+DOCUMENTACION_PROYECTO.md,historico,3807,archivado_en_desarrollo,historico conservado en desarrollo,True
+EVIDENCIAS_Y_SUSTENTACION_S12.md,historico,3781,archivado_en_desarrollo,historico conservado en desarrollo,True
+FASE1_RESULTADOS.md,documentacion_historica,10801,archivado_en_desarrollo,conservar original y consolidar documentacion de entrega,True
+FASE2_RESULTADOS.md,documentacion_historica,27155,archivado_en_desarrollo,conservar original y consolidar documentacion de entrega,True
+FASE3_RESULTADOS.md,documentacion_historica,31495,archivado_en_desarrollo,conservar original y consolidar documentacion de entrega,True
+FASE4_RESULTADOS.md,documentacion_historica,28466,archivado_en_desarrollo,conservar original y consolidar documentacion de entrega,True
+FASE5_PARTE_A_RESULTADOS.md,documentacion_historica,18060,archivado_en_desarrollo,conservar original y consolidar documentacion de entrega,True
+FASE5_PARTE_B_RESULTADOS.md,documentacion_historica,28298,archivado_en_desarrollo,conservar original y consolidar documentacion de entrega,True
+GUIA-INSTALACION-WINDOWS.md,historico,6515,archivado_en_desarrollo,historico conservado en desarrollo,True
+IMPLEMENTACION_S12_ESTADO.md,historico,1617,archivado_en_desarrollo,historico conservado en desarrollo,True
+INFORME-SISTEMA-LEGAL.md,historico,16731,archivado_en_desarrollo,historico conservado en desarrollo,True
+INICIAR-4-MICROSERVICIOS.bat,historico,55,archivado_en_desarrollo,historico conservado en desarrollo,True
+INICIAR-BACKEND-POSTGRES.bat,historico,629,archivado_en_desarrollo,historico conservado en desarrollo,True
+INICIAR-BACKEND.bat,historico,246,archivado_en_desarrollo,historico conservado en desarrollo,True
+INICIAR-DISTRIBUIDO.bat,historico,55,archivado_en_desarrollo,historico conservado en desarrollo,True
+INICIAR-OBS-S12.ps1,ejecucion,1257,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+INICIAR-TODO.bat,historico,984,archivado_en_desarrollo,historico conservado en desarrollo,True
+INICIAR-U2-S12.ps1,ejecucion,2892,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+INSTALAR-BD-POSTGRES.bat,historico,1935,archivado_en_desarrollo,historico conservado en desarrollo,True
+LEEME.txt,historico,1217,archivado_en_desarrollo,historico conservado en desarrollo,True
+LEER_PRIMERO_ENTREGA_U2.md,historico,6919,archivado_en_desarrollo,historico conservado en desarrollo,True
+MODELO_DOMINIO_Y_PARTICIONES.md,documentacion_historica,2579,archivado_en_desarrollo,conservar original y consolidar documentacion de entrega,True
+OBSERVABILIDAD-S10.md,documentacion_historica,5606,archivado_en_desarrollo,conservar original y consolidar documentacion de entrega,True
+PROBAR-COMPRA-S12.ps1,ejecucion,2493,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+README-4-MICROSERVICIOS.md,historico,1071,archivado_en_desarrollo,historico conservado en desarrollo,True
+README.md,historico,6477,incluido,historico conservado en desarrollo,True
+REGISTRO_CAMBIOS_U2.md,historico,2862,archivado_en_desarrollo,historico conservado en desarrollo,True
+RESPALDAR-BASE-S12.ps1,ejecucion,4993,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+REVISION_INICIAL_S12.md,historico,3737,archivado_en_desarrollo,historico conservado en desarrollo,True
+S12_CAMBIOS_Y_LIMITACIONES.md,historico,4309,archivado_en_desarrollo,historico conservado en desarrollo,True
+S12_ENTREGA_LEER_PRIMERO.md,historico,273,archivado_en_desarrollo,historico conservado en desarrollo,True
+start-admin.bat,historico,203,archivado_en_desarrollo,historico conservado en desarrollo,True
+start-backend.bat,historico,963,archivado_en_desarrollo,historico conservado en desarrollo,True
+start-frontend.bat,historico,776,archivado_en_desarrollo,historico conservado en desarrollo,True
+start-frontends.bat,historico,510,archivado_en_desarrollo,historico conservado en desarrollo,True
+VALIDACION_Y_LIMITACIONES.md,historico,2815,archivado_en_desarrollo,historico conservado en desarrollo,True
+VERIFICAR-FASE1.ps1,ejecucion,899,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+VERIFICAR-FASE2.ps1,ejecucion,5602,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+VERIFICAR-FASE3.ps1,ejecucion,1872,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+VERIFICAR-FASE4.ps1,ejecucion,1607,incluido,"entrada canonica de compilacion, ejecucion y verificacion S12",True
+backend-legacy-casos/.dockerignore,ejecucion,44,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/Dockerfile,ejecucion,410,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/ensure-maven.ps1,ejecucion,733,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/pom.xml,ejecucion,4666,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/CasosLegalesApplication.java,ejecucion,332,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/Correlation.java,ejecucion,1018,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/SafeObservationLayout.java,ejecucion,1766,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/TraceIdFilter.java,ejecucion,1056,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/config/DataInitializer.java,ejecucion,5260,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/config/JwtValidationConfig.java,ejecucion,1761,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/config/KeycloakLegacySecurity.java,ejecucion,2847,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/config/SecurityConfig.java,ejecucion,5277,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/controller/AbogadoController.java,ejecucion,1357,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/controller/AgendaController.java,ejecucion,932,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/controller/AuthController.java,ejecucion,879,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/controller/CasoController.java,ejecucion,2615,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/controller/ClienteController.java,ejecucion,1519,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/controller/DashboardController.java,ejecucion,1473,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/controller/DocumentoController.java,ejecucion,4053,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/controller/IdentidadController.java,ejecucion,922,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/controller/MensajeController.java,ejecucion,1376,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/AbogadoRequest.java,ejecucion,190,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/AbogadoResponse.java,ejecucion,229,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/AgendaRequest.java,ejecucion,215,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/AgendaResponse.java,ejecucion,233,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/AuthResponse.java,ejecucion,170,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/CasoRequest.java,ejecucion,340,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/CasoResponse.java,ejecucion,418,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/ClienteRequest.java,ejecucion,454,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/ClienteResponse.java,ejecucion,200,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/CreateUserResponse.java,ejecucion,106,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/DashboardResponse.java,ejecucion,176,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/DocumentoResource.java,ejecucion,199,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/DocumentoResponse.java,ejecucion,185,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/LoginRequest.java,ejecucion,252,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/MensajeRequest.java,ejecucion,81,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/dto/MensajeResponse.java,ejecucion,176,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/exception/GlobalExceptionHandler.java,ejecucion,2620,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/model/Abogado.java,ejecucion,1419,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/model/Agenda.java,ejecucion,1120,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/model/Caso.java,ejecucion,2029,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/model/Cliente.java,ejecucion,1203,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/model/Documento.java,ejecucion,1684,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/model/IdentidadKeycloak.java,ejecucion,1095,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/model/Mensaje.java,ejecucion,950,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/model/Role.java,ejecucion,646,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/model/User.java,ejecucion,1224,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/repository/AbogadoRepository.java,ejecucion,342,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/repository/AgendaRepository.java,ejecucion,212,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/repository/CasoRepository.java,ejecucion,353,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/repository/ClienteRepository.java,ejecucion,342,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/repository/DocumentoRepository.java,ejecucion,306,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/repository/IdentidadKeycloakRepository.java,ejecucion,439,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/repository/MensajeRepository.java,ejecucion,297,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/repository/RoleRepository.java,ejecucion,279,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/repository/UserRepository.java,ejecucion,612,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/security/CustomUserDetailsService.java,ejecucion,1203,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/security/IdentidadJuridicaFilter.java,ejecucion,2242,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/security/IdentidadJuridicaService.java,ejecucion,1759,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/security/JwtAuthFilter.java,ejecucion,2457,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/security/JwtService.java,ejecucion,1883,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/service/AbogadoService.java,ejecucion,3594,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/service/AgendaService.java,ejecucion,2141,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/service/AuthService.java,ejecucion,2170,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/service/CasoService.java,ejecucion,7022,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/service/ClienteService.java,ejecucion,3521,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/service/DocumentoService.java,ejecucion,6236,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/java/com/casoslegales/service/MensajeService.java,ejecucion,2041,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/resources/application-dev.yml,ejecucion,357,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/resources/application-docker.yml,ejecucion,389,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/resources/application-postgres.yml,ejecucion,214,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/resources/application-s12.yml,ejecucion,470,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/resources/application.yml,ejecucion,885,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/main/resources/logback-spring.xml,ejecucion,1191,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/test/java/com/casoslegales/config/DataInitializerTest.java,pruebas,1570,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/src/test/java/com/casoslegales/security/IdentidadJuridicaTest.java,pruebas,4735,incluido,fuente/configuracion/pruebas conservadas,True
+backend-legacy-casos/target/backend-1.0.0.jar,generado,87337252,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/backend-1.0.0.jar.original,generado,100054,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/application-dev.yml,generado,357,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/application-docker.yml,generado,389,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/application-postgres.yml,generado,214,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/application-s12.yml,generado,470,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/application.yml,generado,885,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/logback-spring.xml,generado,1191,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/CasosLegalesApplication.class,generado,757,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/Correlation.class,generado,1419,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/SafeObservationLayout.class,generado,3384,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/TraceIdFilter.class,generado,2448,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/config/DataInitializer.class,generado,8064,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/config/JwtValidationConfig.class,generado,5163,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/config/KeycloakLegacySecurity.class,generado,11427,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/config/SecurityConfig.class,generado,12103,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/controller/AbogadoController.class,generado,3283,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/controller/AgendaController.class,generado,2005,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/controller/AuthController.class,generado,1990,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/controller/CasoController.class,generado,5239,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/controller/ClienteController.class,generado,3351,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/controller/DashboardController.class,generado,4394,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/controller/DocumentoController.class,generado,7484,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/controller/IdentidadController$Vinculo.class,generado,1818,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/controller/IdentidadController.class,generado,1971,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/controller/MensajeController.class,generado,3185,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/AbogadoRequest.class,generado,2037,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/AbogadoResponse.class,generado,2361,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/AgendaRequest.class,generado,1962,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/AgendaResponse.class,generado,2143,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/AuthResponse.class,generado,2031,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/CasoRequest.class,generado,2642,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/CasoResponse.class,generado,3101,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/ClienteRequest.class,generado,2614,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/ClienteResponse.class,generado,2204,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/CreateUserResponse.class,generado,1625,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/DashboardResponse.class,generado,1860,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/DocumentoResource.class,generado,1859,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/DocumentoResponse.class,generado,2085,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/LoginRequest.class,generado,2107,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/MensajeRequest.class,generado,1433,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/dto/MensajeResponse.class,generado,2059,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/exception/GlobalExceptionHandler.class,generado,6053,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/model/Abogado.class,generado,2486,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/model/Agenda.class,generado,1901,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/model/Caso.class,generado,3291,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/model/Cliente.class,generado,2256,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/model/Documento.class,generado,2840,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/model/IdentidadKeycloak.class,generado,1859,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/model/Mensaje.class,generado,1985,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/model/Role.class,generado,1365,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/model/User.class,generado,2247,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/repository/AbogadoRepository.class,generado,705,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/repository/AgendaRepository.class,generado,347,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/repository/CasoRepository.class,generado,605,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/repository/ClienteRepository.class,generado,705,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/repository/DocumentoRepository.class,generado,549,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/repository/IdentidadKeycloakRepository.class,generado,866,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/repository/MensajeRepository.class,generado,540,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/repository/RoleRepository.class,generado,524,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/repository/UserRepository.class,generado,1111,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/security/CustomUserDetailsService.class,generado,2882,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/security/IdentidadJuridicaFilter.class,generado,5680,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/security/IdentidadJuridicaService.class,generado,3829,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/security/JwtAuthFilter.class,generado,3634,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/security/JwtService.class,generado,3706,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/service/AbogadoService.class,generado,6199,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/service/AgendaService.class,generado,4467,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/service/AuthService.class,generado,3899,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/service/CasoService.class,generado,9452,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/service/ClienteService.class,generado,6137,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/service/DocumentoService.class,generado,10188,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/classes/com/casoslegales/service/MensajeService.class,generado,4903,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/maven-archiver/pom.properties,generado,61,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst,generado,3002,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst,generado,10044,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst,generado,104,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst,generado,326,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/surefire-reports/com.casoslegales.config.DataInitializerTest.txt,generado,340,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/surefire-reports/com.casoslegales.security.IdentidadJuridicaTest.txt,generado,348,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/surefire-reports/TEST-com.casoslegales.config.DataInitializerTest.xml,generado,68478,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/surefire-reports/TEST-com.casoslegales.security.IdentidadJuridicaTest.xml,generado,68273,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/test-classes/com/casoslegales/config/DataInitializerTest.class,generado,4462,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+backend-legacy-casos/target/test-classes/com/casoslegales/security/IdentidadJuridicaTest.class,generado,9791,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+database/00-create-database.sql,historico,133,archivado_en_desarrollo,inicializacion clasica reemplazada por database/s12; conservar en desarrollo sin distribuir datos/credenciales de muestra,True
+database/01-schema.sql,ejecucion,5225,incluido,fuente/configuracion/pruebas conservadas,True
+database/02-seed.sql,historico,326,archivado_en_desarrollo,inicializacion clasica reemplazada por database/s12; conservar en desarrollo sin distribuir datos/credenciales de muestra,True
+database/03-ms-databases.sql,historico,264,archivado_en_desarrollo,inicializacion clasica reemplazada por database/s12; conservar en desarrollo sin distribuir datos/credenciales de muestra,True
+database/04-fase1-saga.sql,ejecucion,757,incluido,fuente/configuracion/pruebas conservadas,True
+database/05-fase2-compras-detalle.sql,ejecucion,3322,incluido,fuente/configuracion/pruebas conservadas,True
+database/06-fase2-mensajeria.sql,ejecucion,3130,incluido,fuente/configuracion/pruebas conservadas,True
+database/07-fase3-identidad-juridica.sql,ejecucion,580,incluido,fuente/configuracion/pruebas conservadas,True
+database/README.md,ejecucion,1778,incluido,fuente/configuracion/pruebas conservadas,True
+database/schema.sql,historico,52,archivado_en_desarrollo,inicializacion clasica reemplazada por database/s12; conservar en desarrollo sin distribuir datos/credenciales de muestra,True
+database/seed.sql,historico,1072,archivado_en_desarrollo,inicializacion clasica reemplazada por database/s12; conservar en desarrollo sin distribuir datos/credenciales de muestra,True
+database/s12/00-init.sh,ejecucion,2611,incluido,fuente/configuracion/pruebas conservadas,True
+database/s12/clientes-base.sql,ejecucion,247,incluido,fuente/configuracion/pruebas conservadas,True
+database/s12/ordenes-base.sql,ejecucion,498,incluido,fuente/configuracion/pruebas conservadas,True
+database/s12/pagos-base.sql,ejecucion,414,incluido,fuente/configuracion/pruebas conservadas,True
+database/s12/servicios-base.sql,ejecucion,202,incluido,fuente/configuracion/pruebas conservadas,True
+evidencias/fase5-parte-a/01-inicio-publico.jpg,evidencia_original,30496,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/02-keycloak-login.jpg,evidencia_original,23395,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/03-dashboard-admin.jpg,evidencia_original,103641,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/04-casos-admin.jpg,evidencia_original,115573,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/05-caso-formulario.jpg,evidencia_original,85262,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/06-caso-creado-admin.jpg,evidencia_original,127971,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/07-clientes-admin.jpg,evidencia_original,140049,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/08-abogados-admin.jpg,evidencia_original,155588,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/09-usuarios-pendiente.jpg,evidencia_original,35792,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/10-dashboard-abogado.jpg,evidencia_original,74582,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/11-mensaje-abogado.jpg,evidencia_original,86581,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/12-documento-abogado.jpg,evidencia_original,94169,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/13-documentos-modulo-abogado.jpg,evidencia_original,45734,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/14-ruta-admin-bloqueada-abogado.jpg,evidencia_original,74452,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/15-mis-casos-cliente.jpg,evidencia_original,40407,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/16-caso-cliente-mensajes.jpg,evidencia_original,37286,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/17-carrito-dos-servicios.jpg,evidencia_original,39290,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/18-mis-solicitudes-pagada.jpg,evidencia_original,39721,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/19-dashboard-cliente-ruta-bloqueada.jpg,evidencia_original,36634,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/20-documentos-cliente.jpg,evidencia_original,38333,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/21-audiencias-cliente.jpg,evidencia_original,24902,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/22-calendario-pendiente.jpg,evidencia_original,27699,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/23-mensajes-globales-demostracion.jpg,evidencia_original,35527,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/24-compra-final-verificada.jpg,evidencia_original,40169,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/angular-build-final.log,evidencia_original,2454,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/angular-test-final.log,evidencia_original,489,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/antes-01-inicio-publico.jpg,evidencia_original,27469,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/compatibilidad-hashes.json,evidencia_original,601,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/compra-persistencia.json,evidencia_original,2330,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/docker-estado-final.log,evidencia_original,893,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/fallo-01-casos-cargando.jpg,evidencia_original,18975,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/fallo-02-dashboard-sin-datos.jpg,evidencia_original,96082,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/indice-evidencias.json,evidencia_original,4760,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/intento-persistencia-stdout.json,evidencia_original,2255,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/layout-regresion-antes.log,evidencia_original,2566,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/nginx-dns-final.log,evidencia_original,147,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/nginx-dns-resultados.json,evidencia_original,273,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/pendientes-visibles.json,evidencia_original,676,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/resultados-navegador.json,evidencia_original,4429,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-a/resultados-persistencia.json,evidencia_original,2253,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/baseline.json,evidencia_original,62881,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/cierre.json,evidencia_original,5657,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/cierre.log,evidencia_original,1749,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/compatibilidad.json,evidencia_original,457,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/consistencia.json,evidencia_original,5114,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/consistencia.log,evidencia_original,1516,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/diagnostico.json,evidencia_original,25146,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/diagnostico.log,evidencia_original,6872,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/docker-estado-final.log,evidencia_original,903,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/dos-instancias.json,evidencia_original,3231,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/dos-instancias.log,evidencia_original,797,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/grafana-panel-results.json,evidencia_original,21875,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/guia-dominio.html,evidencia_original,144174,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/guia-dominio.txt,evidencia_original,57909,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/guia-s12.html,evidencia_original,40088,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/guia-s12.txt,evidencia_original,10900,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/guia-u2.html,evidencia_original,38867,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/guia-u2.txt,evidencia_original,9950,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/indice-evidencias.json,evidencia_original,6439,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/intento-cierre-dlt-vacio.json,evidencia_original,5660,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/intento-cierre-dlt-vacio.log,evidencia_original,1749,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/invariantes-alcance.json,evidencia_original,505,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/metrics-catalogue-failure.json,evidencia_original,11600,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/metrics-dlt.json,evidencia_original,10448,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/metrics-outbox-exhausted.json,evidencia_original,10569,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/metrics-outbox-queued.json,evidencia_original,10406,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/metrics-recovered.json,evidencia_original,9782,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/offsets-after-duplicates.json,evidencia_original,425,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/offsets-after-payment-validation.json,evidencia_original,433,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/ordenes-despliegue.log,evidencia_original,2354,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/ordenes-package-final.log,evidencia_original,335146,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/promtool-alertas.log,evidencia_original,13,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/promtool-config.log,evidencia_original,220,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/pruebas-previas-reutilizadas.json,evidencia_original,5006,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/regresion-diagnostico-antes-real.log,evidencia_original,11866,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/regresion-diagnostico-antes.log,evidencia_original,9244,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/resumen-operativo.json,evidencia_original,2535,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/seguridad.json,evidencia_original,37221,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/seguridad.log,evidencia_original,10896,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/trace-purchase.json,evidencia_original,4723,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/validacion-pagos.json,evidencia_original,5353,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+evidencias/fase5-parte-b/validacion-pagos.log,evidencia_original,1792,archivado_en_desarrollo,original intacto; entrega incluye seleccion comprobada y sanitizada,True
+frontend/.dockerignore,ejecucion,36,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/angular.json,ejecucion,2611,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/Dockerfile,ejecucion,328,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/nginx.conf,ejecucion,811,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/package-lock.json,ejecucion,232368,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/package.json,ejecucion,968,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/tsconfig.app.json,ejecucion,404,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/tsconfig.json,ejecucion,489,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/tsconfig.spec.json,ejecucion,202,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/dist/casos-legales-frontend/3rdpartylicenses.txt,generado,19401,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk--tA93Him.js,generado,37511,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-4ARfXVVc.js,generado,530,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-76c3bmNZ.js,generado,10020,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-9-qshIID.js,generado,2075,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-B100pJjC.js,generado,50987,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-B16FA8hB.js,generado,5846,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-B4EQbYv1.js,generado,326,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-B4Z43YH3.js,generado,5045,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-B6fvuE8C.js,generado,13286,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-B8-VL-IQ.js,generado,587,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-B9Iy6dy2.js,generado,530,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-B9sFk3JO.js,generado,1444,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BA53b_GO.js,generado,1326,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BaZoq-or.js,generado,587,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BB6PVqbc.js,generado,4048,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BbHh1wQi.js,generado,2608,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BCj5SQ5s.js,generado,2075,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BC_U_DRA.js,generado,551,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BDtngpGl.js,generado,5846,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BGE_g2vG.js,generado,4048,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BgiDyu-Q.js,generado,512,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Bj8O1X55.js,generado,849,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BKbtRuoW.js,generado,326,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BkJ40WcG.js,generado,537,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BLvJC_dM.js,generado,551,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BMg0LqPm.js,generado,530,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BP3TDwQS.js,generado,537,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BqkPFVmx.js,generado,5108,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BS9vT7fA.js,generado,530,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BSWhtF8O.js,generado,5166,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BT52XPuu.js,generado,37653,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Bt66T1Ou.js,generado,2545,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BTGZ_aLC.js,generado,2608,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BUFZv0F3.js,generado,4526,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BvgrfsuR.js,generado,551,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BwuTVZp9.js,generado,3688,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BXPmq_lM.js,generado,838,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BxYCZWtX.js,generado,849,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BZ4-r3_6.js,generado,326,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-BZGfWbH9.js,generado,3688,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-B_mkImtl.js,generado,326,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-C0r1XfSt.js,generado,2075,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-C2Th3PTe.js,generado,13246,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-C8ivPp5q.js,generado,5108,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-C95Dxke5.js,generado,10020,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CABF9QzV.js,generado,3029,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CAwAKuFW.js,generado,2494,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CbQmSgi2.js,generado,1444,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Cc6Qs1GA.js,generado,5045,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Cca4uCYB.js,generado,5108,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Ccxbg7gY.js,generado,37507,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CfKGqTCe.js,generado,587,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CG-wCBMn.js,generado,10020,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CgPRa18C.js,generado,3688,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CM28-Ox3.js,generado,2192,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CMImnRQl.js,generado,537,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Cn8-35Ka.js,generado,1330,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CnM-e9YJ.js,generado,849,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CNVoLyGr.js,generado,537,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CoOSxy_e.js,generado,10020,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Co_rWV3r.js,generado,13286,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CQFBAvx_.js,generado,13246,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CqmetNmg.js,generado,838,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CSZBdkJO.js,generado,4048,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Cu-FmAyo.js,generado,2494,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CU5i1oF_.js,generado,2608,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CvHGmBkO.js,generado,5166,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CvjtCjLa.js,generado,2545,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CWIHOfwD.js,generado,4530,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CwLMGKnX.js,generado,4048,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CXwfkmTN.js,generado,1444,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Cy5elCGD.js,generado,5846,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-CYJuFc3l.js,generado,5045,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Czg37jlb.js,generado,1444,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-D0hugtCc.js,generado,587,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-D4Mc8KX5.js,generado,4048,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-D4RtH7XH.js,generado,2608,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-D64qtAeT.js,generado,530,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-D8C3J8er.js,generado,530,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-D8orQFy4.js,generado,5166,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-D9ebB98x.js,generado,1330,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Dbk29iob.js,generado,4530,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DcJg6WjI.js,generado,3126,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Dcu0lCeB.js,generado,537,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DCxc_xs6.js,generado,530,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DDd7MBdU.js,generado,838,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DeYzlL45.js,generado,2545,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DFnoGK5s.js,generado,587,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DfOpIrHD.js,generado,530,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Dgazv19N.js,generado,37653,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DIjNRDJf.js,generado,551,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DIlSWXRF.js,generado,161344,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DjmFMfKW.js,generado,2494,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DjSzNJXx.js,generado,2075,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DLO-A_ei.js,generado,37653,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DLX1Rh4R.js,generado,5045,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DOAkQdie.js,generado,5045,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DoiCKaJv.js,generado,1330,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DPfMfVMb.js,generado,5108,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DrOaYqeu.js,generado,838,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DrYhXmvf.js,generado,4530,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DsEPpWS0.js,generado,849,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DuBV8-p-.js,generado,326,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DUVYl8d1.js,generado,747,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DVyt5vdc.js,generado,5166,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DWsV0NVS.js,generado,5846,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DwzcMnrZ.js,generado,2608,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-DyjZZbFD.js,generado,530,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-D_h2j1ct.js,generado,5112,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-D_KBbnoa.js,generado,3688,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-IHUZ231G.js,generado,1330,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-ikj9kgR_.js,generado,530,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Jmyfe_PK.js,generado,5166,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-KHhbQDdf.js,generado,838,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-kqshbFvl.js,generado,13286,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-L0Xx1slc.js,generado,849,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-Lu1u-47S.js,generado,4530,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-MFmcd_TM.js,generado,2075,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-ptd3ZZxi.js,generado,3029,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-qztNEw9V.js,generado,3029,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-rO6Niush.js,generado,2494,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-S9gTMZFw.js,generado,3688,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-uaNRP0Dh.js,generado,2494,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-vm2S7SfA.js,generado,3029,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-X0j4Q7HK.js,generado,10020,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-XuLNBXo5.js,generado,5846,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-YsMQF2lD.js,generado,3126,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-yTXUrUGv.js,generado,3029,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-yufXviGX.js,generado,1444,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/chunk-_7z7wbWF.js,generado,551,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/index.html,generado,3042,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/main-2EFPCT75.js,generado,152850,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/main-DM6HVOCM.js,generado,154666,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/main-FYQKXWFE.js,generado,154416,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/main-GZ6ATHBH.js,generado,154648,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/main-WMH3LPPM.js,generado,154514,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/polyfills-5CFQRCPP.js,generado,34585,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/styles-MHX3RY5D.css,generado,41943,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/assets/login-bg.png,generado,2518315,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/dist/casos-legales-frontend/browser/assets/runtime-config.js,generado,32,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+frontend/src/index.html,ejecucion,292,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/main.ts,ejecucion,248,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/styles.css,ejecucion,43429,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/app.component.ts,ejecucion,317,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/app.config.ts,ejecucion,646,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/app.routes.ts,ejecucion,4836,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/auth/auth-callback.ts,ejecucion,1478,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/auth/auth-destination.spec.ts,ejecucion,1102,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/auth/auth-destination.ts,ejecucion,564,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/auth/auth-service.ts,ejecucion,7370,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/auth/jwt.ts,ejecucion,685,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/auth/oidc-token.spec.ts,ejecucion,2675,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/auth/oidc-token.ts,ejecucion,1991,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/auth/pkce.ts,ejecucion,642,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/guards/auth.guard.ts,ejecucion,433,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/guards/dashboard.guard.ts,ejecucion,623,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/guards/role.guard.ts,ejecucion,931,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/inicio/inicio.html,ejecucion,220,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/inicio/inicio.ts,ejecucion,161,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/interceptors/api-destination.spec.ts,ejecucion,1249,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/interceptors/api-destination.ts,ejecucion,665,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/interceptors/auth-trace.spec.ts,ejecucion,2257,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/interceptors/auth.interceptor.ts,ejecucion,1076,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/interceptors/interceptors-integrados.spec.ts,ejecucion,2091,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/interceptors/trace.interceptor.ts,ejecucion,598,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/models/index.ts,ejecucion,1201,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/services/abogado.service.ts,ejecucion,803,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/services/caso.service.ts,ejecucion,889,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/services/cliente.service.ts,ejecucion,884,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/services/dashboard.service.ts,ejecucion,412,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/services/documento.service.ts,ejecucion,866,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/core/services/mensaje.service.ts,ejecucion,576,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/abogados/abogados.component.ts,ejecucion,4768,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/audiencias/audiencias.component.ts,ejecucion,2567,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/auth/login.component.ts,ejecucion,6216,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/calendario/calendario.component.ts,ejecucion,805,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/casos/caso-create.component.ts,ejecucion,5390,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/casos/caso-detail.component.ts,ejecucion,10281,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/casos/casos-list-carga.spec.ts,ejecucion,1627,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/casos/casos-list.component.ts,ejecucion,3221,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/catalogo/servicio-form.html,ejecucion,1052,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/catalogo/servicio-form.ts,ejecucion,3084,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/catalogo/servicio-list.html,ejecucion,1196,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/catalogo/servicio-list.ts,ejecucion,1877,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/catalogo/servicio.model.ts,ejecucion,152,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/catalogo/servicio.service.ts,ejecucion,1058,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/clientes/clientes.component.ts,ejecucion,5015,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/configuracion/configuracion.component.ts,ejecucion,1648,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/dashboard/dashboard-identidad.spec.ts,ejecucion,1942,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/dashboard/dashboard.component.ts,ejecucion,20049,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/documentos/documentos.component.ts,ejecucion,4304,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/mensajes/mensajes.component.ts,ejecucion,2021,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/ordenes/mis-ordenes.component.ts,ejecucion,5405,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/reportes/reportes.component.ts,ejecucion,2809,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/tareas/tareas.component.ts,ejecucion,794,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/tienda-juridica/compra-intento.spec.ts,ejecucion,2352,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/tienda-juridica/compra-intento.ts,ejecucion,2077,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/tienda-juridica/compra-trace.spec.ts,ejecucion,1397,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/tienda-juridica/tienda-compra.spec.ts,ejecucion,3812,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/tienda-juridica/tienda-juridica.component.ts,ejecucion,35675,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/features/usuarios/usuarios.component.ts,ejecucion,743,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/shared/layout/layout-async.spec.ts,ejecucion,1771,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/shared/layout/layout.component.css,ejecucion,1438,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/shared/layout/layout.component.html,ejecucion,1379,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/app/shared/layout/layout.component.ts,ejecucion,654,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/assets/.gitkeep,ejecucion,0,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/assets/login-bg.png,ejecucion,2518315,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/assets/runtime-config.js,ejecucion,32,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/environments/environment.production.ts,ejecucion,169,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/environments/environment.ts,ejecucion,214,incluido,fuente/configuracion/pruebas conservadas,True
+frontend/src/environments/keycloak-config.ts,ejecucion,507,incluido,fuente/configuracion/pruebas conservadas,True
+infra/docker/40-runtime-config.sh,ejecucion,342,incluido,fuente/configuracion/pruebas conservadas,True
+infra/docker/Dockerfile.frontend,ejecucion,376,incluido,fuente/configuracion/pruebas conservadas,True
+infra/docker/Dockerfile.frontend.dockerignore,ejecucion,245,incluido,fuente/configuracion/pruebas conservadas,True
+infra/docker/Dockerfile.jar,ejecucion,496,incluido,fuente/configuracion/pruebas conservadas,True
+infra/docker/Dockerfile.jar.dockerignore,ejecucion,218,incluido,fuente/configuracion/pruebas conservadas,True
+infra/docker/init-kafka-storage.sh,ejecucion,422,incluido,fuente/configuracion/pruebas conservadas,True
+infra/docker/init-observation-storage.sh,ejecucion,129,incluido,fuente/configuracion/pruebas conservadas,True
+infra/keycloak/compose-dev.yml,ejecucion,1675,incluido,fuente/configuracion/pruebas conservadas,True
+infra/keycloak/realm-illari-legal.json,ejecucion,1574,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/Dockerfile,ejecucion,253,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/pom.xml,ejecucion,1506,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/caso-ms-dev.yml,ejecucion,471,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/caso-ms-docker.yml,ejecucion,741,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/caso-ms-s12.yml,ejecucion,149,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/cliente-ms-dev.yml,ejecucion,256,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/cliente-ms-docker.yml,ejecucion,366,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/cliente-ms-s12.yml,ejecucion,149,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/legal-eureka-dev.yml,ejecucion,248,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/legal-eureka-docker.yml,ejecucion,294,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/legal-eureka-s12.yml,ejecucion,177,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/legal-gateway-s12.yml,ejecucion,150,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/orden-legal-ms-dev.yml,ejecucion,256,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/orden-legal-ms-docker.yml,ejecucion,366,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/orden-legal-ms-s12.yml,ejecucion,149,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/pago-ms-dev.yml,ejecucion,256,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/pago-ms-docker.yml,ejecucion,366,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/pago-ms-s12.yml,ejecucion,149,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/servicio-legal-ms-dev.yml,ejecucion,256,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/servicio-legal-ms-docker.yml,ejecucion,366,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/config-repo/servicio-legal-ms-s12.yml,ejecucion,149,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/src/main/java/com/casoslegales/configserver/LegalConfigApplication.java,ejecucion,429,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/src/main/resources/application.yml,ejecucion,386,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-config/target/legal-config-1.0.0.jar,generado,46248817,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-config/target/legal-config-1.0.0.jar.original,generado,3024,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-config/target/classes/application.yml,generado,386,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-config/target/classes/com/casoslegales/configserver/LegalConfigApplication.class,generado,847,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-config/target/maven-archiver/pom.properties,generado,66,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-config/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst,generado,59,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-config/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst,generado,168,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-eureka/Dockerfile,ejecucion,253,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-eureka/pom.xml,ejecucion,1648,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-eureka/src/main/java/com/casoslegales/eureka/LegalEurekaApplication.java,ejecucion,431,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-eureka/src/main/resources/application.yml,ejecucion,187,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-eureka/target/legal-eureka-1.0.0.jar,generado,60115765,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-eureka/target/legal-eureka-1.0.0.jar.original,generado,2938,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-eureka/target/classes/application.yml,generado,187,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-eureka/target/classes/com/casoslegales/eureka/LegalEurekaApplication.class,generado,843,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-eureka/target/maven-archiver/pom.properties,generado,66,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst,generado,53,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst,generado,162,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/Dockerfile,ejecucion,232,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-gateway/pom.xml,ejecucion,2074,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-gateway/src/main/java/com/illarilegal/gateway/Correlation.java,ejecucion,1025,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-gateway/src/main/java/com/illarilegal/gateway/GatewaySecurity.java,ejecucion,4204,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-gateway/src/main/java/com/illarilegal/gateway/JwtValidationConfig.java,ejecucion,1655,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-gateway/src/main/java/com/illarilegal/gateway/LegalGatewayApplication.java,ejecucion,314,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-gateway/src/main/java/com/illarilegal/gateway/SafeObservationLayout.java,ejecucion,1773,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-gateway/src/main/java/com/illarilegal/gateway/TraceWebFilter.java,ejecucion,1219,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-gateway/src/main/java/com/illarilegal/gateway/config/CorsConfig.java,ejecucion,1349,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-gateway/src/main/resources/application.yml,ejecucion,2291,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-gateway/src/main/resources/logback-spring.xml,ejecucion,1184,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-gateway/src/test/java/com/illarilegal/gateway/JwtValidationTest.java,pruebas,3991,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-gateway/src/test/java/com/illarilegal/gateway/TraceWebFilterTest.java,pruebas,1564,incluido,fuente/configuracion/pruebas conservadas,True
+infra/legal-gateway/target/legal-gateway-1.0.0.jar,generado,63387810,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/legal-gateway-1.0.0.jar.original,generado,16203,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/classes/application.yml,generado,2291,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/classes/logback-spring.xml,generado,1184,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/classes/com/illarilegal/gateway/Correlation.class,generado,1433,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/classes/com/illarilegal/gateway/GatewaySecurity.class,generado,9758,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/classes/com/illarilegal/gateway/JwtValidationConfig.class,generado,5106,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/classes/com/illarilegal/gateway/LegalGatewayApplication.class,generado,767,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/classes/com/illarilegal/gateway/SafeObservationLayout.class,generado,3405,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/classes/com/illarilegal/gateway/TraceWebFilter.class,generado,5544,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/classes/com/illarilegal/gateway/config/CorsConfig.class,generado,2891,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/maven-archiver/pom.properties,generado,66,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst,generado,337,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst,generado,1107,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst,generado,97,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst,generado,317,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/surefire-reports/com.illarilegal.gateway.JwtValidationTest.txt,generado,336,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/surefire-reports/com.illarilegal.gateway.TraceWebFilterTest.txt,generado,338,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/surefire-reports/TEST-com.illarilegal.gateway.JwtValidationTest.xml,generado,70499,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/surefire-reports/TEST-com.illarilegal.gateway.TraceWebFilterTest.xml,generado,70631,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/test-classes/com/illarilegal/gateway/JwtValidationTest.class,generado,9848,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/legal-gateway/target/test-classes/com/illarilegal/gateway/TraceWebFilterTest.class,generado,4806,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+infra/monitoring/prometheus.yml,ejecucion,1793,incluido,fuente/configuracion/pruebas conservadas,True
+kafka/compose-dev.yml,ejecucion,1312,archivado_en_desarrollo,Configuracion historica no usada por la composicion S12; original conservado,True
+kafka/README.md,ejecucion,195,incluido,fuente/configuracion/pruebas conservadas,True
+obs/compose-dev.yml,ejecucion,1357,archivado_en_desarrollo,Configuracion historica no usada por la composicion S12; original conservado,True
+obs/compose.s12.yml,ejecucion,6112,incluido,fuente/configuracion/pruebas conservadas,True
+obs/README.md,ejecucion,544,incluido,fuente/configuracion/pruebas conservadas,True
+obs/alloy/config.alloy,ejecucion,1272,incluido,fuente/configuracion/pruebas conservadas,True
+obs/blackbox/blackbox.yml,ejecucion,215,incluido,fuente/configuracion/pruebas conservadas,True
+obs/grafana/dashboards/illari-s12-overview.json,ejecucion,22868,incluido,fuente/configuracion/pruebas conservadas,True
+obs/grafana/provisioning/dashboards/dashboards.yml,ejecucion,211,archivado_en_desarrollo,Configuracion historica no usada por la composicion S12; original conservado,True
+obs/grafana/provisioning/datasources/datasources-dev.yml,ejecucion,263,archivado_en_desarrollo,Configuracion historica no usada por la composicion S12; original conservado,True
+obs/grafana/provisioning-docker/dashboards/dashboards.yml,ejecucion,204,incluido,fuente/configuracion/pruebas conservadas,True
+obs/grafana/provisioning-docker/datasources/datasources.yml,ejecucion,320,incluido,fuente/configuracion/pruebas conservadas,True
+obs/loki/loki.yml,ejecucion,630,incluido,fuente/configuracion/pruebas conservadas,True
+obs/prometheus/alerts.test.yml,ejecucion,2352,incluido,fuente/configuracion/pruebas conservadas,True
+obs/prometheus/alerts.yml,ejecucion,1727,incluido,fuente/configuracion/pruebas conservadas,True
+obs/prometheus/prometheus-dev.yml,ejecucion,740,archivado_en_desarrollo,Configuracion historica no usada por la composicion S12; original conservado,True
+obs/prometheus/prometheus.yml,ejecucion,1793,incluido,fuente/configuracion/pruebas conservadas,True
+obs/promtail/promtail-config-dev.yml,ejecucion,361,archivado_en_desarrollo,Configuracion historica no usada por la composicion S12; original conservado,True
+obs/promtail/promtail-config.yml,ejecucion,337,archivado_en_desarrollo,Configuracion historica no usada por la composicion S12; original conservado,True
+services/cliente-ms/.dockerignore,ejecucion,26,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/Dockerfile,ejecucion,270,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/pom.xml,ejecucion,2903,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/src/main/java/com/illarilegal/cliente/ClienteController.java,ejecucion,3286,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/src/main/java/com/illarilegal/cliente/ClienteEntity.java,ejecucion,1604,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/src/main/java/com/illarilegal/cliente/ClienteMsApplication.java,ejecucion,332,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/src/main/java/com/illarilegal/cliente/ClienteRepository.java,ejecucion,308,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/src/main/java/com/illarilegal/cliente/Correlation.java,ejecucion,1025,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/src/main/java/com/illarilegal/cliente/DistributedSecurityConfig.java,ejecucion,2564,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/src/main/java/com/illarilegal/cliente/JwtValidationConfig.java,ejecucion,1631,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/src/main/java/com/illarilegal/cliente/SafeObservationLayout.java,ejecucion,1773,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/src/main/java/com/illarilegal/cliente/TraceIdFilter.java,ejecucion,1063,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/src/main/resources/application-s12.yml,ejecucion,404,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/src/main/resources/application.yml,ejecucion,998,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/src/main/resources/logback-spring.xml,ejecucion,1178,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/src/test/java/com/illarilegal/cliente/ClienteRepositoryTest.java,pruebas,849,incluido,fuente/configuracion/pruebas conservadas,True
+services/cliente-ms/target/cliente-ms-1.0.0.jar,generado,113968536,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/cliente-ms-1.0.0.jar.original,generado,19712,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/classes/application-s12.yml,generado,404,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/classes/application.yml,generado,998,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/classes/logback-spring.xml,generado,1178,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/classes/com/illarilegal/cliente/ClienteController$Cliente.class,generado,2804,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/classes/com/illarilegal/cliente/ClienteController.class,generado,8711,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/classes/com/illarilegal/cliente/ClienteEntity.class,generado,2440,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/classes/com/illarilegal/cliente/ClienteMsApplication.class,generado,762,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/classes/com/illarilegal/cliente/ClienteRepository.class,generado,617,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/classes/com/illarilegal/cliente/Correlation.class,generado,1433,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/classes/com/illarilegal/cliente/DistributedSecurityConfig.class,generado,9415,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/classes/com/illarilegal/cliente/JwtValidationConfig.class,generado,5010,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/classes/com/illarilegal/cliente/SafeObservationLayout.class,generado,3405,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/classes/com/illarilegal/cliente/TraceIdFilter.class,generado,2476,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/maven-archiver/pom.properties,generado,63,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst,generado,491,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst,generado,1425,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst,generado,52,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst,generado,162,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/surefire-reports/com.illarilegal.cliente.ClienteRepositoryTest.txt,generado,344,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/surefire-reports/TEST-com.illarilegal.cliente.ClienteRepositoryTest.xml,generado,79942,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/cliente-ms/target/test-classes/com/illarilegal/cliente/ClienteRepositoryTest.class,generado,2596,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/.dockerignore,ejecucion,26,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/Dockerfile,ejecucion,270,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/pom.xml,ejecucion,3857,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/BusinessMetrics.java,ejecucion,707,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/CatalogoBusinessException.java,ejecucion,413,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/CatalogoResilienteService.java,ejecucion,1973,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/CompraIdempotenciaEntity.java,ejecucion,1297,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/CompraIdempotenciaRepository.java,ejecucion,501,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/CompraIdempotenteService.java,ejecucion,3432,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/Correlation.java,ejecucion,1028,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/DistributedSecurityConfig.java,ejecucion,2475,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/EventEnvelope.java,ejecucion,2832,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/EventoRecibidoEntity.java,ejecucion,920,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/EventoRecibidoRepository.java,ejecucion,173,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/FeignTraceConfiguration.java,ejecucion,618,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/JwtValidationConfig.java,ejecucion,1634,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/KafkaRecoveryConfiguration.java,ejecucion,4280,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/MensajeFallidoEntity.java,ejecucion,1227,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/MensajeFallidoRepository.java,ejecucion,815,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/MensajeriaController.java,ejecucion,2513,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/MensajeriaRecoveryService.java,ejecucion,8307,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/ObservationCommit.java,ejecucion,824,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenDetalleEntity.java,ejecucion,1738,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenEntity.java,ejecucion,3012,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenLegalController.java,ejecucion,14140,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenLegalMsApplication.java,ejecucion,457,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenOutboxEntity.java,ejecucion,2729,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenOutboxPublisher.java,ejecucion,3956,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenOutboxRepository.java,ejecucion,1396,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/OrdenRepository.java,ejecucion,758,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/PagoEventConsumer.java,ejecucion,3699,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/ReglasCompra.java,ejecucion,2536,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/ReplayAuditoriaEntity.java,ejecucion,959,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/ReplayAuditoriaRepository.java,ejecucion,173,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/ResilienciaController.java,ejecucion,571,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/SafeObservationLayout.java,ejecucion,1776,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/ServicioLegalFeignClient.java,ejecucion,497,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/java/com/illarilegal/ordenlegal/TraceIdFilter.java,ejecucion,1066,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/resources/application-s12.yml,ejecucion,404,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/resources/application.yml,ejecucion,2395,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/main/resources/logback-spring.xml,ejecucion,1189,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/CatalogoResilienciaRegressionTest.java,pruebas,5505,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/CompraFase2IntegrationTest.java,pruebas,11818,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/ObservabilityRegressionTest.java,pruebas,5088,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/OrdenConsistenciaRegressionTest.java,pruebas,8939,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/OrdenLegalControllerTest.java,pruebas,7421,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/OrdenLegalHttpTest.java,pruebas,3424,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/OrdenPagoKafkaIntegrationTest.java,pruebas,3929,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/OutboxAgeRepositoryTest.java,pruebas,1499,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/PagoEventConsumerTest.java,pruebas,2836,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/src/test/java/com/illarilegal/ordenlegal/ReglasCompraTest.java,pruebas,2667,incluido,fuente/configuracion/pruebas conservadas,True
+services/orden-legal-ms/target/orden-legal-ms-1.0.0.jar,generado,115716225,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/orden-legal-ms-1.0.0.jar.original,generado,88420,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/application-s12.yml,generado,404,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/application.yml,generado,2395,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/logback-spring.xml,generado,1189,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/BusinessMetrics.class,generado,3293,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/CatalogoBusinessException.class,generado,594,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/CatalogoResilienteService.class,generado,3472,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/CompraIdempotenciaEntity.class,generado,2287,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/CompraIdempotenciaRepository.class,generado,982,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/CompraIdempotenteService.class,generado,8544,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/Correlation.class,generado,1439,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/DistributedSecurityConfig.class,generado,9472,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/EventEnvelope.class,generado,7164,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/EventoRecibidoEntity.class,generado,2020,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/EventoRecibidoRepository.class,generado,382,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/FeignTraceConfiguration.class,generado,1619,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/JwtValidationConfig.class,generado,5016,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/KafkaRecoveryConfiguration.class,generado,11296,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/MensajeFallidoEntity.class,generado,2252,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/MensajeFallidoRepository.class,generado,1463,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/MensajeriaController$Replay.class,generado,1793,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/MensajeriaController.class,generado,6294,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/MensajeriaRecoveryService$Detalle.class,generado,2242,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/MensajeriaRecoveryService$Vista.class,generado,3117,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/MensajeriaRecoveryService.class,generado,16910,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/ObservationCommit$1.class,generado,824,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/ObservationCommit.class,generado,2429,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/OrdenDetalleEntity.class,generado,2778,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/OrdenEntity.class,generado,4187,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/OrdenLegalController$DetalleNuevaOrden.class,generado,1915,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/OrdenLegalController$DetalleOrden.class,generado,2436,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/OrdenLegalController$NuevaOrden.class,generado,2772,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/OrdenLegalController$OrdenCreadaEvento.class,generado,2856,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/OrdenLegalController$OrdenLegal.class,generado,3263,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/OrdenLegalController$ServicioLegal.class,generado,2496,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/OrdenLegalController.class,generado,20915,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/OrdenLegalMsApplication.class,generado,907,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/OrdenOutboxEntity.class,generado,4534,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/OrdenOutboxPublisher.class,generado,9653,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/OrdenOutboxRepository.class,generado,1862,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/OrdenRepository.class,generado,1282,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/PagoEventConsumer$PagoResultadoEvento.class,generado,4278,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/PagoEventConsumer.class,generado,4500,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/ReglasCompra.class,generado,5767,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/ReplayAuditoriaEntity$Vista.class,generado,2436,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/ReplayAuditoriaEntity.class,generado,1751,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/ReplayAuditoriaRepository.class,generado,383,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/ResilienciaController.class,generado,1391,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/SafeObservationLayout.class,generado,3414,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/ServicioLegalFeignClient.class,generado,804,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/classes/com/illarilegal/ordenlegal/TraceIdFilter.class,generado,2488,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/maven-archiver/pom.properties,generado,67,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst,generado,2684,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst,generado,5887,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst,generado,662,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst,generado,1728,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/2026-10-27T09-41-35_474-jvmRun1.dumpstream,generado,233,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/2026-10-28T11-43-43_772-jvmRun1.dumpstream,generado,230,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/com.illarilegal.ordenlegal.CatalogoResilienciaRegressionTest.txt,generado,374,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/com.illarilegal.ordenlegal.CompraFase2IntegrationTest.txt,generado,361,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/com.illarilegal.ordenlegal.ObservabilityRegressionTest.txt,generado,362,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/com.illarilegal.ordenlegal.OrdenConsistenciaRegressionTest.txt,generado,371,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/com.illarilegal.ordenlegal.OrdenLegalControllerTest.txt,generado,356,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/com.illarilegal.ordenlegal.OrdenLegalHttpTest.txt,generado,344,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/com.illarilegal.ordenlegal.OrdenPagoKafkaIntegrationTest.txt,generado,366,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/com.illarilegal.ordenlegal.OutboxAgeRepositoryTest.txt,generado,354,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/com.illarilegal.ordenlegal.PagoEventConsumerTest.txt,generado,351,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/com.illarilegal.ordenlegal.ReglasCompraTest.txt,generado,340,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/TEST-com.illarilegal.ordenlegal.CatalogoResilienciaRegressionTest.xml,generado,120436,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/TEST-com.illarilegal.ordenlegal.CompraFase2IntegrationTest.xml,generado,113719,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/TEST-com.illarilegal.ordenlegal.ObservabilityRegressionTest.xml,generado,102950,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/TEST-com.illarilegal.ordenlegal.OrdenConsistenciaRegressionTest.xml,generado,105206,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/TEST-com.illarilegal.ordenlegal.OrdenLegalControllerTest.xml,generado,102221,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/TEST-com.illarilegal.ordenlegal.OrdenLegalHttpTest.xml,generado,107289,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/TEST-com.illarilegal.ordenlegal.OrdenPagoKafkaIntegrationTest.xml,generado,346438,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/TEST-com.illarilegal.ordenlegal.OutboxAgeRepositoryTest.xml,generado,109770,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/TEST-com.illarilegal.ordenlegal.PagoEventConsumerTest.xml,generado,103695,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/surefire-reports/TEST-com.illarilegal.ordenlegal.ReglasCompraTest.xml,generado,101683,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/test-classes/com/illarilegal/ordenlegal/CatalogoResilienciaRegressionTest$Config.class,generado,985,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/test-classes/com/illarilegal/ordenlegal/CatalogoResilienciaRegressionTest.class,generado,10333,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/test-classes/com/illarilegal/ordenlegal/CompraFase2IntegrationTest.class,generado,26435,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/test-classes/com/illarilegal/ordenlegal/ObservabilityRegressionTest.class,generado,9406,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/test-classes/com/illarilegal/ordenlegal/OrdenConsistenciaRegressionTest.class,generado,14963,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/test-classes/com/illarilegal/ordenlegal/OrdenLegalControllerTest.class,generado,12287,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/test-classes/com/illarilegal/ordenlegal/OrdenLegalHttpTest.class,generado,7105,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/test-classes/com/illarilegal/ordenlegal/OrdenPagoKafkaIntegrationTest.class,generado,7784,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/test-classes/com/illarilegal/ordenlegal/OutboxAgeRepositoryTest.class,generado,2502,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/test-classes/com/illarilegal/ordenlegal/PagoEventConsumerTest.class,generado,6000,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/orden-legal-ms/target/test-classes/com/illarilegal/ordenlegal/ReglasCompraTest.class,generado,6207,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/.dockerignore,ejecucion,26,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/Dockerfile,ejecucion,270,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/pom.xml,ejecucion,3032,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/BusinessMetrics.java,ejecucion,692,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/Correlation.java,ejecucion,1022,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/DistributedSecurityConfig.java,ejecucion,2387,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/EventEnvelope.java,ejecucion,2826,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/EventoRecibidoEntity.java,ejecucion,913,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/EventoRecibidoRepository.java,ejecucion,167,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/JwtValidationConfig.java,ejecucion,1628,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/KafkaRecoveryConfiguration.java,ejecucion,4267,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/MensajeFallidoEntity.java,ejecucion,1220,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/MensajeFallidoRepository.java,ejecucion,809,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/MensajeriaController.java,ejecucion,2503,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/MensajeriaRecoveryService.java,ejecucion,8293,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/ObservationCommit.java,ejecucion,818,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/OrdenEventConsumer.java,ejecucion,5849,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/PagoController.java,ejecucion,2175,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/PagoEntity.java,ejecucion,1841,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/PagoMsApplication.java,ejecucion,383,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/PagoOutboxEntity.java,ejecucion,2992,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/PagoOutboxPublisher.java,ejecucion,3938,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/PagoOutboxRepository.java,ejecucion,1889,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/PagoRepository.java,ejecucion,945,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/PagoService.java,ejecucion,4395,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/ReplayAuditoriaEntity.java,ejecucion,952,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/ReplayAuditoriaRepository.java,ejecucion,167,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/SafeObservationLayout.java,ejecucion,1770,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/java/com/illarilegal/pago/TraceIdFilter.java,ejecucion,1060,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/resources/application-s12.yml,ejecucion,404,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/resources/application.yml,ejecucion,1698,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/main/resources/logback-spring.xml,ejecucion,1169,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/test/java/com/illarilegal/pago/CancelacionPagoRegressionTest.java,pruebas,3469,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/test/java/com/illarilegal/pago/OrdenEventConsumerTest.java,pruebas,3201,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/test/java/com/illarilegal/pago/OutboxAgeRepositoryTest.java,pruebas,1490,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/test/java/com/illarilegal/pago/PagoKafkaIntegrationTest.java,pruebas,5327,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/src/test/java/com/illarilegal/pago/PagoOutboxIdempotenciaTest.java,pruebas,1739,incluido,fuente/configuracion/pruebas conservadas,True
+services/pago-ms/target/pago-ms-1.0.0.jar,generado,114016801,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/pago-ms-1.0.0.jar.original,generado,67153,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/application-s12.yml,generado,404,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/application.yml,generado,1698,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/logback-spring.xml,generado,1169,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/BusinessMetrics.class,generado,3237,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/Correlation.class,generado,1427,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/DistributedSecurityConfig.class,generado,9398,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/EventEnvelope.class,generado,7146,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/EventoRecibidoEntity.class,generado,2007,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/EventoRecibidoRepository.class,generado,370,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/JwtValidationConfig.class,generado,5004,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/KafkaRecoveryConfiguration.class,generado,11255,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/MensajeFallidoEntity.class,generado,2239,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/MensajeFallidoRepository.class,generado,1445,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/MensajeriaController$Replay.class,generado,1757,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/MensajeriaController.class,generado,6149,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/MensajeriaRecoveryService$Detalle.class,generado,2182,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/MensajeriaRecoveryService$Vista.class,generado,3081,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/MensajeriaRecoveryService.class,generado,16686,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/ObservationCommit$1.class,generado,806,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/ObservationCommit.class,generado,2399,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/OrdenEventConsumer$OrdenCreadaEvento.class,generado,2806,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/OrdenEventConsumer$ResultadoPagoEvento.class,generado,3108,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/OrdenEventConsumer.class,generado,8348,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/PagoController.class,generado,5591,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/PagoEntity.class,generado,2281,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/PagoMsApplication.class,generado,814,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/PagoOutboxEntity.class,generado,4637,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/PagoOutboxPublisher.class,generado,9545,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/PagoOutboxRepository.class,generado,2052,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/PagoRepository.class,generado,1346,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/PagoService$Pago.class,generado,3074,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/PagoService.class,generado,7545,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/ReplayAuditoriaEntity$Vista.class,generado,2400,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/ReplayAuditoriaEntity.class,generado,1726,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/ReplayAuditoriaRepository.class,generado,371,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/SafeObservationLayout.class,generado,3396,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/classes/com/illarilegal/pago/TraceIdFilter.class,generado,2464,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/maven-archiver/pom.properties,generado,60,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst,generado,1657,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst,generado,3988,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst,generado,264,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst,generado,799,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/surefire-reports/com.illarilegal.pago.CancelacionPagoRegressionTest.txt,generado,354,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/surefire-reports/com.illarilegal.pago.OrdenEventConsumerTest.txt,generado,340,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/surefire-reports/com.illarilegal.pago.OutboxAgeRepositoryTest.txt,generado,342,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/surefire-reports/com.illarilegal.pago.PagoKafkaIntegrationTest.txt,generado,344,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/surefire-reports/com.illarilegal.pago.PagoOutboxIdempotenciaTest.txt,generado,348,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/surefire-reports/TEST-com.illarilegal.pago.CancelacionPagoRegressionTest.xml,generado,108308,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/surefire-reports/TEST-com.illarilegal.pago.OrdenEventConsumerTest.xml,generado,93583,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/surefire-reports/TEST-com.illarilegal.pago.OutboxAgeRepositoryTest.xml,generado,100193,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/surefire-reports/TEST-com.illarilegal.pago.PagoKafkaIntegrationTest.xml,generado,358598,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/surefire-reports/TEST-com.illarilegal.pago.PagoOutboxIdempotenciaTest.xml,generado,93545,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/test-classes/com/illarilegal/pago/CancelacionPagoRegressionTest.class,generado,6140,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/test-classes/com/illarilegal/pago/OrdenEventConsumerTest.class,generado,5458,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/test-classes/com/illarilegal/pago/OutboxAgeRepositoryTest.class,generado,2462,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/test-classes/com/illarilegal/pago/PagoKafkaIntegrationTest.class,generado,10054,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/pago-ms/target/test-classes/com/illarilegal/pago/PagoOutboxIdempotenciaTest.class,generado,3334,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/.dockerignore,ejecucion,26,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/Dockerfile,ejecucion,270,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/pom.xml,ejecucion,2917,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/Correlation.java,ejecucion,1031,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/DistributedSecurityConfig.java,ejecucion,2334,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/JwtValidationConfig.java,ejecucion,1637,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/SafeObservationLayout.java,ejecucion,1779,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/ServicioLegalController.java,ejecucion,4919,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/ServicioLegalEntity.java,ejecucion,1859,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/ServicioLegalMsApplication.java,ejecucion,350,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/ServicioLegalRepository.java,ejecucion,257,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/ServicioLegalSeed.java,ejecucion,3197,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/src/main/java/com/illarilegal/serviciolegal/TraceIdFilter.java,ejecucion,1069,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/src/main/resources/application-s12.yml,ejecucion,404,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/src/main/resources/application.yml,ejecucion,1012,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/src/main/resources/logback-spring.xml,ejecucion,1198,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/src/test/java/com/illarilegal/serviciolegal/ValidacionesCatalogoTest.java,pruebas,1593,incluido,fuente/configuracion/pruebas conservadas,True
+services/servicio-legal-ms/target/servicio-legal-ms-1.0.0.jar,generado,113971551,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/servicio-legal-ms-1.0.0.jar.original,generado,22596,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/classes/application-s12.yml,generado,404,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/classes/application.yml,generado,1012,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/classes/logback-spring.xml,generado,1198,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/classes/com/illarilegal/serviciolegal/Correlation.class,generado,1445,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/classes/com/illarilegal/serviciolegal/DistributedSecurityConfig.class,generado,9113,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/classes/com/illarilegal/serviciolegal/JwtValidationConfig.class,generado,5022,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/classes/com/illarilegal/serviciolegal/SafeObservationLayout.class,generado,3423,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/classes/com/illarilegal/serviciolegal/ServicioLegalController$ServicioLegal.class,generado,2535,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/classes/com/illarilegal/serviciolegal/ServicioLegalController.class,generado,9210,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/classes/com/illarilegal/serviciolegal/ServicioLegalEntity.class,generado,2414,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/classes/com/illarilegal/serviciolegal/ServicioLegalMsApplication.class,generado,792,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/classes/com/illarilegal/serviciolegal/ServicioLegalRepository.class,generado,481,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/classes/com/illarilegal/serviciolegal/ServicioLegalSeed.class,generado,4704,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/classes/com/illarilegal/serviciolegal/TraceIdFilter.class,generado,2500,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/maven-archiver/pom.properties,generado,70,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst,generado,641,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst,generado,1737,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst,generado,61,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst,generado,178,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/surefire-reports/com.illarilegal.serviciolegal.ValidacionesCatalogoTest.txt,generado,362,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/surefire-reports/TEST-com.illarilegal.serviciolegal.ValidacionesCatalogoTest.xml,generado,75372,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+services/servicio-legal-ms/target/test-classes/com/illarilegal/serviciolegal/ValidacionesCatalogoTest.class,generado,4906,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/infra/verificar_compra_navegador.py,pruebas,6385,incluido,fuente/configuracion/pruebas conservadas,True
+verification/infra/verificar_observabilidad.py,pruebas,21697,incluido,fuente/configuracion/pruebas conservadas,True
+verification/infra/verificar_parte_b.py,pruebas,31477,incluido,fuente/configuracion/pruebas conservadas,True
+verification/infra/verificar_s12.py,pruebas,33693,incluido,fuente/configuracion/pruebas conservadas,True
+verification/infra/__pycache__/verificar_observabilidad.cpython-312.pyc,generado,47105,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/infra/__pycache__/verificar_s12.cpython-312.pyc,generado,55162,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/postgres/orden-fase1.sql,pruebas,1178,incluido,fuente/configuracion/pruebas conservadas,True
+verification/postgres/pago-fase1.sql,pruebas,979,incluido,fuente/configuracion/pruebas conservadas,True
+verification/saga/pom.xml,pruebas,3526,incluido,fuente/configuracion/pruebas conservadas,True
+verification/saga/src/test/java/com/illarilegal/verification/SagaOrdenPagoIntegrationTest.java,pruebas,24590,incluido,fuente/configuracion/pruebas conservadas,True
+verification/saga/target/saga-verification-1.0.0.jar,generado,2098,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/maven-archiver/pom.properties,generado,70,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst,generado,4699,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst,generado,10047,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/surefire-reports/com.illarilegal.verification.SagaOrdenPagoIntegrationTest.txt,generado,369,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/surefire-reports/TEST-com.illarilegal.verification.SagaOrdenPagoIntegrationTest.xml,generado,168757,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/BusinessMetrics.class,generado,3293,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/CatalogoBusinessException.class,generado,594,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/CatalogoResilienteService.class,generado,3472,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/CompraIdempotenciaEntity.class,generado,2287,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/CompraIdempotenciaRepository.class,generado,982,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/CompraIdempotenteService.class,generado,8544,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/Correlation.class,generado,1439,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/DistributedSecurityConfig.class,generado,9472,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/EventEnvelope.class,generado,7164,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/EventoRecibidoEntity.class,generado,2020,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/EventoRecibidoRepository.class,generado,382,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/FeignTraceConfiguration.class,generado,1619,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/JwtValidationConfig.class,generado,5016,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/KafkaRecoveryConfiguration.class,generado,11296,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/MensajeFallidoEntity.class,generado,2252,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/MensajeFallidoRepository.class,generado,1463,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/MensajeriaController$Replay.class,generado,1793,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/MensajeriaController.class,generado,6294,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/MensajeriaRecoveryService$Detalle.class,generado,2242,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/MensajeriaRecoveryService$Vista.class,generado,3117,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/MensajeriaRecoveryService.class,generado,16910,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/ObservationCommit$1.class,generado,824,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/ObservationCommit.class,generado,2429,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/OrdenDetalleEntity.class,generado,2778,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/OrdenEntity.class,generado,4187,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/OrdenLegalController$DetalleNuevaOrden.class,generado,1915,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/OrdenLegalController$DetalleOrden.class,generado,2436,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/OrdenLegalController$NuevaOrden.class,generado,2772,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/OrdenLegalController$OrdenCreadaEvento.class,generado,2856,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/OrdenLegalController$OrdenLegal.class,generado,3263,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/OrdenLegalController$ServicioLegal.class,generado,2496,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/OrdenLegalController.class,generado,20915,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/OrdenLegalMsApplication.class,generado,907,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/OrdenOutboxEntity.class,generado,4534,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/OrdenOutboxPublisher.class,generado,9653,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/OrdenOutboxRepository.class,generado,1862,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/OrdenRepository.class,generado,1282,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/PagoEventConsumer$PagoResultadoEvento.class,generado,4278,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/PagoEventConsumer.class,generado,4500,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/ReglasCompra.class,generado,5767,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/ReplayAuditoriaEntity$Vista.class,generado,2436,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/ReplayAuditoriaEntity.class,generado,1751,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/ReplayAuditoriaRepository.class,generado,383,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/ResilienciaController$1.class,generado,760,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/ResilienciaController.class,generado,3270,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/SafeObservationLayout.class,generado,3414,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/ServicioLegalFeignClient.class,generado,804,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/ordenlegal/TraceIdFilter.class,generado,2488,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/BusinessMetrics.class,generado,3237,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/Correlation.class,generado,1427,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/DistributedSecurityConfig.class,generado,9398,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/EventEnvelope.class,generado,7146,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/EventoRecibidoEntity.class,generado,2007,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/EventoRecibidoRepository.class,generado,370,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/JwtValidationConfig.class,generado,5004,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/KafkaRecoveryConfiguration.class,generado,11255,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/MensajeFallidoEntity.class,generado,2239,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/MensajeFallidoRepository.class,generado,1445,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/MensajeriaController$Replay.class,generado,1757,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/MensajeriaController.class,generado,6149,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/MensajeriaRecoveryService$Detalle.class,generado,2182,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/MensajeriaRecoveryService$Vista.class,generado,3081,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/MensajeriaRecoveryService.class,generado,16686,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/ObservationCommit$1.class,generado,806,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/ObservationCommit.class,generado,2399,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/OrdenEventConsumer$OrdenCreadaEvento.class,generado,2806,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/OrdenEventConsumer$ResultadoPagoEvento.class,generado,3108,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/OrdenEventConsumer.class,generado,8348,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/PagoController.class,generado,5591,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/PagoEntity.class,generado,2281,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/PagoMsApplication.class,generado,814,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/PagoOutboxEntity.class,generado,4637,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/PagoOutboxPublisher.class,generado,9545,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/PagoOutboxRepository.class,generado,2052,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/PagoRepository.class,generado,1346,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/PagoService$Pago.class,generado,3074,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/PagoService.class,generado,7545,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/ReplayAuditoriaEntity$Vista.class,generado,2400,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/ReplayAuditoriaEntity.class,generado,1726,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/ReplayAuditoriaRepository.class,generado,371,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/SafeObservationLayout.class,generado,3396,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/pago/TraceIdFilter.class,generado,2464,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/verification/SagaOrdenPagoIntegrationTest$OrdersConfig.class,generado,3387,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/verification/SagaOrdenPagoIntegrationTest$PaymentsConfig$1.class,generado,2968,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/verification/SagaOrdenPagoIntegrationTest$PaymentsConfig.class,generado,1902,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True
+verification/saga/target/test-classes/com/illarilegal/verification/SagaOrdenPagoIntegrationTest.class,generado,44562,excluido_del_paquete,"compilacion, dependencia o cache regenerable",True

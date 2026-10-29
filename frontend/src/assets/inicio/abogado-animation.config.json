@@ -1,0 +1,1 @@
+{"enabled":true,"renderer":"native-svg-layers","voice":false,"greetingDurationMs":3000,"source":"/assets/inicio/abogado-poster.webp","pointingPose":"/assets/inicio/abogado-senalar.webp","layers":["torso","cabeza","sonrisa","parpado-izquierdo","parpado-derecho","antebrazo","mano","mano-senalando"]}

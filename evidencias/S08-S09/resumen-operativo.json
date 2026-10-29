@@ -1,0 +1,111 @@
+{
+  "project": "illari-fase3-audit",
+  "scenarios": {
+    "approved_then_refunded": 54,
+    "paid_concurrent": 56,
+    "two_instances_refunded": 57,
+    "broker_down_cancelled": 63
+  },
+  "fixture_orders": [
+    {
+      "id": 54,
+      "estado": "CANCELADA",
+      "total": "310.00",
+      "metodo_pago": "YAPE",
+      "pago_id": 54,
+      "estado_pago": "REEMBOLSADO",
+      "revision_pago": 2
+    },
+    {
+      "id": 55,
+      "estado": "CANCELADA",
+      "total": "310.00",
+      "metodo_pago": "TARJETA_RECHAZADA",
+      "pago_id": 55,
+      "estado_pago": "FALLIDO",
+      "revision_pago": 1
+    },
+    {
+      "id": 56,
+      "estado": "PAGADA",
+      "total": "310.00",
+      "metodo_pago": "YAPE",
+      "pago_id": 56,
+      "estado_pago": "VALIDADO",
+      "revision_pago": 1
+    },
+    {
+      "id": 57,
+      "estado": "CANCELADA",
+      "total": "310.00",
+      "metodo_pago": "YAPE",
+      "pago_id": 57,
+      "estado_pago": "REEMBOLSADO",
+      "revision_pago": 2
+    },
+    {
+      "id": 58,
+      "estado": "PAGADA",
+      "total": "80.00",
+      "metodo_pago": "YAPE",
+      "pago_id": 58,
+      "estado_pago": "VALIDADO",
+      "revision_pago": 1
+    },
+    {
+      "id": 59,
+      "estado": "PAGADA",
+      "total": "80.00",
+      "metodo_pago": "YAPE",
+      "pago_id": 59,
+      "estado_pago": "VALIDADO",
+      "revision_pago": 1
+    },
+    {
+      "id": 60,
+      "estado": "PAGADA",
+      "total": "80.00",
+      "metodo_pago": "YAPE",
+      "pago_id": 60,
+      "estado_pago": "VALIDADO",
+      "revision_pago": 1
+    },
+    {
+      "id": 61,
+      "estado": "PAGADA",
+      "total": "80.00",
+      "metodo_pago": "YAPE",
+      "pago_id": 61,
+      "estado_pago": "VALIDADO",
+      "revision_pago": 1
+    },
+    {
+      "id": 62,
+      "estado": "PAGADA",
+      "total": "80.00",
+      "metodo_pago": "YAPE",
+      "pago_id": 62,
+      "estado_pago": "VALIDADO",
+      "revision_pago": 1
+    },
+    {
+      "id": 63,
+      "estado": "CANCELADA",
+      "total": "310.00",
+      "metodo_pago": "YAPE",
+      "pago_id": 64,
+      "estado_pago": "REEMBOLSADO",
+      "revision_pago": 2
+    },
+    {
+      "id": 64,
+      "estado": "PAGADA",
+      "total": "310.00",
+      "metodo_pago": "YAPE",
+      "pago_id": 63,
+      "estado_pago": "VALIDADO",
+      "revision_pago": 1
+    }
+  ],
+  "offsets_note": "Consultar archivos offsets y cierre.json; estos son efectos persistentes de las fixtures nuevas"
+}

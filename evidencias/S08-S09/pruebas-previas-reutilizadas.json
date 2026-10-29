@@ -1,0 +1,184 @@
+{
+  "provenance": "Fase4, misma jornada; no reejecutadas en B",
+  "java_previous": [
+    {
+      "suite": "com.illarilegal.cliente.ClienteRepositoryTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.serviciolegal.ValidacionesCatalogoTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.ordenlegal.CatalogoResilienciaRegressionTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.ordenlegal.CompraFase2IntegrationTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.ordenlegal.ObservabilityRegressionTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.ordenlegal.OrdenConsistenciaRegressionTest",
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.ordenlegal.OrdenLegalControllerTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.ordenlegal.OrdenLegalHttpTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.ordenlegal.OrdenPagoKafkaIntegrationTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.ordenlegal.OutboxAgeRepositoryTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.ordenlegal.PagoEventConsumerTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.ordenlegal.ReglasCompraTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.pago.CancelacionPagoRegressionTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.pago.OrdenEventConsumerTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.pago.OutboxAgeRepositoryTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.pago.PagoKafkaIntegrationTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.pago.PagoOutboxIdempotenciaTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.casoslegales.config.DataInitializerTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.casoslegales.security.IdentidadJuridicaTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.gateway.JwtValidationTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.gateway.TraceWebFilterTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.illarilegal.verification.SagaOrdenPagoIntegrationTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "saga_previous": [
+    {
+      "suite": "com.illarilegal.verification.SagaOrdenPagoIntegrationTest",
+      "timestamp": null,
+      "tests": "14",
+      "failures": "0",
+      "errors": "0",
+      "cases": [
+        "paymentAndItsResultOutboxRollBackTogether",
+        "deadLetterIdentitySurvivesTopicRecreationWithoutLosingHistory",
+        "paidOrderIsRefundedAndDuplicateCommandsAndStaleApprovalDoNotChargeAgain",
+        "reusedEventIdWithChangedContentIsRejectedWithoutOverwritingTheReceipt",
+        "immediateCancellationConvergesWithoutACancelledOrderAndApprovedPayment",
+        "producerDisconnectionKeepsOutboxDurableAndRecoversWithoutDuplicatePayment",
+        "earliestOffsetsRecoverAnOrderPublishedBeforePaymentConsumerStarted",
+        "multiServicePurchaseAndRejectedPaymentConvergeThroughKafka",
+        "orderAndItsOutboxRollBackTogetherBeforeAnyPublication",
+        "exhaustedRetriesGoToDltAndControlledReplayRecoversTheOrder",
+        "poisonMessageIsCapturedOffsetsAdvanceAndCorrectedReplayIsConsumed",
+        "transientFailuresUseBackoffThenCommitExactlyOneEffect",
+        "idempotencyAcrossTwoSpringInstancesCreatesOneOrderAndOnePayment",
+        "concurrentCancellationRequestsProduceOneCompensationCommand"
+      ]
+    }
+  ]
+}

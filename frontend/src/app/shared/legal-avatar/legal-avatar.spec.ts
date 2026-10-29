@@ -1,0 +1,17 @@
+import { TestBed } from '@angular/core/testing';
+import { beforeEach, afterEach, describe, expect, it, vi } from 'vitest';
+import { LegalAvatarComponent } from './legal-avatar.component';
+let media:{matches:boolean;addEventListener:ReturnType<typeof vi.fn>;removeEventListener:ReturnType<typeof vi.fn>};
+function create(){const f=TestBed.createComponent(LegalAvatarComponent);f.detectChanges();return f;}
+beforeEach(()=>{vi.useFakeTimers();media={matches:false,addEventListener:vi.fn(),removeEventListener:vi.fn()};vi.spyOn(window,'matchMedia').mockReturnValue(media as unknown as MediaQueryList);});
+afterEach(()=>{TestBed.resetTestingModule();vi.clearAllTimers();vi.useRealTimers();vi.restoreAllMocks();vi.unstubAllGlobals();});
+describe('abogado visual articulado sin voz',()=>{
+ it('saluda durante tres segundos y pasa a reposo',()=>{const f=create();expect(f.componentInstance.mode()).toBe('saludar');vi.advanceTimersByTime(2999);expect(f.componentInstance.mode()).toBe('saludar');vi.advanceTimersByTime(1);f.detectChanges();expect(f.componentInstance.mode()).toBe('reposo');expect(f.nativeElement.querySelector('.avatar').dataset.mode).toBe('reposo');});
+ it('señala con una pose real de mano distinta y vuelve a reposo',()=>{const f=create();f.componentInstance.gesture('senalar');f.detectChanges();expect(f.componentInstance.mode()).toBe('senalar');expect(f.nativeElement.querySelector('.pointing-arm image').getAttribute('href')).toContain('abogado-senalar.webp');vi.advanceTimersByTime(4000);expect(f.componentInstance.mode()).toBe('senalar');f.componentInstance.gesture('reposo');expect(f.componentInstance.mode()).toBe('reposo');});
+ it('mantiene torso, mano, cabeza, párpados y sonrisa en capas independientes',()=>{const f=create();expect(f.nativeElement.querySelector('[data-layer="torso"]')).toBeTruthy();for(const name of ['mano','antebrazo','cabeza','parpado-izquierdo','parpado-derecho','sonrisa'])expect(f.nativeElement.querySelector('[data-layer="'+name+'"]')).toBeTruthy();expect(f.nativeElement.querySelector('.head-layer image').hasAttribute('clip-path')).toBe(true);});
+ it('movimiento reducido impide saludo y señalamiento',()=>{media.matches=true;const f=create();expect(f.componentInstance.reduced()).toBe(true);expect(f.componentInstance.animated()).toBe(false);expect(f.componentInstance.mode()).toBe('reposo');f.componentInstance.gesture('senalar');expect(f.componentInstance.mode()).toBe('reposo');expect(vi.getTimerCount()).toBe(0);});
+ it('responde a un cambio de preferencia de movimiento y cancela temporizadores',()=>{const f=create();media.matches=true;const callback=media.addEventListener.mock.calls[0][1] as ()=>void;callback();f.detectChanges();expect(f.componentInstance.mode()).toBe('reposo');expect(f.nativeElement.querySelector('.avatar').classList.contains('motion-reduced')).toBe(true);expect(vi.getTimerCount()).toBe(0);});
+ it('libera suscripciones y temporizadores al destruirse',()=>{const f=create();f.destroy();expect(media.removeEventListener).toHaveBeenCalledWith('change',expect.any(Function));expect(vi.getTimerCount()).toBe(0);});
+ it('no crea elementos multimedia ni usa síntesis de voz',()=>{const speak=vi.fn();vi.stubGlobal('speechSynthesis',{speak});const f=create();expect(f.nativeElement.querySelector('audio,video')).toBeNull();vi.advanceTimersByTime(6000);expect(speak).not.toHaveBeenCalled();});
+ it('cada avatar tiene identificadores de máscara únicos',()=>{const a=create(),b=create();expect(a.componentInstance.uid).not.toBe(b.componentInstance.uid);});
+});

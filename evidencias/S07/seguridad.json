@@ -1,0 +1,1521 @@
+{
+  "project": "illari-fase3-audit",
+  "run": "ae3baa8737",
+  "passed": 251,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Eureka six applications registered UP",
+      "passed": true,
+      "actual": [
+        "CASO-MS",
+        "CLIENTE-MS",
+        "LEGAL-GATEWAY",
+        "ORDEN-LEGAL-MS",
+        "PAGO-MS",
+        "SERVICIO-LEGAL-MS"
+      ],
+      "at": 1793205768.4147904
+    },
+    {
+      "name": "Config Server serves S12 profile",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205769.3478122
+    },
+    {
+      "name": "Frontend served by nginx",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205769.379412
+    },
+    {
+      "name": "Frontend runtime Keycloak config",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205769.412874
+    },
+    {
+      "name": "Frontend references public issuer at runtime",
+      "passed": true,
+      "actual": null,
+      "at": 1793205769.4139516
+    },
+    {
+      "name": "nginx forwards catalog through Gateway",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205769.4752407
+    },
+    {
+      "name": "CORS Idempotency-Key preflight",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205769.4995627
+    },
+    {
+      "name": "CORS permits only configured frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793205769.500648
+    },
+    {
+      "name": "Keycloak bootstrap admin login",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205769.7713923
+    },
+    {
+      "name": "Import current template as NEW realm",
+      "passed": true,
+      "actual": 201,
+      "at": 1793205773.1000345
+    },
+    {
+      "name": "Keycloak admin POST users",
+      "passed": true,
+      "actual": 201,
+      "at": 1793205773.2629342
+    },
+    {
+      "name": "Keycloak admin GET users?username=[omitido]",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205773.304959
+    },
+    {
+      "name": "Keycloak admin GET roles",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205773.3463087
+    },
+    {
+      "name": "Keycloak admin POST users",
+      "passed": true,
+      "actual": 204,
+      "at": 1793205773.3777578
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205773.651575
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793205773.652811
+    },
+    {
+      "name": "Fresh realm template emits stable subject and API audience",
+      "passed": true,
+      "actual": null,
+      "at": 1793205773.653955
+    },
+    {
+      "name": "Keycloak admin POST users",
+      "passed": true,
+      "actual": 201,
+      "at": 1793205773.7245615
+    },
+    {
+      "name": "Keycloak admin GET users?username=[omitido]",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205773.755228
+    },
+    {
+      "name": "Keycloak admin GET roles",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205773.7914186
+    },
+    {
+      "name": "Keycloak admin POST users",
+      "passed": true,
+      "actual": 204,
+      "at": 1793205773.8200157
+    },
+    {
+      "name": "Keycloak admin POST users",
+      "passed": true,
+      "actual": 201,
+      "at": 1793205773.8858795
+    },
+    {
+      "name": "Keycloak admin GET users?username=[omitido]",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205773.9183064
+    },
+    {
+      "name": "Keycloak admin GET roles",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205773.9436088
+    },
+    {
+      "name": "Keycloak admin POST users",
+      "passed": true,
+      "actual": 204,
+      "at": 1793205773.9904423
+    },
+    {
+      "name": "Keycloak admin POST users",
+      "passed": true,
+      "actual": 201,
+      "at": 1793205774.0847754
+    },
+    {
+      "name": "Keycloak admin GET users?username=[omitido]",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205774.1387599
+    },
+    {
+      "name": "Keycloak admin GET roles",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205774.2537134
+    },
+    {
+      "name": "Keycloak admin POST users",
+      "passed": true,
+      "actual": 204,
+      "at": 1793205774.2931538
+    },
+    {
+      "name": "Keycloak admin POST users",
+      "passed": true,
+      "actual": 201,
+      "at": 1793205774.3604736
+    },
+    {
+      "name": "Keycloak admin GET users?username=[omitido]",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205774.3978825
+    },
+    {
+      "name": "Keycloak admin GET roles",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205774.4343007
+    },
+    {
+      "name": "Keycloak admin POST users",
+      "passed": true,
+      "actual": 204,
+      "at": 1793205774.4623682
+    },
+    {
+      "name": "Keycloak admin POST users",
+      "passed": true,
+      "actual": 201,
+      "at": 1793205774.5415645
+    },
+    {
+      "name": "Keycloak admin GET users?username=[omitido]",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205774.5737743
+    },
+    {
+      "name": "Keycloak admin GET roles",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205774.5957203
+    },
+    {
+      "name": "Keycloak admin POST users",
+      "passed": true,
+      "actual": 204,
+      "at": 1793205774.6380653
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205774.7870946
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793205774.7881904
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205774.9462302
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793205774.947847
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205775.068004
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793205775.0702353
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205775.225728
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793205775.2281842
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205775.3685982
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793205775.3696642
+    },
+    {
+      "name": "PKCE rejects authorization without S256 challenge",
+      "passed": true,
+      "actual": 302,
+      "at": 1793205775.3931446
+    },
+    {
+      "name": "PKCE rejects wrong verifier",
+      "passed": true,
+      "actual": 400,
+      "at": 1793205775.5348566
+    },
+    {
+      "name": "PKCE first exchange",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205775.682111
+    },
+    {
+      "name": "Authorization code cannot be reused",
+      "passed": true,
+      "actual": 400,
+      "at": 1793205775.7076485
+    },
+    {
+      "name": "Application rejects password grant",
+      "passed": true,
+      "actual": 400,
+      "at": 1793205775.727057
+    },
+    {
+      "name": "cliente-ms gateway no token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205775.9294426
+    },
+    {
+      "name": "cliente-ms gateway invalid token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205775.970172
+    },
+    {
+      "name": "cliente-ms gateway tampered signature",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.005965
+    },
+    {
+      "name": "cliente-ms direct no token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.0850782
+    },
+    {
+      "name": "cliente-ms direct invalid token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.1225767
+    },
+    {
+      "name": "cliente-ms direct tampered signature",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.1900082
+    },
+    {
+      "name": "servicio-legal-ms gateway no token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.385691
+    },
+    {
+      "name": "servicio-legal-ms gateway invalid token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.4055548
+    },
+    {
+      "name": "servicio-legal-ms gateway tampered signature",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.4307382
+    },
+    {
+      "name": "servicio-legal-ms direct no token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.4970357
+    },
+    {
+      "name": "servicio-legal-ms direct invalid token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.5480537
+    },
+    {
+      "name": "servicio-legal-ms direct tampered signature",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.5857828
+    },
+    {
+      "name": "orden-legal-ms gateway no token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.7798097
+    },
+    {
+      "name": "orden-legal-ms gateway invalid token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.7990332
+    },
+    {
+      "name": "orden-legal-ms gateway tampered signature",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.817528
+    },
+    {
+      "name": "orden-legal-ms direct no token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.848153
+    },
+    {
+      "name": "orden-legal-ms direct invalid token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.871849
+    },
+    {
+      "name": "orden-legal-ms direct tampered signature",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205776.9012754
+    },
+    {
+      "name": "pago-ms gateway no token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205777.108035
+    },
+    {
+      "name": "pago-ms gateway invalid token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205777.143047
+    },
+    {
+      "name": "pago-ms gateway tampered signature",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205777.177855
+    },
+    {
+      "name": "pago-ms direct no token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205777.21748
+    },
+    {
+      "name": "pago-ms direct invalid token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205777.2491636
+    },
+    {
+      "name": "pago-ms direct tampered signature",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205777.3061864
+    },
+    {
+      "name": "backend-legacy gateway no token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205777.5114975
+    },
+    {
+      "name": "backend-legacy gateway invalid token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205777.544538
+    },
+    {
+      "name": "backend-legacy gateway tampered signature",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205777.5685785
+    },
+    {
+      "name": "backend-legacy direct no token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205777.6387498
+    },
+    {
+      "name": "backend-legacy direct invalid token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205777.683486
+    },
+    {
+      "name": "backend-legacy direct tampered signature",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205777.7311397
+    },
+    {
+      "name": "catalog gateway public GET",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205777.9501445
+    },
+    {
+      "name": "catalog gateway CLIENTE write forbidden",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205777.992506
+    },
+    {
+      "name": "catalog gateway ABOGADO write forbidden",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205778.0323536
+    },
+    {
+      "name": "catalog gateway ADMIN write",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205778.4024606
+    },
+    {
+      "name": "catalog direct public GET",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205778.436629
+    },
+    {
+      "name": "catalog direct CLIENTE write forbidden",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205778.4660912
+    },
+    {
+      "name": "catalog direct ABOGADO write forbidden",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205778.491234
+    },
+    {
+      "name": "catalog direct ADMIN write",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205778.5219092
+    },
+    {
+      "name": "clientes gateway ADMIN list",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205779.1622252
+    },
+    {
+      "name": "clientes gateway ABOGADO list",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205779.202711
+    },
+    {
+      "name": "clientes gateway CLIENTE list denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205779.2283058
+    },
+    {
+      "name": "clientes gateway CLIENTE admin create denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205779.2542853
+    },
+    {
+      "name": "clientes direct ADMIN list",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205779.287314
+    },
+    {
+      "name": "clientes direct ABOGADO list",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205779.3256075
+    },
+    {
+      "name": "clientes direct CLIENTE list denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205779.359038
+    },
+    {
+      "name": "clientes direct CLIENTE admin create denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205779.3951433
+    },
+    {
+      "name": "legal gateway valid but unlinked CLIENTE denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205779.7865188
+    },
+    {
+      "name": "legal direct valid but unlinked CLIENTE denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205779.8131945
+    },
+    {
+      "name": "ordenes gateway Kafka recovery ADMIN",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205780.0463824
+    },
+    {
+      "name": "ordenes gateway Kafka recovery CLIENTE denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205780.071209
+    },
+    {
+      "name": "ordenes gateway Kafka recovery ABOGADO denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205780.0972245
+    },
+    {
+      "name": "ordenes gateway Kafka recovery anonymous denied",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205780.137189
+    },
+    {
+      "name": "ordenes gateway Kafka replay ADMIN protected business lookup",
+      "passed": true,
+      "actual": 404,
+      "at": 1793205780.2322967
+    },
+    {
+      "name": "ordenes gateway Kafka replay CLIENTE denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205780.267506
+    },
+    {
+      "name": "ordenes gateway Kafka replay ABOGADO denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205780.302804
+    },
+    {
+      "name": "ordenes direct Kafka recovery ADMIN",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205780.3401592
+    },
+    {
+      "name": "ordenes direct Kafka recovery CLIENTE denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205780.3739479
+    },
+    {
+      "name": "ordenes direct Kafka recovery ABOGADO denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205780.4213734
+    },
+    {
+      "name": "ordenes direct Kafka recovery anonymous denied",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205780.4552977
+    },
+    {
+      "name": "ordenes direct Kafka replay ADMIN protected business lookup",
+      "passed": true,
+      "actual": 404,
+      "at": 1793205780.48378
+    },
+    {
+      "name": "ordenes direct Kafka replay CLIENTE denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205780.5046191
+    },
+    {
+      "name": "ordenes direct Kafka replay ABOGADO denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205780.5408745
+    },
+    {
+      "name": "pagos gateway Kafka recovery ADMIN",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205780.8122473
+    },
+    {
+      "name": "pagos gateway Kafka recovery CLIENTE denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205780.839677
+    },
+    {
+      "name": "pagos gateway Kafka recovery ABOGADO denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205780.8641183
+    },
+    {
+      "name": "pagos gateway Kafka recovery anonymous denied",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205780.8878925
+    },
+    {
+      "name": "pagos gateway Kafka replay ADMIN protected business lookup",
+      "passed": true,
+      "actual": 404,
+      "at": 1793205781.0718465
+    },
+    {
+      "name": "pagos gateway Kafka replay CLIENTE denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205781.1079195
+    },
+    {
+      "name": "pagos gateway Kafka replay ABOGADO denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205781.1381476
+    },
+    {
+      "name": "pagos direct Kafka recovery ADMIN",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205781.1843858
+    },
+    {
+      "name": "pagos direct Kafka recovery CLIENTE denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205781.218134
+    },
+    {
+      "name": "pagos direct Kafka recovery ABOGADO denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205781.2472687
+    },
+    {
+      "name": "pagos direct Kafka recovery anonymous denied",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205781.2886176
+    },
+    {
+      "name": "pagos direct Kafka replay ADMIN protected business lookup",
+      "passed": true,
+      "actual": 404,
+      "at": 1793205781.31795
+    },
+    {
+      "name": "pagos direct Kafka replay CLIENTE denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205781.3406417
+    },
+    {
+      "name": "pagos direct Kafka replay ABOGADO denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205781.3646545
+    },
+    {
+      "name": "Keycloak admin GET clients?clientId=illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205781.4102666
+    },
+    {
+      "name": "Keycloak admin POST clients",
+      "passed": true,
+      "actual": 201,
+      "at": 1793205781.5488024
+    },
+    {
+      "name": "PKCE code exchange phase3-expiry-ae3baa8737",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205781.7015324
+    },
+    {
+      "name": "OIDC issuer/audience/nonce phase3-expiry-ae3baa8737",
+      "passed": true,
+      "actual": null,
+      "at": 1793205781.704339
+    },
+    {
+      "name": "cliente-ms gateway expired token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205788.9221666
+    },
+    {
+      "name": "cliente-ms direct expired token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205788.9565594
+    },
+    {
+      "name": "servicio-legal-ms gateway expired token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205789.171654
+    },
+    {
+      "name": "servicio-legal-ms direct expired token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205789.200779
+    },
+    {
+      "name": "orden-legal-ms gateway expired token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205789.4201055
+    },
+    {
+      "name": "orden-legal-ms direct expired token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205789.4446428
+    },
+    {
+      "name": "pago-ms gateway expired token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205789.6443932
+    },
+    {
+      "name": "pago-ms direct expired token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205789.6696115
+    },
+    {
+      "name": "backend-legacy gateway expired token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205789.8806121
+    },
+    {
+      "name": "backend-legacy direct expired token",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205789.9111946
+    },
+    {
+      "name": "Keycloak admin POST clients",
+      "passed": true,
+      "actual": 201,
+      "at": 1793205790.0018196
+    },
+    {
+      "name": "No-audience token exchange",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205790.1633873
+    },
+    {
+      "name": "cliente-ms gateway JWT wrong audience rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205790.3745105
+    },
+    {
+      "name": "cliente-ms gateway JWT wrong issuer rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205790.446561
+    },
+    {
+      "name": "cliente-ms direct JWT wrong audience rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205790.4878776
+    },
+    {
+      "name": "cliente-ms direct JWT wrong issuer rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205790.5324023
+    },
+    {
+      "name": "servicio-legal-ms gateway JWT wrong audience rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205790.7349608
+    },
+    {
+      "name": "servicio-legal-ms gateway JWT wrong issuer rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205790.7680817
+    },
+    {
+      "name": "servicio-legal-ms direct JWT wrong audience rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205790.798903
+    },
+    {
+      "name": "servicio-legal-ms direct JWT wrong issuer rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205790.8458421
+    },
+    {
+      "name": "orden-legal-ms gateway JWT wrong audience rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205791.0688908
+    },
+    {
+      "name": "orden-legal-ms gateway JWT wrong issuer rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205791.112719
+    },
+    {
+      "name": "orden-legal-ms direct JWT wrong audience rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205791.1402333
+    },
+    {
+      "name": "orden-legal-ms direct JWT wrong issuer rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205791.177703
+    },
+    {
+      "name": "pago-ms gateway JWT wrong audience rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205791.425278
+    },
+    {
+      "name": "pago-ms gateway JWT wrong issuer rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205791.4630842
+    },
+    {
+      "name": "pago-ms direct JWT wrong audience rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205791.4961724
+    },
+    {
+      "name": "pago-ms direct JWT wrong issuer rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205791.5254097
+    },
+    {
+      "name": "backend-legacy gateway JWT wrong audience rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205791.737876
+    },
+    {
+      "name": "backend-legacy gateway JWT wrong issuer rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205791.7783363
+    },
+    {
+      "name": "backend-legacy direct JWT wrong audience rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205791.8127525
+    },
+    {
+      "name": "backend-legacy direct JWT wrong issuer rejected",
+      "passed": true,
+      "actual": 401,
+      "at": 1793205791.8448644
+    },
+    {
+      "name": "Client own profile create CLIENTE",
+      "passed": true,
+      "actual": 201,
+      "at": 1793205791.9302833
+    },
+    {
+      "name": "Client own profile create OTRO_CLIENTE",
+      "passed": true,
+      "actual": 201,
+      "at": 1793205791.9821877
+    },
+    {
+      "name": "clientes gateway CLIENTE own profile",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205792.2937741
+    },
+    {
+      "name": "clientes gateway own profile subject is stable",
+      "passed": true,
+      "actual": null,
+      "at": 1793205792.29766
+    },
+    {
+      "name": "clientes gateway other client profile forbidden",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205792.3240564
+    },
+    {
+      "name": "clientes direct CLIENTE own profile",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205792.363434
+    },
+    {
+      "name": "clientes direct own profile subject is stable",
+      "passed": true,
+      "actual": null,
+      "at": 1793205792.3661184
+    },
+    {
+      "name": "clientes direct other client profile forbidden",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205792.3916514
+    },
+    {
+      "name": "Real catalog for purchase",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205792.4327636
+    },
+    {
+      "name": "Purchase N through Gateway",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205792.5173721
+    },
+    {
+      "name": "HTTP idempotency replay via Gateway",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205792.5767882
+    },
+    {
+      "name": "Repeated purchase has one order",
+      "passed": true,
+      "actual": null,
+      "at": 1793205792.5795221
+    },
+    {
+      "name": "Kafka real order converges PAGADA",
+      "passed": true,
+      "actual": null,
+      "at": 1793205794.6962085
+    },
+    {
+      "name": "order gateway CLIENTE owner",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205794.9266253
+    },
+    {
+      "name": "order gateway ADMIN",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205794.9692142
+    },
+    {
+      "name": "order gateway other CLIENTE hidden",
+      "passed": true,
+      "actual": 404,
+      "at": 1793205795.0085678
+    },
+    {
+      "name": "order gateway ABOGADO purchase forbidden",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205795.0401611
+    },
+    {
+      "name": "order gateway impersonation blocked",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205795.078014
+    },
+    {
+      "name": "order gateway other client list blocked",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205795.1113968
+    },
+    {
+      "name": "order direct CLIENTE owner",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205795.141387
+    },
+    {
+      "name": "order direct ADMIN",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205795.1716003
+    },
+    {
+      "name": "order direct other CLIENTE hidden",
+      "passed": true,
+      "actual": 404,
+      "at": 1793205795.2048376
+    },
+    {
+      "name": "order direct ABOGADO purchase forbidden",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205795.2340388
+    },
+    {
+      "name": "order direct impersonation blocked",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205795.2715542
+    },
+    {
+      "name": "order direct other client list blocked",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205795.2960057
+    },
+    {
+      "name": "payment gateway CLIENTE owner",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205795.5149171
+    },
+    {
+      "name": "payment gateway single validated payment",
+      "passed": true,
+      "actual": null,
+      "at": 1793205795.518393
+    },
+    {
+      "name": "payment gateway ADMIN",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205795.55089
+    },
+    {
+      "name": "payment gateway other CLIENTE hidden",
+      "passed": true,
+      "actual": 404,
+      "at": 1793205795.6131296
+    },
+    {
+      "name": "payment direct CLIENTE owner",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205795.6495948
+    },
+    {
+      "name": "payment direct single validated payment",
+      "passed": true,
+      "actual": null,
+      "at": 1793205795.6540043
+    },
+    {
+      "name": "payment direct ADMIN",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205795.6801808
+    },
+    {
+      "name": "payment direct other CLIENTE hidden",
+      "passed": true,
+      "actual": 404,
+      "at": 1793205795.7091212
+    },
+    {
+      "name": "PostgreSQL persisted two historical detail rows",
+      "passed": true,
+      "actual": "2,310.00",
+      "at": 1793205795.9644508
+    },
+    {
+      "name": "Nginx forwards authenticated order",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205795.9993112
+    },
+    {
+      "name": "Catalog for final scenarios",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205796.0389142
+    },
+    {
+      "name": "ADMIN explicit legal binding",
+      "passed": true,
+      "actual": 204,
+      "at": 1793205796.6658928
+    },
+    {
+      "name": "Legal create ABOGADO",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205796.8245144
+    },
+    {
+      "name": "Legal stable binding ABOGADO",
+      "passed": true,
+      "actual": 204,
+      "at": 1793205797.1414773
+    },
+    {
+      "name": "Legal create OTRO_ABOGADO",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205797.5360265
+    },
+    {
+      "name": "Legal stable binding OTRO_ABOGADO",
+      "passed": true,
+      "actual": 204,
+      "at": 1793205797.8567739
+    },
+    {
+      "name": "Legal create CLIENTE",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205798.2810614
+    },
+    {
+      "name": "Legal stable binding CLIENTE",
+      "passed": true,
+      "actual": 204,
+      "at": 1793205798.5866723
+    },
+    {
+      "name": "Legal create OTRO_CLIENTE",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205798.9705746
+    },
+    {
+      "name": "Legal stable binding OTRO_CLIENTE",
+      "passed": true,
+      "actual": 204,
+      "at": 1793205799.3022985
+    },
+    {
+      "name": "Legal create assigned case",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205799.609098
+    },
+    {
+      "name": "Legal create other case",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205799.655131
+    },
+    {
+      "name": "legal gateway own case ADMIN",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205799.870183
+    },
+    {
+      "name": "legal gateway own case ABOGADO",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205799.9153643
+    },
+    {
+      "name": "legal gateway own case CLIENTE",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205799.9752653
+    },
+    {
+      "name": "legal gateway foreign case OTRO_CLIENTE",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.0669453
+    },
+    {
+      "name": "legal gateway foreign case OTRO_ABOGADO",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.1124053
+    },
+    {
+      "name": "legal gateway CLIENTE cannot bind",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.1589317
+    },
+    {
+      "name": "legal gateway CLIENTE cannot list others",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.188885
+    },
+    {
+      "name": "legal gateway ABOGADO list",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205800.233847
+    },
+    {
+      "name": "legal gateway agenda ADMIN",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205800.288226
+    },
+    {
+      "name": "legal gateway agenda CLIENTE forbidden",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.3149526
+    },
+    {
+      "name": "legal gateway classic auth endpoint denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.3529897
+    },
+    {
+      "name": "legal gateway other client messages denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.4028945
+    },
+    {
+      "name": "legal gateway other client documents denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.4492972
+    },
+    {
+      "name": "legal direct own case ADMIN",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205800.4987419
+    },
+    {
+      "name": "legal direct own case ABOGADO",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205800.534992
+    },
+    {
+      "name": "legal direct own case CLIENTE",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205800.585404
+    },
+    {
+      "name": "legal direct foreign case OTRO_CLIENTE",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.6288805
+    },
+    {
+      "name": "legal direct foreign case OTRO_ABOGADO",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.6703086
+    },
+    {
+      "name": "legal direct CLIENTE cannot bind",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.7146058
+    },
+    {
+      "name": "legal direct CLIENTE cannot list others",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.745277
+    },
+    {
+      "name": "legal direct ABOGADO list",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205800.7843487
+    },
+    {
+      "name": "legal direct agenda ADMIN",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205800.8248403
+    },
+    {
+      "name": "legal direct agenda CLIENTE forbidden",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.8637488
+    },
+    {
+      "name": "legal direct classic auth endpoint denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.9067488
+    },
+    {
+      "name": "legal direct other client messages denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.9556923
+    },
+    {
+      "name": "legal direct other client documents denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205800.988311
+    },
+    {
+      "name": "Legal messages write by owner",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205801.0620031
+    },
+    {
+      "name": "Legal messages read by assigned lawyer",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205801.1257412
+    },
+    {
+      "name": "legal gateway CLIENTE dashboard scope",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205801.3532636
+    },
+    {
+      "name": "legal gateway dashboard hides other clients",
+      "passed": true,
+      "actual": null,
+      "at": 1793205801.3583226
+    },
+    {
+      "name": "legal direct CLIENTE dashboard scope",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205801.4006376
+    },
+    {
+      "name": "legal direct dashboard hides other clients",
+      "passed": true,
+      "actual": null,
+      "at": 1793205801.4030778
+    },
+    {
+      "name": "Legal document upload by assigned lawyer",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205801.46134
+    },
+    {
+      "name": "Legal owner document download",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205801.502091
+    },
+    {
+      "name": "Legal foreign client document download denied",
+      "passed": true,
+      "actual": 403,
+      "at": 1793205801.5458698
+    },
+    {
+      "name": "Keycloak admin PUT users",
+      "passed": true,
+      "actual": 204,
+      "at": 1793205801.579726
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205801.710695
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793205801.7138789
+    },
+    {
+      "name": "Legal identity survives Keycloak email change",
+      "passed": true,
+      "actual": 200,
+      "at": 1793205801.7482688
+    },
+    {
+      "name": "Existing binding cannot be reassigned",
+      "passed": true,
+      "actual": 409,
+      "at": 1793205801.822714
+    }
+  ]
+}

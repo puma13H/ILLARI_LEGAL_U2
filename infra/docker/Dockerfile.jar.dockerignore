@@ -1,0 +1,13 @@
+**
+!services/
+!services/*/
+!services/*/target/
+!services/*/target/*.jar
+!infra/
+!infra/*/
+!infra/*/target/
+!infra/*/target/*.jar
+!backend-legacy-casos/
+!backend-legacy-casos/target/
+!backend-legacy-casos/target/*.jar
+

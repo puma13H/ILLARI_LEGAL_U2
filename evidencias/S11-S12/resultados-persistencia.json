@@ -1,0 +1,86 @@
+{
+  "project": "illari-fase3-audit",
+  "run": "3ea1dcbe1d",
+  "passed": 13,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Compra de navegador pertenece al CLIENTE esperado",
+      "passed": true,
+      "actual": null,
+      "at": 1793204871.8117125
+    },
+    {
+      "name": "Existe exactamente una orden del CLIENTE de laboratorio",
+      "passed": true,
+      "actual": null,
+      "at": 1793204872.0570202
+    },
+    {
+      "name": "Un solo pago VALIDADO coincide con orden, cliente e importe",
+      "passed": true,
+      "actual": null,
+      "at": 1793204872.0576735
+    },
+    {
+      "name": "Orden PAGADA y estado de pago VALIDADO",
+      "passed": true,
+      "actual": null,
+      "at": 1793204872.0587626
+    },
+    {
+      "name": "Carrito N conserva dos servicios distintos y cantidades 2 y 1",
+      "passed": true,
+      "actual": null,
+      "at": 1793204872.059307
+    },
+    {
+      "name": "Precios históricos, subtotales y total 310.00 exactos",
+      "passed": true,
+      "actual": null,
+      "at": 1793204872.0603695
+    },
+    {
+      "name": "Idempotency-Key persistida con respuesta y orden",
+      "passed": true,
+      "actual": null,
+      "at": 1793204872.3175619
+    },
+    {
+      "name": "orden-legal-ms: outbox publicado sin agotamiento",
+      "passed": true,
+      "actual": null,
+      "at": 1793204872.5716002
+    },
+    {
+      "name": "orden-legal-ms: eventId consumido una vez en inbox destino",
+      "passed": true,
+      "actual": null,
+      "at": 1793204872.8312466
+    },
+    {
+      "name": "pago-ms: outbox publicado sin agotamiento",
+      "passed": true,
+      "actual": null,
+      "at": 1793204873.086037
+    },
+    {
+      "name": "pago-ms: eventId consumido una vez en inbox destino",
+      "passed": true,
+      "actual": null,
+      "at": 1793204873.3546531
+    },
+    {
+      "name": "Kafka conserva una correlación técnica común a la compra",
+      "passed": true,
+      "actual": null,
+      "at": 1793204873.3563027
+    },
+    {
+      "name": "Logs confirman publicación y consumo en ambos microservicios",
+      "passed": true,
+      "actual": null,
+      "at": 1793204874.7446764
+    }
+  ]
+}

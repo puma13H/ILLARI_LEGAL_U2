@@ -1,0 +1,44 @@
+<form [formGroup]="form" (ngSubmit)="guardar()">
+  @if (cargando()) {
+    <p>Cargando...</p>
+  }
+
+  <label>
+    Nombre
+    <input type="text" formControlName="nombre" />
+  </label>
+  @if (mensajeValidacion('nombre'); as mensaje) {
+    <p class="error">{{ mensaje }}</p>
+  }
+
+  <label>
+    Descripción
+    <textarea formControlName="descripcion"></textarea>
+  </label>
+  @if (mensajeValidacion('descripcion'); as mensaje) {
+    <p class="error">{{ mensaje }}</p>
+  }
+
+  <label>
+    Categoría
+    <input type="text" formControlName="categoria" />
+  </label>
+  @if (mensajeValidacion('categoria'); as mensaje) {
+    <p class="error">{{ mensaje }}</p>
+  }
+
+  <label>
+    Precio
+    <input type="number" formControlName="precio" min="0" step="0.01" />
+  </label>
+  @if (mensajeValidacion('precio'); as mensaje) {
+    <p class="error">{{ mensaje }}</p>
+  }
+
+  @if (error()) {
+    <p class="error">{{ error() }}</p>
+  }
+
+  <button type="submit" [disabled]="cargando()">Guardar</button>
+  <button type="button" (click)="cancelar()">Cancelar</button>
+</form>

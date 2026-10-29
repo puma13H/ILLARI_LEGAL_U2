@@ -1,0 +1,22 @@
+{
+  "illari-orden-dlt": [
+    {
+      "group": "illari-orden-dlt",
+      "topic": "illari.pago.resultado.DLT",
+      "partition": 0,
+      "committed": "3",
+      "end": "3",
+      "lag": "0"
+    }
+  ],
+  "illari-orden-legal-ms": [
+    {
+      "group": "illari-orden-legal-ms",
+      "topic": "illari.pago.resultado",
+      "partition": 0,
+      "committed": "83",
+      "end": "83",
+      "lag": "0"
+    }
+  ]
+}

@@ -1,0 +1,967 @@
+[
+  {
+    "id": 1,
+    "title": "Disponibilidad por servicio (scrape real)",
+    "query": "up{job=~\"legal-gateway|cliente-ms|servicio-legal-ms|orden-legal-ms|pago-ms|backend-legacy\"}",
+    "result": [
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "pago-ms:8084",
+          "job": "pago-ms"
+        },
+        "value": [
+          1793206527.832,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "backend-legacy:8080",
+          "job": "backend-legacy"
+        },
+        "value": [
+          1793206527.832,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms"
+        },
+        "value": [
+          1793206527.832,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "legal-gateway:18080",
+          "job": "legal-gateway"
+        },
+        "value": [
+          1793206527.832,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "cliente-ms:8081",
+          "job": "cliente-ms"
+        },
+        "value": [
+          1793206527.832,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "up",
+          "instance": "servicio-legal-ms:8082",
+          "job": "servicio-legal-ms"
+        },
+        "value": [
+          1793206527.832,
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Peticiones HTTP acumuladas",
+    "query": "sum by(job) (http_server_requests_seconds_count)",
+    "result": [
+      {
+        "metric": {
+          "job": "pago-ms"
+        },
+        "value": [
+          1793206527.87,
+          "3645"
+        ]
+      },
+      {
+        "metric": {
+          "job": "backend-legacy"
+        },
+        "value": [
+          1793206527.87,
+          "3720"
+        ]
+      },
+      {
+        "metric": {
+          "job": "orden-legal-ms"
+        },
+        "value": [
+          1793206527.87,
+          "257"
+        ]
+      },
+      {
+        "metric": {
+          "job": "legal-gateway"
+        },
+        "value": [
+          1793206527.87,
+          "4377"
+        ]
+      },
+      {
+        "metric": {
+          "job": "cliente-ms"
+        },
+        "value": [
+          1793206527.87,
+          "3639"
+        ]
+      },
+      {
+        "metric": {
+          "job": "servicio-legal-ms"
+        },
+        "value": [
+          1793206527.87,
+          "57"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Peticiones por segundo",
+    "query": "sum by(job) (rate(http_server_requests_seconds_count[1m]))",
+    "result": [
+      {
+        "metric": {
+          "job": "pago-ms"
+        },
+        "value": [
+          1793206527.913,
+          "0.5455140560788451"
+        ]
+      },
+      {
+        "metric": {
+          "job": "backend-legacy"
+        },
+        "value": [
+          1793206527.913,
+          "0.5273206655150467"
+        ]
+      },
+      {
+        "metric": {
+          "job": "orden-legal-ms"
+        },
+        "value": [
+          1793206527.913,
+          "0.6546049640876445"
+        ]
+      },
+      {
+        "metric": {
+          "job": "legal-gateway"
+        },
+        "value": [
+          1793206527.913,
+          "0.7273388489862714"
+        ]
+      },
+      {
+        "metric": {
+          "job": "cliente-ms"
+        },
+        "value": [
+          1793206527.913,
+          "0.5273302542095502"
+        ]
+      },
+      {
+        "metric": {
+          "job": "servicio-legal-ms"
+        },
+        "value": [
+          1793206527.913,
+          "0.550861063452323"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Latencia p95 de las API",
+    "query": "histogram_quantile(0.95, sum by(le,job) (rate(http_server_requests_seconds_bucket{uri!~\"/actuator.*\"}[1m])))",
+    "result": [
+      {
+        "metric": {
+          "job": "orden-legal-ms"
+        },
+        "value": [
+          1793206527.944,
+          "0.05340746875"
+        ]
+      },
+      {
+        "metric": {
+          "job": "pago-ms"
+        },
+        "value": [
+          1793206527.944,
+          "0.006859185753909735"
+        ]
+      },
+      {
+        "metric": {
+          "job": "backend-legacy"
+        },
+        "value": [
+          1793206527.944,
+          "0.0441800005"
+        ]
+      },
+      {
+        "metric": {
+          "job": "legal-gateway"
+        },
+        "value": [
+          1793206527.944,
+          "0.059279493999999995"
+        ]
+      },
+      {
+        "metric": {
+          "job": "cliente-ms"
+        },
+        "value": [
+          1793206527.944,
+          "0.0553648105"
+        ]
+      },
+      {
+        "metric": {
+          "job": "servicio-legal-ms"
+        },
+        "value": [
+          1793206527.944,
+          "0.2076034801102472"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Respuestas HTTP 4xx",
+    "query": "sum by(job) (increase(http_server_requests_seconds_count{status=~\"4..\"}[5m]))",
+    "result": [
+      {
+        "metric": {
+          "job": "cliente-ms"
+        },
+        "value": [
+          1793206528.014,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "job": "backend-legacy"
+        },
+        "value": [
+          1793206528.014,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "job": "legal-gateway"
+        },
+        "value": [
+          1793206528.014,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "job": "servicio-legal-ms"
+        },
+        "value": [
+          1793206528.014,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "job": "pago-ms"
+        },
+        "value": [
+          1793206528.014,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "job": "orden-legal-ms"
+        },
+        "value": [
+          1793206528.014,
+          "5.225137863625568"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Respuestas HTTP 5xx",
+    "query": "sum by(job) (increase(http_server_requests_seconds_count{status=~\"5..\"}[5m]))",
+    "result": [
+      {
+        "metric": {
+          "job": "legal-gateway"
+        },
+        "value": [
+          1793206528.047,
+          "22.68402030572258"
+        ]
+      },
+      {
+        "metric": {
+          "job": "orden-legal-ms"
+        },
+        "value": [
+          1793206528.047,
+          "25.157980638451072"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Circuit Breaker: estado actual",
+    "query": "resilience4j_circuitbreaker_state",
+    "result": [
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_state",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "name": "servicioLegal",
+          "state": "closed"
+        },
+        "value": [
+          1793206528.096,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_state",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "name": "servicioLegal",
+          "state": "disabled"
+        },
+        "value": [
+          1793206528.096,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_state",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "name": "servicioLegal",
+          "state": "forced_open"
+        },
+        "value": [
+          1793206528.096,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_state",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "name": "servicioLegal",
+          "state": "half_open"
+        },
+        "value": [
+          1793206528.096,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_state",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "name": "servicioLegal",
+          "state": "metrics_only"
+        },
+        "value": [
+          1793206528.096,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_state",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "name": "servicioLegal",
+          "state": "open"
+        },
+        "value": [
+          1793206528.096,
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Retry: llamadas por resultado",
+    "query": "resilience4j_retry_calls_total",
+    "result": [
+      {
+        "metric": {
+          "__name__": "resilience4j_retry_calls_total",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "kind": "failed_with_retry",
+          "name": "servicioLegal"
+        },
+        "value": [
+          1793206528.13,
+          "26"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_retry_calls_total",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "kind": "failed_without_retry",
+          "name": "servicioLegal"
+        },
+        "value": [
+          1793206528.13,
+          "12"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_retry_calls_total",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "kind": "successful_with_retry",
+          "name": "servicioLegal"
+        },
+        "value": [
+          1793206528.13,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_retry_calls_total",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "kind": "successful_without_retry",
+          "name": "servicioLegal"
+        },
+        "value": [
+          1793206528.13,
+          "13"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Ordenes creadas (persistidas)",
+    "query": "illari_ordenes_registradas",
+    "result": [
+      {
+        "metric": {
+          "__name__": "illari_ordenes_registradas",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms"
+        },
+        "value": [
+          1793206528.162,
+          "64"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Ordenes por estado",
+    "query": "illari_ordenes_estado",
+    "result": [
+      {
+        "metric": {
+          "__name__": "illari_ordenes_estado",
+          "estado": "CANCELACION_PENDIENTE",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms"
+        },
+        "value": [
+          1793206528.195,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_ordenes_estado",
+          "estado": "CANCELADA",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms"
+        },
+        "value": [
+          1793206528.195,
+          "16"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_ordenes_estado",
+          "estado": "PAGADA",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms"
+        },
+        "value": [
+          1793206528.195,
+          "48"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_ordenes_estado",
+          "estado": "PENDIENTE_PAGO",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms"
+        },
+        "value": [
+          1793206528.195,
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Pagos por estado: validado, fallido, reembolsado",
+    "query": "illari_pagos_estado",
+    "result": [
+      {
+        "metric": {
+          "__name__": "illari_pagos_estado",
+          "estado": "CANCELADO",
+          "instance": "pago-ms:8084",
+          "job": "pago-ms"
+        },
+        "value": [
+          1793206528.251,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_pagos_estado",
+          "estado": "FALLIDO",
+          "instance": "pago-ms:8084",
+          "job": "pago-ms"
+        },
+        "value": [
+          1793206528.251,
+          "7"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_pagos_estado",
+          "estado": "PENDIENTE",
+          "instance": "pago-ms:8084",
+          "job": "pago-ms"
+        },
+        "value": [
+          1793206528.251,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_pagos_estado",
+          "estado": "REEMBOLSADO",
+          "instance": "pago-ms:8084",
+          "job": "pago-ms"
+        },
+        "value": [
+          1793206528.251,
+          "9"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_pagos_estado",
+          "estado": "VALIDADO",
+          "instance": "pago-ms:8084",
+          "job": "pago-ms"
+        },
+        "value": [
+          1793206528.251,
+          "48"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Kafka: eventos procesados (inbox durable)",
+    "query": "illari_kafka_procesados",
+    "result": [
+      {
+        "metric": {
+          "__name__": "illari_kafka_procesados",
+          "instance": "pago-ms:8084",
+          "job": "pago-ms",
+          "servicio": "pago"
+        },
+        "value": [
+          1793206528.287,
+          "80"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_kafka_procesados",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "servicio": "orden"
+        },
+        "value": [
+          1793206528.287,
+          "73"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Kafka: mensajes enviados a DLT",
+    "query": "illari_kafka_fallidos_total",
+    "result": [
+      {
+        "metric": {
+          "__name__": "illari_kafka_fallidos_total",
+          "instance": "pago-ms:8084",
+          "job": "pago-ms",
+          "servicio": "pago"
+        },
+        "value": [
+          1793206528.325,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_kafka_fallidos_total",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "servicio": "orden"
+        },
+        "value": [
+          1793206528.325,
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Kafka: reintentos",
+    "query": "illari_kafka_reintentados_total",
+    "result": [
+      {
+        "metric": {
+          "__name__": "illari_kafka_reintentados_total",
+          "instance": "pago-ms:8084",
+          "job": "pago-ms",
+          "servicio": "pago"
+        },
+        "value": [
+          1793206528.361,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_kafka_reintentados_total",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "servicio": "orden"
+        },
+        "value": [
+          1793206528.361,
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Outbox: pendientes y agotados",
+    "query": "illari_outbox_pendientes or illari_outbox_fallidos",
+    "result": [
+      {
+        "metric": {
+          "__name__": "illari_outbox_pendientes",
+          "instance": "pago-ms:8084",
+          "job": "pago-ms",
+          "servicio": "pago"
+        },
+        "value": [
+          1793206528.39,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_outbox_pendientes",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "servicio": "orden"
+        },
+        "value": [
+          1793206528.39,
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Outbox: antiguedad del pendiente mas antiguo",
+    "query": "illari_outbox_edad_segundos",
+    "result": [
+      {
+        "metric": {
+          "__name__": "illari_outbox_edad_segundos",
+          "instance": "pago-ms:8084",
+          "job": "pago-ms",
+          "servicio": "pago"
+        },
+        "value": [
+          1793206528.419,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_outbox_edad_segundos",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "servicio": "orden"
+        },
+        "value": [
+          1793206528.419,
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Outbox: intentos y publicaciones",
+    "query": "illari_outbox_reintentados_total or illari_outbox_publicados_total",
+    "result": [
+      {
+        "metric": {
+          "__name__": "illari_outbox_reintentados_total",
+          "instance": "pago-ms:8084",
+          "job": "pago-ms",
+          "servicio": "pago"
+        },
+        "value": [
+          1793206528.468,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_outbox_reintentados_total",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "servicio": "orden"
+        },
+        "value": [
+          1793206528.468,
+          "10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "DLT: pendientes de resolucion",
+    "query": "illari_kafka_dlt_pendientes",
+    "result": [
+      {
+        "metric": {
+          "__name__": "illari_kafka_dlt_pendientes",
+          "instance": "pago-ms:8084",
+          "job": "pago-ms",
+          "servicio": "pago"
+        },
+        "value": [
+          1793206528.5,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_kafka_dlt_pendientes",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "servicio": "orden"
+        },
+        "value": [
+          1793206528.5,
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Reprocesamiento: enviados y pendientes",
+    "query": "illari_kafka_reprocesados_total or illari_kafka_replay_pendientes",
+    "result": [
+      {
+        "metric": {
+          "__name__": "illari_kafka_reprocesados_total",
+          "instance": "pago-ms:8084",
+          "job": "pago-ms",
+          "servicio": "pago"
+        },
+        "value": [
+          1793206528.53,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "illari_kafka_reprocesados_total",
+          "instance": "orden-legal-ms:8083",
+          "job": "orden-legal-ms",
+          "servicio": "orden"
+        },
+        "value": [
+          1793206528.53,
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Alertas del laboratorio",
+    "query": "ALERTS{alertstate=\"firing\"}",
+    "result": []
+  },
+  {
+    "id": 21,
+    "title": "Compra completa por identificador tecnico (traceId)",
+    "query": "{job=\"illari-observations\"} | json | traceId=~\"${traceId:raw}\"",
+    "services": [
+      "legal-gateway",
+      "orden-legal-ms",
+      "pago-ms",
+      "servicio-legal-ms"
+    ],
+    "entries": 18
+  },
+  {
+    "id": 22,
+    "title": "Readiness real: respuesta HTTP y cuerpo Actuator UP",
+    "query": "probe_success{job=\"illari-readiness\"}",
+    "result": [
+      {
+        "metric": {
+          "__name__": "probe_success",
+          "instance": "http://legal-gateway:18080/actuator/health/readiness",
+          "job": "illari-readiness"
+        },
+        "value": [
+          1793206528.723,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "probe_success",
+          "instance": "http://pago-ms:8084/actuator/health/readiness",
+          "job": "illari-readiness"
+        },
+        "value": [
+          1793206528.723,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "probe_success",
+          "instance": "http://servicio-legal-ms:8082/actuator/health/readiness",
+          "job": "illari-readiness"
+        },
+        "value": [
+          1793206528.723,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "probe_success",
+          "instance": "http://orden-legal-ms:8083/actuator/health/readiness",
+          "job": "illari-readiness"
+        },
+        "value": [
+          1793206528.723,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "probe_success",
+          "instance": "http://backend-legacy:8080/actuator/health/readiness",
+          "job": "illari-readiness"
+        },
+        "value": [
+          1793206528.723,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "probe_success",
+          "instance": "http://cliente-ms:8081/actuator/health/readiness",
+          "job": "illari-readiness"
+        },
+        "value": [
+          1793206528.723,
+          "1"
+        ]
+      }
+    ]
+  }
+]

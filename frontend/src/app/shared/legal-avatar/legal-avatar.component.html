@@ -1,0 +1,26 @@
+<div class="avatar" [attr.data-mode]="mode()" [class.motion-reduced]="reduced()" [class.paused]="paused()||!visible()">
+<svg class="lawyer-rig" viewBox="0 0 1000 1000" role="img" [attr.aria-label]="reduced()?'Abogado ilustrado con Código Civil, sin movimiento por preferencia de accesibilidad.':'Abogado ilustrado animado por capas: saludo de mano, parpadeo, sonrisa y cabeza.'" preserveAspectRatio="xMidYMid meet">
+ <defs>
+  <clipPath [attr.id]="uid+'-head'"><path d="M420 0H820V340L699 419 601 452 519 435 454 369 424 291 420 0Z"/></clipPath>
+  <clipPath [attr.id]="uid+'-arm'"><path d="M0 400H250C303 390 350 428 370 480C355 550 350 630 310 710L290 785H0Z"/></clipPath>
+  <clipPath [attr.id]="uid+'-hand'"><path d="M0 405H170L218 485 250 530 274 617 262 671 230 708 155 703 69 655 0 600Z"/></clipPath>
+  <clipPath [attr.id]="uid+'-mouth'"><ellipse cx="606" cy="309" rx="64" ry="40" transform="rotate(16 606 309)"/></clipPath>
+  <mask [attr.id]="uid+'-body'" maskUnits="userSpaceOnUse" x="0" y="0" width="1000" height="1000"><rect width="1000" height="1000" fill="white"/><path d="M420 0H820V340L699 419 601 452 519 435 454 369 424 291 420 0Z" fill="black"/><path d="M0 400H250C303 390 350 428 370 480C355 550 350 630 310 710L290 785H0Z" fill="black"/></mask>
+  <mask [attr.id]="uid+'-no-hand'" maskUnits="userSpaceOnUse" x="0" y="0" width="1000" height="1000"><rect width="1000" height="1000" fill="white"/><path d="M0 405H170L218 485 250 530 274 617 262 671 230 708 155 703 69 655 0 600Z" fill="black"/></mask>
+  <linearGradient [attr.id]="uid+'-sleeve'" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b365c"/><stop offset="1" stop-color="#0a1d39"/></linearGradient>
+  <linearGradient [attr.id]="uid+'-skin'" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e29a6b"/><stop offset=".65" stop-color="#f2b27b"/><stop offset="1" stop-color="#f8c28b"/></linearGradient>
+ </defs>
+ <g class="body-layer" data-layer="torso"><image href="/assets/inicio/abogado-poster.webp" width="1000" height="1000" [attr.mask]="'url(#'+uid+'-body)'"/></g>
+ <g class="joint-fill" aria-hidden="true"><ellipse cx="309" cy="560" rx="38" ry="87" [attr.fill]="'url(#'+uid+'-sleeve)'"/></g>
+ <g class="head-layer" data-layer="cabeza">
+  <image href="/assets/inicio/abogado-poster.webp" width="1000" height="1000" [attr.clip-path]="'url(#'+uid+'-head)'"/>
+  <g class="smile-layer" data-layer="sonrisa"><image href="/assets/inicio/abogado-poster.webp" width="1000" height="1000" [attr.clip-path]="'url(#'+uid+'-mouth)'"/></g>
+  <g class="eyelid eyelid-left" data-layer="parpado-izquierdo"><path d="M548 190Q579 175 611 204L608 225Q574 237 548 207Z" [attr.fill]="'url(#'+uid+'-skin)'"/><path d="M552 204Q578 224 606 215" fill="none" stroke="#593021" stroke-width="2.4" stroke-linecap="round"/></g>
+  <g class="eyelid eyelid-right" data-layer="parpado-derecho"><path d="M653 219Q680 207 709 235L709 260Q675 267 653 243Z" [attr.fill]="'url(#'+uid+'-skin)'"/><path d="M658 235Q680 254 705 249" fill="none" stroke="#593021" stroke-width="2.4" stroke-linecap="round"/></g>
+ </g>
+ <g class="greeting-arm forearm-layer" data-layer="antebrazo" [attr.clip-path]="'url(#'+uid+'-arm)'">
+  <image href="/assets/inicio/abogado-poster.webp" width="1000" height="1000" [attr.mask]="'url(#'+uid+'-no-hand)'"/>
+  <g class="hand-layer" data-layer="mano"><image href="/assets/inicio/abogado-poster.webp" width="1000" height="1000" [attr.clip-path]="'url(#'+uid+'-hand)'"/></g>
+ </g>
+ <g class="pointing-arm" data-layer="mano-senalando"><g [attr.clip-path]="'url(#'+uid+'-arm)'"><image href="/assets/inicio/abogado-senalar.webp" width="1000" height="1000" [attr.mask]="'url(#'+uid+'-no-hand)'"/></g><g class="pointing-hand"><image href="/assets/inicio/abogado-senalar.webp" width="1000" height="1000" [attr.clip-path]="'url(#'+uid+'-hand)'"/></g></g>
+</svg></div>

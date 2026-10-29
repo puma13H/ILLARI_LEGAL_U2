@@ -1,0 +1,1005 @@
+{
+  "project": "illari-fase3-audit",
+  "run": "ae3baa8737",
+  "passed": 151,
+  "failed": 0,
+  "results": [
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206357.8820035
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206357.88395
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206358.1176848
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206358.1185956
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206358.2990518
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206358.3004005
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206358.4569945
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206358.4586153
+    },
+    {
+      "name": "PKCE code exchange illari-frontend",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206358.5886815
+    },
+    {
+      "name": "OIDC issuer/audience/nonce illari-frontend",
+      "passed": true,
+      "actual": null,
+      "at": 1793206358.5902793
+    },
+    {
+      "name": "Grafana dashboard requires authentication",
+      "passed": true,
+      "actual": 401,
+      "at": 1793206358.804116
+    },
+    {
+      "name": "Provisioned Grafana dashboard",
+      "passed": true,
+      "actual": null,
+      "at": 1793206359.5746548
+    },
+    {
+      "name": "prometheus has no published port",
+      "passed": true,
+      "actual": null,
+      "at": 1793206360.2717605
+    },
+    {
+      "name": "loki has no published port",
+      "passed": true,
+      "actual": null,
+      "at": 1793206360.9236825
+    },
+    {
+      "name": "alloy has no published port",
+      "passed": true,
+      "actual": null,
+      "at": 1793206361.655093
+    },
+    {
+      "name": "blackbox has no published port",
+      "passed": true,
+      "actual": null,
+      "at": 1793206362.3138175
+    },
+    {
+      "name": "Six metrics and six real readiness probes",
+      "passed": true,
+      "actual": [
+        {
+          "job": "backend-legacy",
+          "target": "backend-legacy:8080",
+          "health": "up"
+        },
+        {
+          "job": "cliente-ms",
+          "target": "cliente-ms:8081",
+          "health": "up"
+        },
+        {
+          "job": "illari-readiness",
+          "target": "http://cliente-ms:8081/actuator/health/readiness",
+          "health": "up"
+        },
+        {
+          "job": "illari-readiness",
+          "target": "http://servicio-legal-ms:8082/actuator/health/readiness",
+          "health": "up"
+        },
+        {
+          "job": "illari-readiness",
+          "target": "http://orden-legal-ms:8083/actuator/health/readiness",
+          "health": "up"
+        },
+        {
+          "job": "illari-readiness",
+          "target": "http://pago-ms:8084/actuator/health/readiness",
+          "health": "up"
+        },
+        {
+          "job": "illari-readiness",
+          "target": "http://backend-legacy:8080/actuator/health/readiness",
+          "health": "up"
+        },
+        {
+          "job": "illari-readiness",
+          "target": "http://legal-gateway:18080/actuator/health/readiness",
+          "health": "up"
+        },
+        {
+          "job": "legal-gateway",
+          "target": "legal-gateway:18080",
+          "health": "up"
+        },
+        {
+          "job": "orden-legal-ms",
+          "target": "orden-legal-ms:8083",
+          "health": "up"
+        },
+        {
+          "job": "pago-ms",
+          "target": "pago-ms:8084",
+          "health": "up"
+        },
+        {
+          "job": "servicio-legal-ms",
+          "target": "servicio-legal-ms:8082",
+          "health": "up"
+        }
+      ],
+      "at": 1793206362.4787507
+    },
+    {
+      "name": "Readiness endpoints return UP",
+      "passed": true,
+      "actual": null,
+      "at": 1793206362.554494
+    },
+    {
+      "name": "Browser preflight allows correlation and purchase key",
+      "passed": true,
+      "actual": null,
+      "at": 1793206362.5827725
+    },
+    {
+      "name": "Browser can read returned X-Trace-ID",
+      "passed": true,
+      "actual": null,
+      "at": 1793206362.6198359
+    },
+    {
+      "name": "Foreign browser origin remains rejected",
+      "passed": true,
+      "actual": null,
+      "at": 1793206362.6388474
+    },
+    {
+      "name": "Read real catalogue",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206362.6653626
+    },
+    {
+      "name": "Purchase trace found in Gateway Orders Catalogue Payments",
+      "passed": true,
+      "actual": "56583e30-1a46-41d4-bdf2-d69dda9a7cdf",
+      "at": 1793206362.7693894
+    },
+    {
+      "name": "Same Kafka event ID in publisher and consumer",
+      "passed": true,
+      "actual": {
+        "bda487d7-ded8-4d52-b35c-1ef07a262838": [
+          "orden-legal-ms",
+          "pago-ms"
+        ],
+        "f22aeaf7-dec7-44bd-816a-2dce789d00e0": [
+          "orden-legal-ms",
+          "pago-ms"
+        ]
+      },
+      "at": 1793206362.773339
+    },
+    {
+      "name": "Technical trace differs from order ID",
+      "passed": true,
+      "actual": null,
+      "at": 1793206362.7743957
+    },
+    {
+      "name": "Circuit initially CLOSED before business errors",
+      "passed": true,
+      "actual": null,
+      "at": 1793206363.0055625
+    },
+    {
+      "name": "Purchase missing service business error 1",
+      "passed": true,
+      "actual": 400,
+      "at": 1793206363.31928
+    },
+    {
+      "name": "Diagnostic missing service business error 1",
+      "passed": true,
+      "actual": 400,
+      "at": 1793206363.374679
+    },
+    {
+      "name": "Purchase missing service business error 2",
+      "passed": true,
+      "actual": 400,
+      "at": 1793206363.4251273
+    },
+    {
+      "name": "Diagnostic missing service business error 2",
+      "passed": true,
+      "actual": 400,
+      "at": 1793206363.4673846
+    },
+    {
+      "name": "Purchase missing service business error 3",
+      "passed": true,
+      "actual": 400,
+      "at": 1793206363.5151844
+    },
+    {
+      "name": "Diagnostic missing service business error 3",
+      "passed": true,
+      "actual": 400,
+      "at": 1793206363.5508115
+    },
+    {
+      "name": "Purchase missing service business error 4",
+      "passed": true,
+      "actual": 400,
+      "at": 1793206363.6102753
+    },
+    {
+      "name": "Diagnostic missing service business error 4",
+      "passed": true,
+      "actual": 400,
+      "at": 1793206363.647039
+    },
+    {
+      "name": "Purchase missing service business error 5",
+      "passed": true,
+      "actual": 400,
+      "at": 1793206363.7144918
+    },
+    {
+      "name": "Diagnostic missing service business error 5",
+      "passed": true,
+      "actual": 400,
+      "at": 1793206363.7589188
+    },
+    {
+      "name": "Purchase missing service business error 6",
+      "passed": true,
+      "actual": 400,
+      "at": 1793206363.807016
+    },
+    {
+      "name": "Diagnostic missing service business error 6",
+      "passed": true,
+      "actual": 400,
+      "at": 1793206363.8455164
+    },
+    {
+      "name": "Both routes exclude business errors from shared breaker",
+      "passed": true,
+      "actual": {
+        "before": {
+          "failed": 0.0,
+          "closed": 1.0,
+          "open": 0.0,
+          "retry_failed": 0.0
+        },
+        "after": {
+          "failed": 0.0,
+          "closed": 1.0,
+          "open": 0.0,
+          "retry_failed": 0.0
+        }
+      },
+      "at": 1793206364.0980668
+    },
+    {
+      "name": "Paused catalogue triggers bounded Feign read timeout and 503 fallback",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206370.63093
+    },
+    {
+      "name": "Real timeout is bounded and Retry registers failure",
+      "passed": true,
+      "actual": {
+        "elapsed_seconds": 6.532,
+        "metrics": {
+          "failed": 2.0,
+          "closed": 1.0,
+          "open": 0.0,
+          "retry_failed": 1.0
+        }
+      },
+      "at": 1793206371.0775862
+    },
+    {
+      "name": "Timeout recovers with successful Feign calls",
+      "passed": true,
+      "actual": null,
+      "at": 1793206384.3313894
+    },
+    {
+      "name": "Failed message persisted from real DLT",
+      "passed": true,
+      "actual": null,
+      "at": 1793206387.041439
+    },
+    {
+      "name": "Prometheus DLT gauge detects real backlog",
+      "passed": true,
+      "actual": null,
+      "at": 1793206387.0772219
+    },
+    {
+      "name": "DLT alert fires on real data",
+      "passed": true,
+      "actual": null,
+      "at": 1793206395.4653184
+    },
+    {
+      "name": "ADMIN controlled DLT replay",
+      "passed": true,
+      "actual": 202,
+      "at": 1793206395.8805063
+    },
+    {
+      "name": "Replayed event processed and inbox confirmed",
+      "passed": true,
+      "actual": null,
+      "at": 1793206397.4263387
+    },
+    {
+      "name": "Replay does not duplicate payment",
+      "passed": true,
+      "actual": null,
+      "at": 1793206397.688174
+    },
+    {
+      "name": "Replay counter increments",
+      "passed": true,
+      "actual": null,
+      "at": 1793206397.7340505
+    },
+    {
+      "name": "Purchase YAPE HTTP 503",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206405.7189898
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206405.7295926
+    },
+    {
+      "name": "Purchase YAPE HTTP 503",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206408.0318983
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206408.033584
+    },
+    {
+      "name": "Purchase YAPE HTTP 503",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206408.330995
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206408.334282
+    },
+    {
+      "name": "Purchase YAPE HTTP 503",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206408.6473398
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206408.6500924
+    },
+    {
+      "name": "Prometheus detects unavailable catalogue",
+      "passed": true,
+      "actual": null,
+      "at": 1793206408.6966832
+    },
+    {
+      "name": "Readiness probe detects catalogue failure",
+      "passed": true,
+      "actual": null,
+      "at": 1793206408.7333012
+    },
+    {
+      "name": "Purchase YAPE HTTP 503",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206409.0343587
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206409.0370789
+    },
+    {
+      "name": "Purchase YAPE HTTP 503",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206409.336775
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206409.3396554
+    },
+    {
+      "name": "Purchase YAPE HTTP 503",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206409.6625898
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206409.6657517
+    },
+    {
+      "name": "Purchase YAPE HTTP 503",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206409.9850655
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206409.987194
+    },
+    {
+      "name": "Purchase YAPE HTTP 503",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206410.2936854
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206410.295323
+    },
+    {
+      "name": "Purchase YAPE HTTP 503",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206410.6043127
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206410.6064503
+    },
+    {
+      "name": "Purchase YAPE HTTP 503",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206410.902789
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206410.9077642
+    },
+    {
+      "name": "Purchase YAPE HTTP 503",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206411.2098532
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206411.2127879
+    },
+    {
+      "name": "Purchase YAPE HTTP 503",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206411.5146277
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206411.5189683
+    },
+    {
+      "name": "Purchase YAPE HTTP 503",
+      "passed": true,
+      "actual": 503,
+      "at": 1793206411.820793
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206411.824031
+    },
+    {
+      "name": "Circuit breaker OPEN metric",
+      "passed": true,
+      "actual": null,
+      "at": 1793206411.8653069
+    },
+    {
+      "name": "Service unavailable alert fires",
+      "passed": true,
+      "actual": null,
+      "at": 1793206420.2169218
+    },
+    {
+      "name": "Circuit breaker alert fires",
+      "passed": true,
+      "actual": null,
+      "at": 1793206420.2605894
+    },
+    {
+      "name": "HTTP error-rate alert fires",
+      "passed": true,
+      "actual": null,
+      "at": 1793206420.3082032
+    },
+    {
+      "name": "Retry records failed calls",
+      "passed": true,
+      "actual": null,
+      "at": 1793206420.3645158
+    },
+    {
+      "name": "Catalogue readiness recovers",
+      "passed": true,
+      "actual": null,
+      "at": 1793206434.8176336
+    },
+    {
+      "name": "Circuit breaker closes after real successful calls",
+      "passed": true,
+      "actual": null,
+      "at": 1793206460.6444454
+    },
+    {
+      "name": "Prometheus target recovers",
+      "passed": true,
+      "actual": null,
+      "at": 1793206460.6768155
+    },
+    {
+      "name": "Order converges PAGADA",
+      "passed": true,
+      "actual": 58,
+      "at": 1793206460.71851
+    },
+    {
+      "name": "Order converges PAGADA",
+      "passed": true,
+      "actual": 59,
+      "at": 1793206460.7527473
+    },
+    {
+      "name": "Order converges PAGADA",
+      "passed": true,
+      "actual": 60,
+      "at": 1793206460.7941492
+    },
+    {
+      "name": "Order converges PAGADA",
+      "passed": true,
+      "actual": 61,
+      "at": 1793206460.826318
+    },
+    {
+      "name": "Order converges PAGADA",
+      "passed": true,
+      "actual": 62,
+      "at": 1793206461.9168324
+    },
+    {
+      "name": "Purchase YAPE HTTP 200",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206463.8102913
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206463.8125114
+    },
+    {
+      "name": "Broker-down order and outbox survive durably",
+      "passed": true,
+      "actual": null,
+      "at": 1793206464.0822444
+    },
+    {
+      "name": "Cancel while Kafka is unavailable",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206464.123051
+    },
+    {
+      "name": "Unconfirmed cancellation stays CANCELACION_PENDIENTE",
+      "passed": true,
+      "actual": null,
+      "at": 1793206464.3739169
+    },
+    {
+      "name": "Outbox pending metric detects both durable commands",
+      "passed": true,
+      "actual": null,
+      "at": 1793206468.5985985
+    },
+    {
+      "name": "Outbox retry counter grows during outage",
+      "passed": true,
+      "actual": null,
+      "at": 1793206468.9306316
+    },
+    {
+      "name": "Old pending outbox alert fires",
+      "passed": true,
+      "actual": null,
+      "at": 1793206485.5656104
+    },
+    {
+      "name": "Bounded attempts exhaust both commands without deleting them",
+      "passed": true,
+      "actual": null,
+      "at": 1793206492.1626203
+    },
+    {
+      "name": "Exhausted outbox alert fires",
+      "passed": true,
+      "actual": null,
+      "at": 1793206500.4721694
+    },
+    {
+      "name": "Kafka healthy after controlled stop",
+      "passed": true,
+      "actual": null,
+      "at": 1793206508.4777775
+    },
+    {
+      "name": "Purchase YAPE HTTP 200",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206508.5564659
+    },
+    {
+      "name": "Gateway returns supplied technical correlation",
+      "passed": true,
+      "actual": null,
+      "at": 1793206508.5595968
+    },
+    {
+      "name": "Order converges PAGADA",
+      "passed": true,
+      "actual": 64,
+      "at": 1793206509.6322646
+    },
+    {
+      "name": "Exhausted older outbox does not block a newer valid purchase",
+      "passed": true,
+      "actual": null,
+      "at": 1793206509.913119
+    },
+    {
+      "name": "ADMIN retries preserved outbox 71",
+      "passed": true,
+      "actual": 202,
+      "at": 1793206510.21344
+    },
+    {
+      "name": "ADMIN retries preserved outbox 72",
+      "passed": true,
+      "actual": 202,
+      "at": 1793206510.2506661
+    },
+    {
+      "name": "Order converges CANCELADA",
+      "passed": true,
+      "actual": 63,
+      "at": 1793206511.3411305
+    },
+    {
+      "name": "Approval after cancellation intent is compensated",
+      "passed": true,
+      "actual": null,
+      "at": 1793206511.6252153
+    },
+    {
+      "name": "Both preserved commands published after authorized recovery",
+      "passed": true,
+      "actual": null,
+      "at": 1793206511.8852813
+    },
+    {
+      "name": "Real API latency sample cliente-ms round 1",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206512.1498578
+    },
+    {
+      "name": "Real API latency sample servicio-legal-ms round 1",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206512.576816
+    },
+    {
+      "name": "Real API latency sample orden-legal-ms round 1",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206512.8126848
+    },
+    {
+      "name": "Real API latency sample pago-ms round 1",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206513.0380025
+    },
+    {
+      "name": "Real API latency sample backend-legacy round 1",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206513.2852855
+    },
+    {
+      "name": "Real API latency sample legal-gateway round 1",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206513.500419
+    },
+    {
+      "name": "Real API latency sample cliente-ms round 2",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206519.7000942
+    },
+    {
+      "name": "Real API latency sample servicio-legal-ms round 2",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206519.931972
+    },
+    {
+      "name": "Real API latency sample orden-legal-ms round 2",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206520.1348946
+    },
+    {
+      "name": "Real API latency sample pago-ms round 2",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206520.358358
+    },
+    {
+      "name": "Real API latency sample backend-legacy round 2",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206520.5814056
+    },
+    {
+      "name": "Real API latency sample legal-gateway round 2",
+      "passed": true,
+      "actual": 200,
+      "at": 1793206520.801776
+    },
+    {
+      "name": "Dashboard panel 1 PromQL returns real data",
+      "passed": true,
+      "actual": 6,
+      "at": 1793206527.8356216
+    },
+    {
+      "name": "Dashboard panel 2 PromQL returns real data",
+      "passed": true,
+      "actual": 6,
+      "at": 1793206527.8741431
+    },
+    {
+      "name": "Dashboard panel 3 PromQL returns real data",
+      "passed": true,
+      "actual": 6,
+      "at": 1793206527.9167666
+    },
+    {
+      "name": "Dashboard panel 4 PromQL returns real data",
+      "passed": true,
+      "actual": 6,
+      "at": 1793206527.9736085
+    },
+    {
+      "name": "Dashboard panel 5 PromQL returns real data",
+      "passed": true,
+      "actual": 6,
+      "at": 1793206528.0179715
+    },
+    {
+      "name": "Dashboard panel 6 PromQL returns real data",
+      "passed": true,
+      "actual": 2,
+      "at": 1793206528.0508344
+    },
+    {
+      "name": "Dashboard panel 7 PromQL returns real data",
+      "passed": true,
+      "actual": 6,
+      "at": 1793206528.1003442
+    },
+    {
+      "name": "Dashboard panel 8 PromQL returns real data",
+      "passed": true,
+      "actual": 4,
+      "at": 1793206528.1335359
+    },
+    {
+      "name": "Dashboard panel 9 PromQL returns real data",
+      "passed": true,
+      "actual": 1,
+      "at": 1793206528.1651382
+    },
+    {
+      "name": "Dashboard panel 10 PromQL returns real data",
+      "passed": true,
+      "actual": 4,
+      "at": 1793206528.199157
+    },
+    {
+      "name": "Dashboard panel 11 PromQL returns real data",
+      "passed": true,
+      "actual": 5,
+      "at": 1793206528.2542965
+    },
+    {
+      "name": "Dashboard panel 12 PromQL returns real data",
+      "passed": true,
+      "actual": 2,
+      "at": 1793206528.2898955
+    },
+    {
+      "name": "Dashboard panel 13 PromQL returns real data",
+      "passed": true,
+      "actual": 2,
+      "at": 1793206528.3291805
+    },
+    {
+      "name": "Dashboard panel 14 PromQL returns real data",
+      "passed": true,
+      "actual": 2,
+      "at": 1793206528.3640296
+    },
+    {
+      "name": "Dashboard panel 15 PromQL returns real data",
+      "passed": true,
+      "actual": 2,
+      "at": 1793206528.3934715
+    },
+    {
+      "name": "Dashboard panel 16 PromQL returns real data",
+      "passed": true,
+      "actual": 2,
+      "at": 1793206528.4224262
+    },
+    {
+      "name": "Dashboard panel 17 PromQL returns real data",
+      "passed": true,
+      "actual": 2,
+      "at": 1793206528.4713087
+    },
+    {
+      "name": "Dashboard panel 18 PromQL returns real data",
+      "passed": true,
+      "actual": 2,
+      "at": 1793206528.5034122
+    },
+    {
+      "name": "Dashboard panel 19 PromQL returns real data",
+      "passed": true,
+      "actual": 2,
+      "at": 1793206528.5337343
+    },
+    {
+      "name": "Dashboard panel 20 PromQL returns real data",
+      "passed": true,
+      "actual": 0,
+      "at": 1793206528.6097844
+    },
+    {
+      "name": "Dashboard panel 21 Loki returns purchase logs",
+      "passed": true,
+      "actual": null,
+      "at": 1793206528.6978247
+    },
+    {
+      "name": "Dashboard panel 22 PromQL returns real data",
+      "passed": true,
+      "actual": 6,
+      "at": 1793206528.7264519
+    },
+    {
+      "name": "Logs from all six applications reach Loki",
+      "passed": true,
+      "actual": null,
+      "at": 1793206528.8146873
+    },
+    {
+      "name": "Central structured records exclude credentials bodies and fixture PII",
+      "passed": true,
+      "actual": null,
+      "at": 1793206528.8196454
+    },
+    {
+      "name": "All audit outboxes drained and no exhausted events",
+      "passed": true,
+      "actual": null,
+      "at": 1793206528.861695
+    },
+    {
+      "name": "All controlled-fault alerts clear after recovery",
+      "passed": true,
+      "actual": null,
+      "at": 1793206528.9006937
+    },
+    {
+      "name": "All six readiness probes recover",
+      "passed": true,
+      "actual": null,
+      "at": 1793206528.9324584
+    }
+  ]
+}
