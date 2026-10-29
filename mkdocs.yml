@@ -1,0 +1,19 @@
+﻿site_name: ILLARI LEGAL - Unidad II
+site_description: Sistema distribuido jurídico - Entregable 2
+site_url: https://puma13H.github.io/ILLARI_LEGAL_U2/
+repo_url: https://github.com/puma13H/ILLARI_LEGAL_U2
+repo_name: puma13H/ILLARI_LEGAL_U2
+
+theme:
+  name: mkdocs
+
+nav:
+  - Inicio: index.md
+  - Unidad II:
+      - Producto U2: unidad-ii/producto.md
+      - Arquitectura: unidad-ii/arquitectura.md
+      - Seguridad y resiliencia: unidad-ii/seguridad-resiliencia.md
+      - Kafka y Saga: unidad-ii/kafka-saga.md
+      - Observabilidad: unidad-ii/observabilidad.md
+      - Frontend Angular: unidad-ii/frontend.md
+      - Sustentación S12: unidad-ii/sustentacion.md
